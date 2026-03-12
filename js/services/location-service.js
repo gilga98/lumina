@@ -3,6 +3,8 @@
  * Handles coordinates and provides a simple city lookup.
  */
 export class LocationService {
+  static _cachedLocation = null;
+
   /**
    * Get current latitude and longitude.
    * @returns {Promise<{lat: number, lon: number}>}
@@ -43,10 +45,12 @@ export class LocationService {
    * Returns a cached or fresh location object.
    */
   static async getLocation() {
+    if (LocationService._cachedLocation) return LocationService._cachedLocation;
     try {
       const coords = await LocationService.getCurrentPosition();
       const city = await LocationService.getCityName(coords.lat, coords.lon);
-      return { ...coords, city };
+      LocationService._cachedLocation = { ...coords, city };
+      return LocationService._cachedLocation;
     } catch (err) {
       console.warn('Location access denied or failed:', err);
       return null;

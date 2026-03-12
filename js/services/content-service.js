@@ -6,6 +6,7 @@
 export class ContentService {
   /** @type {Map<number, object>} */
   static _cache = new Map();
+  static _recommendationsCache = null;
   static _allLoaded = false;
 
   /** Available week numbers (must match files in data/weeks/) */
@@ -177,10 +178,12 @@ export class ContentService {
    * Get personalized recommendation rules from JSON.
    */
   static async getRecommendationsData() {
+    if (ContentService._recommendationsCache) return ContentService._recommendationsCache;
     try {
       const resp = await fetch(`./data/recommendations.json`);
       if (!resp.ok) return null;
-      return await resp.json();
+      ContentService._recommendationsCache = await resp.json();
+      return ContentService._recommendationsCache;
     } catch {
       return null;
     }

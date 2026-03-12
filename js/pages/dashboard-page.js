@@ -34,11 +34,23 @@ export class DashboardPage {
     const viewDate = CalendarService.fromISO(dateISO);
 
     const ge = GestationalEngine.calculate(this._profile.lmpDate, viewDate);
-    const weekData = await ContentService.getWeekData(ge.week);
-    const habitsRecord = await this._db.get('habits', dateISO);
-    const symptomsRecord = await this._db.get('symptoms', dateISO);
-    const medications = await this._db.getAll('medications');
-    const customHabits = await this._db.getAll('custom_habits');
+
+    // Parallel fetch for all primary data
+    const [
+      weekData,
+      habitsRecord,
+      symptomsRecord,
+      medications,
+      customHabits,
+      locationData
+    ] = await Promise.all([
+      ContentService.getWeekData(ge.week),
+      this._db.get('habits', dateISO),
+      this._db.get('symptoms', dateISO),
+      this._db.getAll('medications'),
+      this._db.getAll('custom_habits'),
+      LocationService.getLocation()
+    ]);
 
     const completedHabits = habitsRecord?.completed || [];
     const loggedSymptoms = symptomsRecord?.symptoms || [];
@@ -46,11 +58,9 @@ export class DashboardPage {
 
     // Personalization & Weather
     let weatherData = null;
-    let locationData = null;
     let recommendations = null;
 
-    // Fetch weather for all days (Current Weather)
-    locationData = await LocationService.getLocation();
+    // Fetch weather if location is available
     if (locationData) {
       weatherData = await WeatherService.getCurrentWeather(locationData.lat, locationData.lon);
     }
