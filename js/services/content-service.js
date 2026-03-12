@@ -164,14 +164,40 @@ export class ContentService {
       warning: '⚠️'
     };
     const emoji = emojiMap[type] || '✦';
+    const keywords = ['milestone', 'neural tube', 'heart', 'nausea', 'Avoid', 'Consult', 'Safe', 'Avoid skipping'];
     
-    // Split by sentences, but be careful with abbreviations like cm. or g.
-    // A simple regex approach: split by period followed by space.
     return text.split(/(?<=\w\.)\s+/).map(sentence => {
-      const trimmed = sentence.trim();
+      let trimmed = sentence.trim();
       if (!trimmed) return '';
+      
+      // Highlight keywords
+      keywords.forEach(kw => {
+        const regex = new RegExp(`\\b${kw}\\b`, 'gi');
+        trimmed = trimmed.replace(regex, match => `<span class="highlight-text">${match}</span>`);
+      });
+
       return `<li><span class="point-emoji">${emoji}</span> ${trimmed}</li>`;
     }).join('');
+  }
+
+  /**
+   * Formats an array of strings into a rich action grid or list.
+   * @param {string[]} items 
+   * @param {string} emoji 
+   * @returns {string}
+   */
+  static formatToActionGrid(items, emoji) {
+    if (!items || !items.length) return '';
+    return `
+      <div class="action-grid">
+        ${items.map(item => `
+          <div class="action-item">
+            <span class="action-icon">${emoji}</span>
+            <span class="action-text">${item}</span>
+          </div>
+        `).join('')}
+      </div>
+    `;
   }
 
   /**

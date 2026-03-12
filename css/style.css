@@ -2087,6 +2087,11 @@ a.lumina-btn.secondary, a.lumina-btn.secondary:visited, a.lumina-btn.secondary:h
   margin-bottom: 10px;
 }
 
+.modal-card div[style*="display:flex"] {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .image-modal img {
   width: 100%;
   border-radius: 12px;
@@ -2615,4 +2620,113 @@ a.lumina-btn.secondary, a.lumina-btn.secondary:visited, a.lumina-btn.secondary:h
 
 .rec-section.warning h4 {
   color: #c0392b;
+}
+
+/* ---------- Structured Content v3 ---------- */
+.insight-card {
+  background: white;
+  border-left: 4px solid var(--sage-green-light);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 0 20px 20px 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.insight-card h4 {
+  font-size: 0.85rem;
+  color: var(--sage-green-dark);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.guidance-card {
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(121, 157, 117, 0.15);
+}
+
+.guidance-card.success { border-left: 4px solid var(--success); }
+.guidance-card.danger { border-left: 4px solid var(--danger); }
+
+.guidance-header {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  color: var(--charcoal);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.action-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.action-item {
+  background: var(--warm-cream);
+  padding: 12px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: transform var(--transition-fast);
+}
+
+.action-item:hover {
+  transform: translateY(-2px);
+}
+
+.action-icon {
+  font-size: 1.5rem;
+}
+
+.action-text {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--charcoal);
+}
+
+.rich-list {
+  list-style: none;
+  padding: 0;
+}
+
+.rich-list li {
+  position: relative;
+  padding: 10px 0 10px 28px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--charcoal-light);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.rich-list li:last-child {
+  border-bottom: none;
+}
+
+.rich-list li::before {
+  content: '✦';
+  position: absolute;
+  left: 0;
+  color: var(--sage-green);
+  font-weight: bold;
+}
+
+.highlight-text {
+  color: var(--sage-green-dark);
+  font-weight: 600;
+}
+
+/* Animations for new cards */
+.insight-card, .guidance-card {
+  animation: fadeSlideIn 0.4s ease-out;
 }

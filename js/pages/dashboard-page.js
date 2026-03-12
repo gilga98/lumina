@@ -136,9 +136,9 @@ export class DashboardPage {
 
         <!-- Travel Advisory -->
         ${weekData.travelAdvisory ? `
-        <div class="lumina-card travel-card ${weekData.travelAdvisory.level}">
-          <div class="card-header"><span class="dot ${weekData.travelAdvisory.level === 'green' ? 'green' : weekData.travelAdvisory.level === 'yellow' ? 'yellow' : 'red'}"></span>✈️ TRAVEL ADVISORY</div>
-          <p>${weekData.travelAdvisory.note}</p>
+        <div class="guidance-card ${weekData.travelAdvisory.level === 'green' ? 'success' : 'danger'}">
+          <div class="guidance-header">✈️ Travel Advisory</div>
+          <p style="font-size: 0.9rem;">${weekData.travelAdvisory.note}</p>
         </div>` : ''}
 
         <!-- Medication Reminders -->
@@ -167,15 +167,15 @@ export class DashboardPage {
 
         <!-- Daily Briefing -->
         <h2 class="section-title playfair">Today's Briefing</h2>
-        <div class="lumina-card">
-          <div class="card-header"><span class="dot sage"></span>BABY'S DEVELOPMENT</div>
-          <ul class="card-list">
+        <div class="insight-card">
+          <h4><span class="dot sage"></span>BABY'S DEVELOPMENT</h4>
+          <ul class="rich-list">
             ${ContentService.formatToPoints(weekData.babyDevelopment, 'baby')}
           </ul>
         </div>
-        <div class="lumina-card">
-          <div class="card-header"><span class="dot rose"></span>YOUR BODY</div>
-          <ul class="card-list">
+        <div class="insight-card" style="border-left-color: var(--dusty-rose-light);">
+          <h4 style="color: var(--dusty-rose);"><span class="dot rose"></span>YOUR BODY</h4>
+          <ul class="rich-list">
             ${ContentService.formatToPoints(weekData.bodyChanges, 'body')}
           </ul>
         </div>
@@ -220,18 +220,18 @@ export class DashboardPage {
         ` : ''}
 
         ${weekData.nutrition?.length ? `
-        <div class="lumina-card">
-          <div class="card-header"><span class="dot green"></span>🥗 NUTRITION FOCUS</div>
-          <ul class="card-list">
-            ${weekData.nutrition.map(n => `<li><span class="point-emoji">🥑</span> ${n}</li>`).join('')}
+        <div class="guidance-card success">
+          <div class="guidance-header">🥗 Nutrition Focus</div>
+          <ul class="rich-list">
+            ${weekData.nutrition.map(n => `<li>${n}</li>`).join('')}
           </ul>
         </div>` : ''}
 
         ${weekData.warningSignsToWatch?.length ? `
-        <div class="lumina-card warning-card">
-          <div class="card-header"><span class="dot red"></span>⚠️ WARNING SIGNS TO WATCH</div>
-          <ul class="card-list">
-            ${weekData.warningSignsToWatch.map(w => `<li><span class="point-emoji">🚨</span> ${w}</li>`).join('')}
+        <div class="guidance-card danger">
+          <div class="guidance-header">⚠️ Warning Signs</div>
+          <ul class="rich-list dont-list">
+            ${weekData.warningSignsToWatch.map(w => `<li>${w}</li>`).join('')}
           </ul>
         </div>` : ''}
 
@@ -401,7 +401,7 @@ export class DashboardPage {
           <button class="lumina-btn secondary full-width" id="med-cancel">Cancel</button>
         </div>
       </div>`;
-    document.body.appendChild(overlay);
+    document.body.appendChild(overlay); setTimeout(() => overlay.classList.add("active"), 10);
 
     document.getElementById('med-cancel').addEventListener('click', () => overlay.remove());
     if (document.getElementById('med-delete')) {
@@ -443,7 +443,7 @@ export class DashboardPage {
           <button class="lumina-btn secondary full-width" id="custom-habit-cancel">Cancel</button>
         </div>
       </div>`;
-    document.body.appendChild(overlay);
+    document.body.appendChild(overlay); setTimeout(() => overlay.classList.add("active"), 10);
 
     document.getElementById('custom-habit-cancel').addEventListener('click', () => overlay.remove());
     document.getElementById('custom-habit-save').addEventListener('click', async () => {

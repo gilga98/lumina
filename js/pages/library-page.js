@@ -65,40 +65,44 @@ export class LibraryPage {
     if (!w) { content.innerHTML = '<p>Set your LMP date in Settings to see weekly content.</p>'; return; }
 
     content.innerHTML = `
-      <div class="lumina-card">
-        <div class="card-header"><span class="dot sage"></span>WEEK ${w.week}</div>
-        <h3 class="playfair">${w.fruitEmoji} Baby is the size of a ${w.fruitName}</h3>
-        <ul class="card-list">
+      <div class="insight-card">
+        <h4><span class="dot sage"></span>WEEK ${w.week}: BABY'S PROGRESS</h4>
+        <h3 class="playfair">${w.fruitEmoji} Baby is the size of a ${w.fruitName} (${w.babySize})</h3>
+        <ul class="rich-list">
           ${ContentService.formatToPoints(w.babyDevelopment, 'baby')}
+        </ul>
+      </div>
+
+      <div class="insight-card" style="border-left-color: var(--dusty-rose-light);">
+        <h4 style="color: var(--dusty-rose);"><span class="dot rose"></span>YOUR BODY CHANGES</h4>
+        <ul class="rich-list">
           ${ContentService.formatToPoints(w.bodyChanges, 'body')}
         </ul>
       </div>
 
       ${w.tips?.length ? `
-      <div class="lumina-card">
-        <div class="card-header"><span class="dot sage"></span>TIPS FOR WEEK ${w.week}</div>
-        <ul class="card-list">${w.tips.map(t => `<li><span class="point-emoji">💡</span> ${t}</li>`).join('')}</ul>
+      <div class="guidance-card success">
+        <div class="guidance-header">💡 Weekly Tips</div>
+        <ul class="rich-list">${w.tips.map(t => `<li>${t}</li>`).join('')}</ul>
       </div>` : ''}
 
-      ${w.exercises?.length ? `
-      <div class="lumina-card">
-        <div class="card-header"><span class="dot sage"></span>🏃‍♀️ RECOMMENDED EXERCISES</div>
-        <ul class="card-list">${w.exercises.map(e => `<li><span class="point-emoji">🧘‍♀️</span> ${e}</li>`).join('')}</ul>
+      ${w.nutrition?.length || w.exercises?.length ? `
+      <div class="guidance-card" style="background: var(--off-white);">
+        <div class="guidance-header">🧘 Routine & Wellness</div>
+        <div style="font-size: 0.85rem; color: var(--charcoal-light); margin-bottom: 12px;">Recommended focus for this week:</div>
+        ${ContentService.formatToActionGrid([...(w.nutrition || []), ...(w.exercises || [])], '✨')}
       </div>` : ''}
 
-      ${w.nutrition?.length ? `
-      <div class="lumina-card">
-        <div class="card-header"><span class="dot green"></span>🥗 NUTRITION FOCUS</div>
-        <ul class="card-list">${w.nutrition.map(n => `<li><span class="point-emoji">🍎</span> ${n}</li>`).join('')}</ul>
-      </div>` : ''}
-
-      <h3 class="playfair" style="margin-top:20px;">Browse by Week</h3>
-      <div class="week-browser">
-        ${this._allWeeks.map(wk => `
-          <button class="week-btn ${wk.week === this._browsingWeek ? 'current' : ''}" data-week="${wk.week}">
-            ${wk.fruitEmoji}<br><small>Wk ${wk.week}</small>
-          </button>
-        `).join('')}
+      <div class="week-selector-container">
+        <h3 class="playfair" style="margin-top:24px; margin-bottom:12px;">Explore Your Journey</h3>
+        <div class="week-browser">
+          ${this._allWeeks.map(wk => `
+            <button class="week-btn ${wk.week === this._browsingWeek ? 'current' : ''}" data-week="${wk.week}">
+              <span style="font-size: 1.2rem;">${wk.fruitEmoji}</span>
+              <small>Wk ${wk.week}</small>
+            </button>
+          `).join('')}
+        </div>
       </div>
     `;
 
@@ -117,14 +121,27 @@ export class LibraryPage {
     if (!w) { content.innerHTML = '<p>Set your LMP date in Settings.</p>'; return; }
 
     content.innerHTML = `
-      <div class="lumina-card">
-        <div class="card-header"><span class="dot green"></span>✅ DO's FOR WEEK ${w.week}</div>
-        <ul class="card-list do-list">${(w.dosAndDonts?.do || []).map(d => `<li><span class="point-emoji">✅</span> ${d}</li>`).join('')}</ul>
+      <div class="guidance-card success">
+        <div class="guidance-header">✅ Do's for Week ${w.week}</div>
+        <ul class="rich-list do-list">
+          ${(w.dosAndDonts?.do || []).map(d => `<li>${d}</li>`).join('')}
+        </ul>
       </div>
-      <div class="lumina-card">
-        <div class="card-header"><span class="dot red"></span>❌ DON'Ts FOR WEEK ${w.week}</div>
-        <ul class="card-list dont-list">${(w.dosAndDonts?.dont || []).map(d => `<li><span class="point-emoji">❌</span> ${d}</li>`).join('')}</ul>
+      <div class="guidance-card danger">
+        <div class="guidance-header">❌ Don'ts for Week ${w.week}</div>
+        <ul class="rich-list dont-list">
+          ${(w.dosAndDonts?.dont || []).map(d => `<li>${d}</li>`).join('')}
+        </ul>
       </div>
+      
+      ${w.warningSignsToWatch?.length ? `
+      <div class="guidance-card danger" style="background: rgba(190, 143, 143, 0.05);">
+        <div class="guidance-header" style="color: var(--danger);">⚠️ Warning Signs</div>
+        <p style="font-size: 0.85rem; color: var(--charcoal-light); margin-bottom: 12px;">Contact your healthcare provider immediately if you experience:</p>
+        <ul class="rich-list dont-list">
+          ${w.warningSignsToWatch.map(s => `<li>${s}</li>`).join('')}
+        </ul>
+      </div>` : ''}
     `;
   }
 
