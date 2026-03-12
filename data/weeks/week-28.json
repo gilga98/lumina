@@ -1,0 +1,49 @@
+{
+  "week": 28,
+  "fruitName": "Eggplant",
+  "fruitEmoji": "\ud83c\udf46",
+  "babySize": "14.8 inches",
+  "babyWeight": "2.2 lbs",
+  "illustration": "assets/medical/week-28.png",
+  "babyDevelopment": "The baby is settling into the proper position for birth (usually head down). Eye brows and lashes are fully formed. The central nervous system can direct rhythmic breathing.",
+  "bodyChanges": "Your doctor will check you for gestational diabetes. You might receive a RhoGAM shot if you have Rh-negative blood. Fatigue may return.",
+  "tips": [
+    "Prepare a hospital bag checklist",
+    "Attend childbirth classes",
+    "Start a daily kick count routine (10 kicks in 2 hours)"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Take the RhoGAM shot if advised",
+      "Start seeing your OBD every 2 weeks",
+      "Keep up with kick counts"
+    ],
+    "dont": [
+      "Skip meals (blood sugar drops)",
+      "Sleep flat on your back",
+      "Stand for too long"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": false,
+    "level": "red",
+    "note": "Most airlines restrict travel after this week. Stay close to your medical facility."
+  },
+  "nutrition": [
+    "Iron",
+    "Calcium",
+    "Omega-3 (DHA)"
+  ],
+  "exercises": [
+    "Pelvic floor (Kegels)",
+    "Ankle pumps",
+    "Stretching"
+  ],
+  "warningSignsToWatch": [
+    "Fewer than 10 kicks in 2 hours",
+    "Bleeding",
+    "Sudden swelling indicating preeclampsia"
+  ],
+  "milestoneTitle": "Rhythmic Breathing",
+  "milestoneDescription": "Baby is practicing breathing to prepare for the outside world."
+}

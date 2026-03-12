@@ -1,0 +1,49 @@
+{
+  "week": 35,
+  "fruitName": "Cantaloupe",
+  "fruitEmoji": "\ud83c\udf48",
+  "babySize": "18.2 inches",
+  "babyWeight": "5.3 lbs",
+  "illustration": null,
+  "babyDevelopment": "The baby's hearing is fully developed. They occupy the entire uterus now. Kidneys are fully developed, and the liver can process some waste products.",
+  "bodyChanges": "You will likely be tested for Group B Strep (GBS). Frequent urination is constant as the baby's head presses on your bladder.",
+  "tips": [
+    "Finalize childcare for siblings and pets",
+    "Wash the baby's clothes and sheets again",
+    "Familiarize yourself with newborn care basics"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Get the GBS swab",
+      "Eat dates (some studies suggest they help cervical ripening)",
+      "Keep tracking kicks"
+    ],
+    "dont": [
+      "Miss weekly appointments after week 36",
+      "Ignore decreased movement",
+      "Stress over your exact due date"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": false,
+    "level": "red",
+    "note": "Do not travel."
+  },
+  "nutrition": [
+    "Dates",
+    "Red raspberry leaf tea (consult OB)",
+    "Hydration"
+  ],
+  "exercises": [
+    "Gentle walking",
+    "Birthing ball",
+    "Squatting"
+  ],
+  "warningSignsToWatch": [
+    "Warning signs of preeclampsia",
+    "Bleeding",
+    "Contractions starting"
+  ],
+  "milestoneTitle": "Kidneys Ready",
+  "milestoneDescription": "Baby's internal organs are essentially fully functioning and mature."
+}

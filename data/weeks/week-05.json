@@ -1,0 +1,49 @@
+{
+  "week": 5,
+  "fruitName": "Sesame Seed",
+  "fruitEmoji": "\ud83e\uded8",
+  "babySize": "0.13 inches",
+  "babyWeight": "<1 gram",
+  "illustration": "assets/medical/week-05.png",
+  "babyDevelopment": "The embryo's neural tube (brain and spinal cord) is forming. The heart structure begins to develop and may start beating.",
+  "bodyChanges": "Morning sickness, fatigue, and frequent urination often begin. hCG levels are rising rapidly.",
+  "tips": [
+    "Keep ginger candies handy for nausea",
+    "Rest frequently",
+    "Wear a supportive bra"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Increase fluid intake",
+      "Eat whatever you can tolerate",
+      "Nap when possible"
+    ],
+    "dont": [
+      "Consume undercooked meats",
+      "Drink unpasteurized milk",
+      "Exceed 200mg caffeine daily"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": true,
+    "level": "green",
+    "note": "Safe to travel. Nausea may make long flights or car rides uncomfortable."
+  },
+  "nutrition": [
+    "Ginger and peppermint tea",
+    "Crackers",
+    "Water-rich fruits"
+  ],
+  "exercises": [
+    "Gentle walking",
+    "Deep breathing exercises",
+    "Stretching"
+  ],
+  "warningSignsToWatch": [
+    "Inability to keep fluids down",
+    "Vaginal bleeding",
+    "Pelvic pain"
+  ],
+  "milestoneTitle": "Neural Tube Forms",
+  "milestoneDescription": "The foundation of the brain and spinal cord is rapidly developing."
+}

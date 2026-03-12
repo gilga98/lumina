@@ -1,0 +1,49 @@
+{
+  "week": 27,
+  "fruitName": "Cauliflower",
+  "fruitEmoji": "\ud83e\udd66",
+  "babySize": "14.4 inches",
+  "babyWeight": "2.0 lbs",
+  "illustration": null,
+  "babyDevelopment": "Welcome to the Third Trimester! The baby's brain is very active now. Their lungs are still immature but are capable of functioning with medical help.",
+  "bodyChanges": "You might experience shortness of breath because the expanding uterus is putting pressure on your diaphragm. Sciatica (sharp leg/back pain) is common.",
+  "tips": [
+    "Sleep with a body pillow for support",
+    "Rest frequently and elevate your legs",
+    "Finalize maternity leave details with your employer"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Learn the signs of preterm labor",
+      "Eat small meals to manage indigestion",
+      "Do gentle stretches for sciatica"
+    ],
+    "dont": [
+      "Carry heavy grocery bags",
+      "Ignore persistent pelvic pressure",
+      "Try intense new exercises"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": true,
+    "level": "yellow",
+    "note": "Third Trimester begins. Long-distance travel is strongly discouraged."
+  },
+  "nutrition": [
+    "Vitamin C",
+    "Iron (anemia risk is high)",
+    "Protein for the home stretch"
+  ],
+  "exercises": [
+    "Swimming (takes pressure off joints)",
+    "Prenatal yoga",
+    "Walking"
+  ],
+  "warningSignsToWatch": [
+    "More than 4-5 contractions per hour",
+    "Leaking amniotic fluid",
+    "Decreased fetal movement"
+  ],
+  "milestoneTitle": "Third Trimester Begins",
+  "milestoneDescription": "You're in the final stretch! Baby's brain is rapidly wrinkling and maturing."
+}

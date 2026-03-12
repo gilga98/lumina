@@ -1,0 +1,49 @@
+{
+  "week": 10,
+  "fruitName": "Prune",
+  "fruitEmoji": "\ud83e\uded0",
+  "babySize": "1.2 inches",
+  "babyWeight": "4 grams",
+  "illustration": "assets/medical/week-10.png",
+  "babyDevelopment": "The embryonic stage ends and the fetal stage begins! Bones are hardening, the kidneys produce urine, and tooth buds form.",
+  "bodyChanges": "Veins may become more prominent as blood volume increases by 50%. You might start noticing round ligament pains.",
+  "tips": [
+    "Consider Non-Invasive Prenatal Testing (NIPT)",
+    "Drink plenty of water to support blood volume",
+    "Start a pregnancy journal"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Eat small high-calcium snacks",
+      "Change positions slowly if dizzy",
+      "Protect skin from the sun (melasma risk)"
+    ],
+    "dont": [
+      "Stand for very long periods",
+      "Wear restrictive belts",
+      "Neglect dental hygiene"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": true,
+    "level": "green",
+    "note": "A great time for travel. Bring your prenatal records just in case."
+  },
+  "nutrition": [
+    "Calcium (milk, fortified alternatives)",
+    "Vitamin D",
+    "Magnesium"
+  ],
+  "exercises": [
+    "Low-impact aerobics",
+    "Cycling on a stationary bike",
+    "Kegels"
+  ],
+  "warningSignsToWatch": [
+    "Swelling in one leg",
+    "Persistent headaches",
+    "Vision changes"
+  ],
+  "milestoneTitle": "Fetal Stage Begins",
+  "milestoneDescription": "Your baby graduates from an embryo to a fetus!"
+}

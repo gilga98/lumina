@@ -1,0 +1,48 @@
+{
+  "week": 9,
+  "fruitName": "Green Olive",
+  "fruitEmoji": "\ud83e\uded2",
+  "babySize": "0.9 inches",
+  "babyWeight": "2 grams",
+  "illustration": "assets/medical/week-09.png",
+  "babyDevelopment": "All essential physical organs have begun developing. The heart is divided into 4 chambers. The placenta takes over hormone production.",
+  "bodyChanges": "Hormones are peaking, causing extreme fatigue. Your waistline might thicken slightly, though it's mainly bloating.",
+  "tips": [
+    "Invest in a good supportive bra",
+    "Take naps when possible",
+    "Start looking into maternity benefits"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Sleep on your side",
+      "Snack on proteins",
+      "Talk to other moms for support"
+    ],
+    "dont": [
+      "Do heavy lifting",
+      "Hold in urine",
+      "Stop taking prenatals"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": true,
+    "level": "green",
+    "note": "Travel is safe. Wear compression socks on long flights."
+  },
+  "nutrition": [
+    "Lean proteins (chicken, tofu)",
+    "Hard cheeses (pasteurized)",
+    "Dark leafy greens"
+  ],
+  "exercises": [
+    "Prenatal yoga",
+    "Swimming",
+    "Stretching"
+  ],
+  "warningSignsToWatch": [
+    "Sudden disappearance of pregnancy symptoms (though they naturally fade later)",
+    "Severe lower abdominal cramps"
+  ],
+  "milestoneTitle": "Organs Established",
+  "milestoneDescription": "A huge milestone! The basic structure of all major organs is in place."
+}

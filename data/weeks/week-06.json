@@ -1,0 +1,49 @@
+{
+  "week": 6,
+  "fruitName": "Lentil",
+  "fruitEmoji": "\ud83e\uded8",
+  "babySize": "0.25 inches",
+  "babyWeight": "<1 gram",
+  "illustration": "assets/medical/week-06.png",
+  "babyDevelopment": "The baby's heart beats at 105-110 bpm. Facial features\u2014jaw, cheeks, chin, ear canals, and eyes\u2014are beginning to form.",
+  "bodyChanges": "Nausea and fatigue may hit their peak. Your breasts may feel heavy and tingly. Food aversions are common.",
+  "tips": [
+    "Eat bland foods",
+    "Avoid triggers like strong smells",
+    "Acupressure wristbands can help"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Eat before getting out of bed",
+      "Brush teeth later if toothpaste causes gagging",
+      "Stay hydrated"
+    ],
+    "dont": [
+      "Skip meals entirely",
+      "Push yourself too hard",
+      "Worry too much if you can't eat perfectly"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": true,
+    "level": "green",
+    "note": "Safe, but expect severe nausea. Pack motion sickness bags and anti-nausea meds."
+  },
+  "nutrition": [
+    "Bland carbs (toast, crackers, rice)",
+    "Electrolytes",
+    "Vitamin C"
+  ],
+  "exercises": [
+    "Prenatal yoga",
+    "Meditation",
+    "Short, slow walks"
+  ],
+  "warningSignsToWatch": [
+    "Severe dehydration",
+    "Fever over 100.4F",
+    "Burning during urination"
+  ],
+  "milestoneTitle": "First Heartbeat",
+  "milestoneDescription": "The tiny heart is beating rapidly, pumping blood through the embryo."
+}

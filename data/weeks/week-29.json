@@ -1,0 +1,49 @@
+{
+  "week": 29,
+  "fruitName": "Acorn Squash",
+  "fruitEmoji": "\ud83e\udd54",
+  "babySize": "15.2 inches",
+  "babyWeight": "2.5 lbs",
+  "illustration": null,
+  "babyDevelopment": "The baby's muscles and lungs are continuing to mature. Their bones are fully formed but still pliant to allow for an easier birth journey.",
+  "bodyChanges": "You may feel the baby 'hiccup'\u2014rhythmic little jumps in your belly! As your belly stretches, you might experience itchy skin or an outie belly button.",
+  "tips": [
+    "Moisturize your stretching skin",
+    "Install the car seat and get it inspected",
+    "Discuss cord blood banking options"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Eat frequent, small meals to avoid heartburn",
+      "Moisturize skin daily",
+      "Wear comfortable shoes"
+    ],
+    "dont": [
+      "Panic over practice contractions",
+      "Rest on your back",
+      "Let constipation linger"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": false,
+    "level": "red",
+    "note": "Travel not recommended."
+  },
+  "nutrition": [
+    "Protein",
+    "Vitamin C",
+    "Folic Acid"
+  ],
+  "exercises": [
+    "Stationary cycling",
+    "Swimming",
+    "Stretching"
+  ],
+  "warningSignsToWatch": [
+    "Preterm labor",
+    "Decreased kicks",
+    "Severe headache"
+  ],
+  "milestoneTitle": "Baby Hiccups",
+  "milestoneDescription": "Feeling rhythmic jumps? Your baby is probably hiccuping in the amniotic fluid."
+}

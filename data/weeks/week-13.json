@@ -1,0 +1,49 @@
+{
+  "week": 13,
+  "fruitName": "Pea Pod",
+  "fruitEmoji": "\ud83e\udedb",
+  "babySize": "2.9 inches",
+  "babyWeight": "23 grams",
+  "illustration": null,
+  "babyDevelopment": "Vocal cords are forming. The baby is developing unique fingerprints. Intestines have moved from the umbilical cord into the stomach.",
+  "bodyChanges": "Welcome to the Second Trimester! Your energy levels should be returning. Your sex drive may increase.",
+  "tips": [
+    "Enjoy the 'honeymoon phase' of pregnancy",
+    "Invest in comfortable underwear",
+    "Start sleeping on your side"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Start sleeping on your left side",
+      "Use a pregnancy pillow",
+      "Resume intimacy if cleared by doc"
+    ],
+    "dont": [
+      "Sleep flat on your back",
+      "Forget sunscreen (melasma risk)",
+      "Let self-care slip"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": true,
+    "level": "green",
+    "note": "You're in the golden window for travel. Book your trip!"
+  },
+  "nutrition": [
+    "Quality proteins",
+    "Complex carbs",
+    "Hydration"
+  ],
+  "exercises": [
+    "Side-lying leg lifts",
+    "Swimming",
+    "Stretching"
+  ],
+  "warningSignsToWatch": [
+    "Painful urination",
+    "Sudden swelling of face",
+    "Sharp pain on one side"
+  ],
+  "milestoneTitle": "Second Trimester Begins",
+  "milestoneDescription": "The golden trimester starts! Time for more energy and less nausea."
+}

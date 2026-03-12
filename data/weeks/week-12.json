@@ -1,0 +1,49 @@
+{
+  "week": 12,
+  "fruitName": "Lime",
+  "fruitEmoji": "\ud83c\udf48",
+  "babySize": "2.1 inches",
+  "babyWeight": "14 grams",
+  "illustration": "assets/medical/week-12.png",
+  "babyDevelopment": "Reflexes are developing. Fingers and toes separate and claws/nails start to grow. The digestive system is contracting.",
+  "bodyChanges": "Your uterus rises out of the pelvis, easing pressure on the bladder. Miscarriage risk drops significantly.",
+  "tips": [
+    "Celebrate the end of the first trimester!",
+    "Start looking for maternity clothes",
+    "Schedule your NT scan"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Announce your pregnancy if you wish",
+      "Eat a varied diet",
+      "Maintain good posture"
+    ],
+    "dont": [
+      "Begin new, intense workout routines",
+      "Skip meals",
+      "Expose yourself to sick people needlessly"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": true,
+    "level": "green",
+    "note": "Perfect time to plan a Babymoon for the second trimester!"
+  },
+  "nutrition": [
+    "Iron",
+    "Vitamin B12",
+    "Folic acid"
+  ],
+  "exercises": [
+    "Swimming",
+    "Yoga",
+    "Light weights"
+  ],
+  "warningSignsToWatch": [
+    "Fluid leaking from vagina",
+    "Bleeding after 12 weeks",
+    "Severe cramps"
+  ],
+  "milestoneTitle": "End of First Trimester",
+  "milestoneDescription": "Congratulations! You've made it through the most critical developmental stage."
+}

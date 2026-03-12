@@ -1,0 +1,49 @@
+{
+  "week": 26,
+  "fruitName": "Scallion",
+  "fruitEmoji": "\ud83e\uddc5",
+  "babySize": "14.0 inches",
+  "babyWeight": "1.7 lbs",
+  "illustration": null,
+  "babyDevelopment": "The baby's eyes, which have been fused shut, finally open! They can see light and dark variations through the uterine wall. The brain is active and processing images and sounds.",
+  "bodyChanges": "Your blood pressure may be slightly elevated compared to the second-trimester low. You might feel rib pain as the baby stretches out.",
+  "tips": [
+    "Pre-register at your hospital or birthing center",
+    "Talk to the baby\u2014they're listening closely",
+    "Practice relaxation techniques"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Watch your salt intake if swelling",
+      "Do stretching exercises for rib pain",
+      "Prepare siblings or pets for the new arrival"
+    ],
+    "dont": [
+      "Overexert yourself",
+      "Lift heavy objects",
+      "Ignore sudden weight gain"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": true,
+    "level": "yellow",
+    "note": "Start restricting travel to areas with good medical care."
+  },
+  "nutrition": [
+    "Magnesium (nuts, seeds) for muscles",
+    "Vitamin E",
+    "Calcium"
+  ],
+  "exercises": [
+    "Brisk walking",
+    "Stretches for rib/back pain",
+    "Meditation"
+  ],
+  "warningSignsToWatch": [
+    "Sudden severe swelling of hands/face",
+    "Headache that won't go away with Tylenol",
+    "Changes in vision"
+  ],
+  "milestoneTitle": "Eyes Wide Open",
+  "milestoneDescription": "Your baby can open their eyes and see the light filtering in!"
+}

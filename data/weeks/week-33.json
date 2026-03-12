@@ -1,0 +1,49 @@
+{
+  "week": 33,
+  "fruitName": "Celery",
+  "fruitEmoji": "\ud83e\udd6c",
+  "babySize": "17.2 inches",
+  "babyWeight": "4.2 lbs",
+  "illustration": null,
+  "babyDevelopment": "The immune system is developing as you pass antibodies to your baby through the placenta. The baby's skull bones are not fused together, allowing them to overlap during birth.",
+  "bodyChanges": "You might be waddling due to loosened ligaments and a shifting center of gravity. Insomnia might strike due to discomfort and frequent urination.",
+  "tips": [
+    "Practice your labor breathing techniques",
+    "Install the baby's car seat",
+    "Take a hospital bag 'test run'"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Rest when you feel tired",
+      "Eat smaller meals for indigestion",
+      "Watch out for 'nesting' fatigue"
+    ],
+    "dont": [
+      "Climb on ladders or chairs to 'nest'",
+      "Ignore sudden weight gain",
+      "Forget to hydrate"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": false,
+    "level": "red",
+    "note": "Stay close to your delivery location."
+  },
+  "nutrition": [
+    "Magnesium",
+    "Potassium",
+    "Vitamin C"
+  ],
+  "exercises": [
+    "Birth ball exercises",
+    "Gentle walks",
+    "Stretching"
+  ],
+  "warningSignsToWatch": [
+    "Preeclampsia symptoms (headache, vision changes)",
+    "Decreased fetal movement",
+    "Preterm labor"
+  ],
+  "milestoneTitle": "Immune System Boost",
+  "milestoneDescription": "Your baby is receiving your antibodies to help them fight off infections after birth."
+}

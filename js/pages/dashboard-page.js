@@ -1,0 +1,301 @@
+import { ContentService } from '../services/content-service.js';
+import { GestationalEngine } from '../services/gestational-engine.js';
+import { CalendarService } from '../services/calendar-service.js';
+
+/**
+ * DashboardPage — Morning Check-In with date navigation,
+ * medical illustrations, custom habits, medication reminders, and travel advisory.
+ */
+export class DashboardPage {
+  constructor(db, auth) {
+    this._db = db;
+    this._auth = auth;
+    this._currentDate = CalendarService.toISO(new Date());
+  }
+
+  async render(container) {
+    const profile = await this._db.get('settings', 'profile') || {};
+    if (!profile.lmpDate) {
+      container.innerHTML = '<div class="page-container"><p>Please set your LMP date in Settings.</p></div>';
+      return;
+    }
+    this._profile = profile;
+    this._container = container;
+    await this._renderForDate(this._currentDate);
+  }
+
+  async _renderForDate(dateISO) {
+    this._currentDate = dateISO;
+    const today = CalendarService.toISO(new Date());
+    const isToday = dateISO === today;
+    const viewDate = CalendarService.fromISO(dateISO);
+
+    const ge = GestationalEngine.calculate(this._profile.lmpDate, viewDate);
+    const weekData = await ContentService.getWeekData(ge.week);
+    const habitsRecord = await this._db.get('habits', dateISO);
+    const symptomsRecord = await this._db.get('symptoms', dateISO);
+    const medications = await this._db.getAll('medications');
+    const customHabits = await this._db.getAll('custom_habits');
+
+    const completedHabits = habitsRecord?.completed || [];
+    const loggedSymptoms = symptomsRecord?.symptoms || [];
+    const allHabits = [...ContentService.getDefaultHabits(), ...customHabits];
+
+    this._container.innerHTML = `
+      <div class="page-container">
+        <!-- Date Navigator -->
+        <div class="date-navigator">
+          <button class="date-nav-btn" id="date-prev">‹</button>
+          <button class="date-nav-label" id="date-picker-btn">
+            ${isToday ? 'Today' : CalendarService.formatLong(viewDate)}
+          </button>
+          <button class="date-nav-btn" id="date-next" ${isToday ? 'disabled' : ''}>›</button>
+          ${!isToday ? '<button class="date-today-btn" id="date-today">Today</button>' : ''}
+        </div>
+
+        <!-- Hero Section -->
+        <div class="hero-section">
+          <h1 class="playfair">${GestationalEngine.getGreeting()}, ${this._profile.name || 'Mama'}</h1>
+          <p class="hero-week sage-text">${isToday ? `Week ${ge.week}, Day ${ge.day}` : `Week ${ge.week} · ${CalendarService.formatShort(viewDate)}`}</p>
+          ${isToday ? `<p class="hero-countdown">${ge.daysRemaining} days to meet your little one</p>` : ''}
+
+          <!-- Fruit + Medical Illustration Toggle -->
+          <div class="hero-visual">
+            <div class="hero-fruit" id="hero-visual-fruit">
+              <span class="fruit-emoji">${weekData.fruitEmoji}</span>
+            </div>
+            ${weekData.illustration ? `
+              <div class="hero-medical hidden" id="hero-visual-medical">
+                <img src="${weekData.illustration}" alt="Week ${ge.week} development" class="medical-illustration">
+              </div>
+            ` : ''}
+          </div>
+          ${weekData.illustration ? '<button class="view-toggle-btn" id="toggle-view">👁️ See baby\'s development</button>' : ''}
+          <p class="fruit-label"><em>Baby is the size of a ${weekData.fruitName}</em></p>
+
+          <!-- Stats -->
+          <div class="hero-stats">
+            <div class="stat"><strong>${weekData.babySize}</strong><small>LENGTH</small></div>
+            <div class="stat"><strong>${weekData.babyWeight}</strong><small>WEIGHT</small></div>
+            <div class="stat"><strong>${GestationalEngine.trimesterLabel(ge.trimester)}</strong><small>TRIMESTER</small></div>
+          </div>
+        </div>
+
+        <!-- Journey Progress -->
+        ${isToday ? `
+        <div class="lumina-card">
+          <div class="card-header"><span class="dot green"></span>JOURNEY PROGRESS <span class="float-right">${Math.round(ge.progress)}%</span></div>
+          <div class="progress-bar"><div class="progress-fill" style="width:${ge.progress}%"></div></div>
+          <small>Due ${ge.dueDateFormatted || ge.dueDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</small>
+        </div>` : ''}
+
+        <!-- Travel Advisory -->
+        ${weekData.travelAdvisory ? `
+        <div class="lumina-card travel-card ${weekData.travelAdvisory.level}">
+          <div class="card-header"><span class="dot ${weekData.travelAdvisory.level === 'green' ? 'green' : weekData.travelAdvisory.level === 'yellow' ? 'yellow' : 'red'}"></span>✈️ TRAVEL ADVISORY</div>
+          <p>${weekData.travelAdvisory.note}</p>
+        </div>` : ''}
+
+        <!-- Medication Reminders -->
+        ${medications.length ? `
+        <div class="lumina-card">
+          <div class="card-header"><span class="dot sage"></span>💊 MEDICATION REMINDERS</div>
+          <div class="med-list" id="med-reminders">
+            ${medications.filter(m => m.active !== false).map(m => `
+              <div class="med-item" data-id="${m.id}">
+                <div class="med-info">
+                  <strong>${m.name}</strong>
+                  <small>${m.dosage} · ${m.frequency}</small>
+                </div>
+                <button class="med-check ${this._isMedTaken(habitsRecord, m.id) ? 'taken' : ''}" data-med="${m.id}">
+                  ${this._isMedTaken(habitsRecord, m.id) ? '✓' : '○'}
+                </button>
+              </div>`).join('')}
+          </div>
+        </div>` : ''}
+
+        <!-- Daily Briefing -->
+        <h2 class="section-title playfair">Today's Briefing</h2>
+        <div class="lumina-card">
+          <div class="card-header"><span class="dot sage"></span>BABY'S DEVELOPMENT</div>
+          <p>${weekData.babyDevelopment}</p>
+        </div>
+        <div class="lumina-card">
+          <div class="card-header"><span class="dot rose"></span>YOUR BODY</div>
+          <p>${weekData.bodyChanges}</p>
+        </div>
+
+        ${weekData.nutrition?.length ? `
+        <div class="lumina-card">
+          <div class="card-header"><span class="dot green"></span>🥗 NUTRITION FOCUS</div>
+          <ul class="card-list">${weekData.nutrition.map(n => `<li>✦ ${n}</li>`).join('')}</ul>
+        </div>` : ''}
+
+        ${weekData.warningSignsToWatch?.length ? `
+        <div class="lumina-card warning-card">
+          <div class="card-header"><span class="dot red"></span>⚠️ WARNING SIGNS TO WATCH</div>
+          <ul class="card-list">${weekData.warningSignsToWatch.map(w => `<li>• ${w}</li>`).join('')}</ul>
+        </div>` : ''}
+
+        <!-- Daily Habits -->
+        <h2 class="section-title playfair">Daily Habits</h2>
+        <div class="habits-grid" id="habits-grid">
+          ${allHabits.map(h => `
+            <button class="habit-item ${completedHabits.includes(h.id) ? 'done' : ''}" data-habit="${h.id}">
+              <span class="habit-emoji">${h.emoji}</span>
+              <span class="habit-text">${h.text}</span>
+              ${completedHabits.includes(h.id) ? '<span class="habit-check">✓</span>' : ''}
+            </button>
+          `).join('')}
+          <button class="habit-item add-habit" id="add-custom-habit">
+            <span class="habit-emoji">➕</span>
+            <span class="habit-text">Add Habit</span>
+          </button>
+        </div>
+
+        <!-- Symptom Logger -->
+        <h2 class="section-title playfair">How are you feeling?</h2>
+        <div class="symptom-scroll" id="symptom-scroll">
+          ${ContentService.getSymptomOptions().map(s => `
+            <button class="symptom-chip ${loggedSymptoms.includes(s.id) ? 'active' : ''}" data-symptom="${s.id}">
+              ${s.icon} ${s.label}
+            </button>
+          `).join('')}
+        </div>
+      </div>
+    `;
+
+    this._attachListeners(dateISO, allHabits);
+  }
+
+  _isMedTaken(habitsRecord, medId) {
+    return (habitsRecord?.meds || []).includes(medId);
+  }
+
+  _attachListeners(dateISO, allHabits) {
+    // Date navigation
+    document.getElementById('date-prev')?.addEventListener('click', () => {
+      const d = CalendarService.fromISO(this._currentDate);
+      d.setDate(d.getDate() - 1);
+      this._renderForDate(CalendarService.toISO(d));
+    });
+    document.getElementById('date-next')?.addEventListener('click', () => {
+      const d = CalendarService.fromISO(this._currentDate);
+      d.setDate(d.getDate() + 1);
+      const today = CalendarService.toISO(new Date());
+      const next = CalendarService.toISO(d);
+      if (next <= today) this._renderForDate(next);
+    });
+    document.getElementById('date-today')?.addEventListener('click', () => {
+      this._renderForDate(CalendarService.toISO(new Date()));
+    });
+
+    // Date picker button
+    document.getElementById('date-picker-btn')?.addEventListener('click', () => {
+      const input = document.createElement('input');
+      input.type = 'date';
+      input.value = this._currentDate;
+      input.max = CalendarService.toISO(new Date());
+      input.style.position = 'absolute';
+      input.style.opacity = '0';
+      document.body.appendChild(input);
+      input.addEventListener('change', () => {
+        if (input.value) this._renderForDate(input.value);
+        input.remove();
+      });
+      input.showPicker?.() || input.click();
+    });
+
+    // Medical illustration toggle
+    document.getElementById('toggle-view')?.addEventListener('click', () => {
+      const fruit = document.getElementById('hero-visual-fruit');
+      const med = document.getElementById('hero-visual-medical');
+      const btn = document.getElementById('toggle-view');
+      if (fruit && med) {
+        const showingFruit = !fruit.classList.contains('hidden');
+        fruit.classList.toggle('hidden', showingFruit);
+        med.classList.toggle('hidden', !showingFruit);
+        btn.textContent = showingFruit ? '🍋 See size comparison' : '👁️ See baby\'s development';
+      }
+    });
+
+    // Habit toggles
+    document.querySelectorAll('.habit-item[data-habit]').forEach(btn => {
+      btn.addEventListener('click', async () => {
+        const id = btn.dataset.habit;
+        const record = await this._db.get('habits', dateISO) || { id: dateISO, completed: [], meds: [] };
+        const list = record.completed;
+        const idx = list.indexOf(id);
+        if (idx >= 0) list.splice(idx, 1);
+        else list.push(id);
+        await this._db.put('habits', record);
+        btn.classList.toggle('done');
+        const check = btn.querySelector('.habit-check');
+        if (idx >= 0 && check) check.remove();
+        else if (idx < 0) {
+          const s = document.createElement('span');
+          s.className = 'habit-check';
+          s.textContent = '✓';
+          btn.appendChild(s);
+        }
+      });
+    });
+
+    // Symptom toggles
+    document.querySelectorAll('.symptom-chip').forEach(btn => {
+      btn.addEventListener('click', async () => {
+        const id = btn.dataset.symptom;
+        const record = await this._db.get('symptoms', dateISO) || { id: dateISO, symptoms: [] };
+        const list = record.symptoms;
+        const idx = list.indexOf(id);
+        if (idx >= 0) list.splice(idx, 1);
+        else list.push(id);
+        await this._db.put('symptoms', record);
+        btn.classList.toggle('active');
+      });
+    });
+
+    // Medication check
+    document.querySelectorAll('.med-check').forEach(btn => {
+      btn.addEventListener('click', async () => {
+        const medId = btn.dataset.med;
+        const record = await this._db.get('habits', dateISO) || { id: dateISO, completed: [], meds: [] };
+        if (!record.meds) record.meds = [];
+        const idx = record.meds.indexOf(medId);
+        if (idx >= 0) { record.meds.splice(idx, 1); btn.classList.remove('taken'); btn.textContent = '○'; }
+        else { record.meds.push(medId); btn.classList.add('taken'); btn.textContent = '✓'; }
+        await this._db.put('habits', record);
+      });
+    });
+
+    // Add custom habit
+    document.getElementById('add-custom-habit')?.addEventListener('click', () => this._showAddHabitModal());
+  }
+
+  _showAddHabitModal() {
+    const overlay = document.createElement('div');
+    overlay.className = 'modal-overlay';
+    overlay.innerHTML = `
+      <div class="modal-card">
+        <h3>Add Custom Habit</h3>
+        <input type="text" class="lumina-input" id="custom-habit-emoji" placeholder="Emoji (e.g., 🧘‍♀️)" maxlength="4">
+        <input type="text" class="lumina-input" id="custom-habit-text" placeholder="Habit description">
+        <div style="display:flex;gap:10px;margin-top:10px;">
+          <button class="lumina-btn primary full-width" id="custom-habit-save">Save</button>
+          <button class="lumina-btn secondary full-width" id="custom-habit-cancel">Cancel</button>
+        </div>
+      </div>`;
+    document.body.appendChild(overlay);
+
+    document.getElementById('custom-habit-cancel').addEventListener('click', () => overlay.remove());
+    document.getElementById('custom-habit-save').addEventListener('click', async () => {
+      const emoji = document.getElementById('custom-habit-emoji').value.trim() || '⭐';
+      const text = document.getElementById('custom-habit-text').value.trim();
+      if (!text) return;
+      const id = `custom-${Date.now()}`;
+      await this._db.put('custom_habits', { id, emoji, text });
+      overlay.remove();
+      await this._renderForDate(this._currentDate);
+    });
+  }
+}

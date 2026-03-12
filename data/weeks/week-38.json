@@ -1,0 +1,49 @@
+{
+  "week": 38,
+  "fruitName": "Pumpkin",
+  "fruitEmoji": "\ud83c\udf83",
+  "babySize": "19.6 inches",
+  "babyWeight": "6.8 lbs",
+  "illustration": null,
+  "babyDevelopment": "All organs are mature. The brain and lungs are still fine-tuning. The baby continues to shed the fine lanugo hair and protective vernix caseosa.",
+  "bodyChanges": "Cervix checks may show you are a few centimeters dilated. You might feel 'lightning crotch' (sharp pelvic pain) as the baby's head hits sensitive nerves.",
+  "tips": [
+    "Rest, rest, rest",
+    "Watch a movie or read a book",
+    "Spend quality time with your partner"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Time your contractions if they feel real",
+      "Stay hydrated",
+      "Trust your instincts"
+    ],
+    "dont": [
+      "Wait too long at home if you're uncomfortable",
+      "Panic",
+      "Ignore your baby's movement patterns"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": false,
+    "level": "red",
+    "note": "Stay within minutes of the hospital."
+  },
+  "nutrition": [
+    "Carbs for energy",
+    "Light snacks",
+    "Water"
+  ],
+  "exercises": [
+    "Walking",
+    "Bouncing gently on a birthing ball",
+    "Stretching"
+  ],
+  "warningSignsToWatch": [
+    "Signs of active labor",
+    "Decreased fetal movement",
+    "Bright red bleeding"
+  ],
+  "milestoneTitle": "Shedding Lanugo",
+  "milestoneDescription": "Baby is shedding their downy hair and waxy coating and getting nice and plump for delivery."
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Lumina — Pregnancy Companion",
+  "short_name": "Lumina",
+  "description": "Your premium, privacy-first daily pregnancy companion.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FDF8F4",
+  "theme_color": "#8FAE8B",
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "lifestyle"],
+  "lang": "en"
+}

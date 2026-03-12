@@ -1,0 +1,49 @@
+{
+  "week": 1,
+  "fruitName": "Cell",
+  "fruitEmoji": "\ud83c\udf11",
+  "babySize": "0.01 inches",
+  "babyWeight": "<1 gram",
+  "illustration": "assets/medical/week-01.png",
+  "babyDevelopment": "Technically, you're not pregnant yet. This is the week of your period. Your body is shedding the uterine lining and preparing a new egg in an ovarian follicle for ovulation.",
+  "bodyChanges": "You are experiencing your normal menstrual cycle. Estrogen levels are rising to thicken the uterine lining again.",
+  "tips": [
+    "Start taking prenatal vitamins with folic acid",
+    "Track your basal body temperature",
+    "Maintain a balanced diet"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Take 400mcg of folic acid daily",
+      "Track your cycle",
+      "Stay hydrated"
+    ],
+    "dont": [
+      "Smoke or drink alcohol",
+      "Over-stress",
+      "Take unapproved medications"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": true,
+    "level": "green",
+    "note": "Travel is completely safe during this pre-conception phase."
+  },
+  "nutrition": [
+    "Folic acid (leafy greens, beans)",
+    "Iron-rich foods",
+    "Vitamin C"
+  ],
+  "exercises": [
+    "Regular cardiovascular exercise",
+    "Strength training",
+    "Yoga stretches"
+  ],
+  "warningSignsToWatch": [
+    "Unusually heavy bleeding during period",
+    "Severe pelvic pain",
+    "Irregular cycles"
+  ],
+  "milestoneTitle": "Preparation Phase",
+  "milestoneDescription": "Your body is clearing the slate and preparing for a potential pregnancy."
+}

@@ -1,0 +1,49 @@
+{
+  "week": 4,
+  "fruitName": "Poppy Seed",
+  "fruitEmoji": "\ud83c\udf11",
+  "babySize": "0.04 inches",
+  "babyWeight": "<1 gram",
+  "illustration": "assets/medical/week-04.png",
+  "babyDevelopment": "Implantation! The blastocyst burrows into the lush uterine lining. The placenta and amniotic sac begin to form.",
+  "bodyChanges": "You may experience light spotting (implantation bleeding) and mild cramping. Your period will be missed, and breast tenderness may begin.",
+  "tips": [
+    "Take a home pregnancy test",
+    "Schedule your first OB/GYN appointment",
+    "Expect mood swings"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Confirm pregnancy with a test",
+      "Calculate your due date",
+      "Eat small, frequent meals if nauseous"
+    ],
+    "dont": [
+      "Take NSAIDs (like ibuprofen)",
+      "Empty the cat litter box",
+      "Use saunas"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": true,
+    "level": "green",
+    "note": "Travel is safe. Carry snacks in case early nausea starts."
+  },
+  "nutrition": [
+    "Vitamin B6 for nausea",
+    "Complex carbs",
+    "Frequent small snacks"
+  ],
+  "exercises": [
+    "Brisk walking",
+    "Prenatal yoga",
+    "Light weights"
+  ],
+  "warningSignsToWatch": [
+    "Heavy bleeding like a period",
+    "Sharp, unilateral abdominal pain",
+    "Dizziness or fainting"
+  ],
+  "milestoneTitle": "Implantation",
+  "milestoneDescription": "The embryo attaches to your uterus, officially starting the pregnancy."
+}

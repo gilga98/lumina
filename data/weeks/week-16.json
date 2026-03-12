@@ -1,0 +1,49 @@
+{
+  "week": 16,
+  "fruitName": "Avocado",
+  "fruitEmoji": "\ud83e\udd51",
+  "babySize": "4.6 inches",
+  "babyWeight": "3.5 oz",
+  "illustration": null,
+  "babyDevelopment": "The nervous system is functioning. The baby can make facial expressions like squinting or frowning. The scalp is patterning for hair.",
+  "bodyChanges": "You might feel the 'quickening'\u2014the first fluttery movements of your baby! It often feels like gas bubbles or butterfly wings. Your uterus is halfway between your pubic bone and navel.",
+  "tips": [
+    "Start a kick-counting journal (though kicks aren't regular yet)",
+    "Discuss the anatomy scan with your partner",
+    "Sleep on your side, preferably left"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Listen to your body regarding exercise limits",
+      "Drink plenty of water",
+      "Massage your breasts/belly to prevent skin tearing"
+    ],
+    "dont": [
+      "Worry if you don't feel kicks yet (especially if first pregnancy)",
+      "Lift heavy weights overhead",
+      "Skip calcium-rich foods"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": true,
+    "level": "green",
+    "note": "Safe and comfortable to travel."
+  },
+  "nutrition": [
+    "Calcium (dairy, fortified soy, almonds)",
+    "Vitamin D",
+    "Phosphorus"
+  ],
+  "exercises": [
+    "Water aerobics",
+    "Brisk walking",
+    "Pelvic tilts"
+  ],
+  "warningSignsToWatch": [
+    "Regular painful contractions",
+    "Bleeding",
+    "Pain during sex"
+  ],
+  "milestoneTitle": "The Quickening",
+  "milestoneDescription": "You might feel the magical first flutters of your baby moving!"
+}

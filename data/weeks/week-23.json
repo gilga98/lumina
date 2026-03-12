@@ -1,0 +1,48 @@
+{
+  "week": 23,
+  "fruitName": "Grapefruit",
+  "fruitEmoji": "\ud83c\udf4a",
+  "babySize": "11.4 inches",
+  "babyWeight": "1.1 lbs",
+  "illustration": null,
+  "babyDevelopment": "The lungs are starting to produce surfactant, a substance that will help them inflate and stay open after birth. The baby can now hear external noises clearly.",
+  "bodyChanges": "You've officially gained a noticeable amount of weight. You might notice 'pregnancy brain' causing forgetfulness, and swelling in your feet and ankles (edema).",
+  "tips": [
+    "Elevate your feet when sitting",
+    "Remove rings if your fingers swell",
+    "Listen to classical music or talk to the baby"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Stay hydrated to reduce swelling",
+      "Invest in comfortable shoes (maybe a size up!)",
+      "Rest frequently"
+    ],
+    "dont": [
+      "Reduce water intake to reduce swelling (it makes it worse)",
+      "Stand in one place for long periods",
+      "Ignore severe, sudden swelling"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": true,
+    "level": "green",
+    "note": "Travel is safe. Keep moving during long flights."
+  },
+  "nutrition": [
+    "Vitamin B1 (Thiamine)",
+    "Vitamin C",
+    "Omega-3s"
+  ],
+  "exercises": [
+    "Foot exercises (pointing and flexing)",
+    "Swimming",
+    "Yoga"
+  ],
+  "warningSignsToWatch": [
+    "Swelling is normal, but sudden facial swelling is a red flag for preeclampsia",
+    "Bleeding"
+  ],
+  "milestoneTitle": "Surfactant Production",
+  "milestoneDescription": "The lungs are getting ready to breathe on their own."
+}

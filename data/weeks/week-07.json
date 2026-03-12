@@ -1,0 +1,49 @@
+{
+  "week": 7,
+  "fruitName": "Blueberry",
+  "fruitEmoji": "\ud83e\uded0",
+  "babySize": "0.5 inches",
+  "babyWeight": "1 gram",
+  "illustration": "assets/medical/week-07.png",
+  "babyDevelopment": "Limb buds (future arms and legs) appear. The brain is growing complex, generating 100 new brain cells every minute.",
+  "bodyChanges": "Your blood volume is expanding. You might notice subtle skin changes or acne due to hormones. You still don't show.",
+  "tips": [
+    "Moisturize skin",
+    "Consider pregnancy-safe skincare",
+    "Take photos of your tummy before it grows"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Use mild cleansers on your face",
+      "Drink 8-10 glasses of water",
+      "Communicate your needs to your partner"
+    ],
+    "dont": [
+      "Use retinoids or salicylic acid",
+      "Use harsh chemical peels",
+      "Forget to pee often to avoid UTIs"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": true,
+    "level": "green",
+    "note": "Travel remains safe. Get aisle seats for frequent bathroom trips."
+  },
+  "nutrition": [
+    "Iron (meat, beans) to support extra blood",
+    "Vitamin C to absorb iron",
+    "Greek yogurt for calcium"
+  ],
+  "exercises": [
+    "Swimming",
+    "Stationary bike",
+    "Prenatal pilates"
+  ],
+  "warningSignsToWatch": [
+    "Cloudy or bloody urine",
+    "Distant lower back pain",
+    "Extreme mood swings"
+  ],
+  "milestoneTitle": "Limb Buds Appear",
+  "milestoneDescription": "Tiny arms and legs are sprouting out, making the embryo look less like a tadpole."
+}

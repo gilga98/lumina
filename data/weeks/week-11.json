@@ -1,0 +1,49 @@
+{
+  "week": 11,
+  "fruitName": "Fig",
+  "fruitEmoji": "\ud83e\uded0",
+  "babySize": "1.6 inches",
+  "babyWeight": "7 grams",
+  "illustration": "assets/medical/week-11.png",
+  "babyDevelopment": "Facial features are distinct. Hair follicles form. The baby can hiccup, stretch, and yawn, though you can't feel it.",
+  "bodyChanges": "Nausea may finally start to ease up. Your hair and nails might grow faster due to pregnancy hormones.",
+  "tips": [
+    "Plan how to announce your pregnancy",
+    "Look into prenatal classes",
+    "Enjoy returning energy"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Eat complex carbs for energy",
+      "Begin moisturizing your belly",
+      "Start looking at baby names"
+    ],
+    "dont": [
+      "Exert yourself to exhaustion",
+      "Assume all medication is safe",
+      "Ignore bleeding gums (gingivitis)"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": true,
+    "level": "green",
+    "note": "Travel is safe. Nausea is likely subsiding!"
+  },
+  "nutrition": [
+    "Vitamin C for gums",
+    "Whole grains",
+    "Omega-3s (safe fish or algae)"
+  ],
+  "exercises": [
+    "Brisk walking",
+    "Dance workouts (low impact)",
+    "Prenatal yoga"
+  ],
+  "warningSignsToWatch": [
+    "Bleeding gums (needs a dentist check but usually normal)",
+    "Fever",
+    "Severe pain"
+  ],
+  "milestoneTitle": "Facial Features Complete",
+  "milestoneDescription": "Your baby's unique face is fully shaped and defined."
+}

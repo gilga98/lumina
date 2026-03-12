@@ -1,0 +1,48 @@
+{
+  "week": 25,
+  "fruitName": "Rutabaga",
+  "fruitEmoji": "\ud83e\udd54",
+  "babySize": "13.6 inches",
+  "babyWeight": "1.5 lbs",
+  "illustration": null,
+  "babyDevelopment": "Capillaries are forming beneath the skin, giving the baby a pinkish hue. The baby is plumping up, and their wrinkled skin is starting to smooth out step by step.",
+  "bodyChanges": "Your hair continues to look fantastic. You may suffer from hemorrhoids (swollen veins in the rectum) due to the pressure of the uterus.",
+  "tips": [
+    "Use witch hazel pads for hemorrhoids",
+    "Eat a high-fiber diet to avoid straining",
+    "Discuss your birth plan with your partner"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Take sitz baths for pelvic comfort",
+      "Eat prunes/dates",
+      "Sleep on your left side"
+    ],
+    "dont": [
+      "Strain on the toilet",
+      "Sit or stand for prolonged periods",
+      "Ignore severe discomfort"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": true,
+    "level": "yellow",
+    "note": "Travel is generally safe, but consult your doctor first."
+  },
+  "nutrition": [
+    "Fiber (whole grains, vegetables)",
+    "Plenty of water",
+    "Probiotics"
+  ],
+  "exercises": [
+    "Pelvic floor exercises",
+    "Prenatal yoga",
+    "Swimming"
+  ],
+  "warningSignsToWatch": [
+    "Bleeding during bowel movements (check if hemorrhoid vs vaginal)",
+    "Preterm labor signs"
+  ],
+  "milestoneTitle": "Plumping Up",
+  "milestoneDescription": "Baby is laying down fat, making their skin less translucent and wrinkled."
+}

@@ -1,0 +1,49 @@
+{
+  "week": 34,
+  "fruitName": "Butternut Squash",
+  "fruitEmoji": "\ud83c\udf83",
+  "babySize": "17.7 inches",
+  "babyWeight": "4.7 lbs",
+  "illustration": null,
+  "babyDevelopment": "Most babies flip to a head-down (vertex) position by now in preparation for birth. Fat layers are regulating body temperature.",
+  "bodyChanges": "Fatigue is returning. Your vision might seem blurry due to fluid retention and hormones altering the shape of your eyes.",
+  "tips": [
+    "Familiarize yourself with the signs of labor",
+    "Get your baby's sleeping area ready",
+    "Go on a date night"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Discuss Group B Strep (GBS) testing",
+      "Take daytime naps",
+      "Elevate legs to reduce swelling"
+    ],
+    "dont": [
+      "Buy new prescription glasses now",
+      "Panic if baby is still breech (there is still time)",
+      "Ignore sudden visual changes"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": false,
+    "level": "red",
+    "note": "Do not travel."
+  },
+  "nutrition": [
+    "Iron",
+    "Protein",
+    "Fiber"
+  ],
+  "exercises": [
+    "Pelvic floor exercises",
+    "Swimming",
+    "Yoga"
+  ],
+  "warningSignsToWatch": [
+    "Regular painful contractions",
+    "Water breaking",
+    "Any vaginal bleeding"
+  ],
+  "milestoneTitle": "Head Down",
+  "milestoneDescription": "Baby is likely turning head-down into the prime birthing position."
+}

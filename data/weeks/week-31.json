@@ -1,0 +1,49 @@
+{
+  "week": 31,
+  "fruitName": "Asparagus",
+  "fruitEmoji": "\ud83e\udd6c",
+  "babySize": "16.1 inches",
+  "babyWeight": "3.3 lbs",
+  "illustration": null,
+  "babyDevelopment": "The baby is going through a massive growth spurt. All five senses are in working order. They can perceive light and dark signals.",
+  "bodyChanges": "Your breasts might begin to leak colostrum (the nutrient-rich first milk). Braxton Hicks contractions might become stronger and more frequent.",
+  "tips": [
+    "Buy nursing bras and breast pads",
+    "Read up on breastfeeding (if you plan to)",
+    "Finalize your birth plan"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Drink plenty of water",
+      "Massage your perineum with a safe oil",
+      "Keep track of kicks"
+    ],
+    "dont": [
+      "Express colostrum early unless advised by an OB",
+      "Lift heavy objects",
+      "Wear restrictive clothing"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": false,
+    "level": "red",
+    "note": "Travel off-limits."
+  },
+  "nutrition": [
+    "Vitamin K",
+    "Iron",
+    "Protein"
+  ],
+  "exercises": [
+    "Perineal massage",
+    "Kegels",
+    "Light stretching"
+  ],
+  "warningSignsToWatch": [
+    "Leaking amniotic fluid",
+    "Regular contractions",
+    "Signs of preeclampsia"
+  ],
+  "milestoneTitle": "Five Senses Active",
+  "milestoneDescription": "Baby's senses are fully active. They can taste, touch, hear, see, and smell!"
+}

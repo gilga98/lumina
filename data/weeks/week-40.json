@@ -1,0 +1,49 @@
+{
+  "week": 40,
+  "fruitName": "Watermelon",
+  "fruitEmoji": "\ud83c\udf49",
+  "babySize": "20.2 inches",
+  "babyWeight": "7.6 lbs",
+  "illustration": "assets/medical/week-40.png",
+  "babyDevelopment": "Your baby is officially due! They have a firm grasp and are ready to greet the world. The amniotic fluid levels are starting to lower slightly.",
+  "bodyChanges": "The waiting game! Only 5% of babies arrive exactly on their due date. Your cervix is softening, thinning (effacement), and opening (dilation).",
+  "tips": [
+    "Try to relax and keep your mind occupied",
+    "Time your contractions using an app",
+    "Remember: your body knows exactly what to do!"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Walk, try spicy food, or have sex if you want to encourage labor",
+      "Keep your provider updated",
+      "Pack a phone charger"
+    ],
+    "dont": [
+      "Get discouraged if nothing happens today",
+      "Forget to eat light foods",
+      "Let friends or family stress you out with \"is the baby here yet?\" texts"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": false,
+    "level": "red",
+    "note": "Baby is officially arriving!"
+  },
+  "nutrition": [
+    "Whatever sounds good to you right now",
+    "Hydration",
+    "Energy snacks"
+  ],
+  "exercises": [
+    "Walking",
+    "Kerb walking",
+    "Labour squats"
+  ],
+  "warningSignsToWatch": [
+    "Contractions that are 5 minutes apart, lasting 1 minute, for at least 1 hour (5-1-1 rule)",
+    "Water breaking",
+    "Any bleeding"
+  ],
+  "milestoneTitle": "Happy Due Date!",
+  "milestoneDescription": "Baby is ready to meet the world! If they are late, don't worry\u2014they are just enjoying their cozy home."
+}

@@ -1,0 +1,49 @@
+{
+  "week": 20,
+  "fruitName": "Banana",
+  "fruitEmoji": "\ud83c\udf4c",
+  "babySize": "6.5 inches",
+  "babyWeight": "10.5 oz",
+  "illustration": "assets/medical/week-20.png",
+  "babyDevelopment": "You are halfway there! The baby is swallowing amniotic fluid and producing meconium (first poop). Taste buds are active and distinguishing sweet from bitter.",
+  "bodyChanges": "Your uterus is right at your belly button. Your hair and nails may be growing rapidly. You may notice an itchy belly as the skin stretches.",
+  "tips": [
+    "Celebrate reaching the halfway mark!",
+    "Enjoy seeing your baby clearly during the anatomy scan",
+    "Discuss gender reveal plans if you wish"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Get the anatomy scan ultrasound",
+      "Take time for yourself",
+      "Make sure you have an anti-itch belly cream"
+    ],
+    "dont": [
+      "Scratch your itchy belly excessively",
+      "Skip prenatal appointments",
+      "Stand for prolonged hours"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": true,
+    "level": "green",
+    "note": "Halftime! Travel is safe and encouraged for Babymoons."
+  },
+  "nutrition": [
+    "Protein for baby's high growth rate",
+    "Iron",
+    "Fluoride (from water) for baby's teeth"
+  ],
+  "exercises": [
+    "Swimming",
+    "Yoga stretching",
+    "Walking"
+  ],
+  "warningSignsToWatch": [
+    "Lack of movement (though patterns aren't fully set)",
+    "Bleeding",
+    "Signs of preeclampsia (sudden severe swelling)"
+  ],
+  "milestoneTitle": "Halftime!",
+  "milestoneDescription": "You've made it to the 20-week mark. Time for the big anatomy scan!"
+}

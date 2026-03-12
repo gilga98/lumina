@@ -1,0 +1,49 @@
+{
+  "week": 32,
+  "fruitName": "Squash",
+  "fruitEmoji": "\ud83c\udf83",
+  "babySize": "16.7 inches",
+  "babyWeight": "3.7 lbs",
+  "illustration": null,
+  "babyDevelopment": "The baby occupies almost all the space in your uterus. They are gaining about a half-pound per week now.",
+  "bodyChanges": "You may notice a change in how kicks feel\u2014less like punches, more like rolls, as space gets tight. You'll start seeing your doctor every 2 weeks.",
+  "tips": [
+    "Pack your hospital bag",
+    "Freeze some meals for postpartum",
+    "Secure a pediatrician"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "See your OB every 2 weeks",
+      "Stock up on household essentials",
+      "Talk to your partner about expectations"
+    ],
+    "dont": [
+      "Sleep on your back",
+      "Ignore fluid leaks",
+      "Overdo the nesting"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": false,
+    "level": "red",
+    "note": "Stay within 1 hour of your hospital."
+  },
+  "nutrition": [
+    "Calcium",
+    "Protein",
+    "Complex Carbs"
+  ],
+  "exercises": [
+    "Walking",
+    "Pelvic tilts",
+    "Breathing exercises"
+  ],
+  "warningSignsToWatch": [
+    "Fetal movement decreasing",
+    "Bleeding",
+    "Water breaks"
+  ],
+  "milestoneTitle": "Fat Storage Spurt",
+  "milestoneDescription": "Baby is rapidly gaining weight and plumping up!"
+}

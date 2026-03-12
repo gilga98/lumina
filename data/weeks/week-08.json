@@ -1,0 +1,49 @@
+{
+  "week": 8,
+  "fruitName": "Raspberry",
+  "fruitEmoji": "\ud83e\uded0",
+  "babySize": "0.63 inches",
+  "babyWeight": "1 gram",
+  "illustration": "assets/medical/week-08.png",
+  "babyDevelopment": "Fingers and toes begin to form (webbed). The tail vanishes. Taste buds are forming, and nerve cells are connecting.",
+  "bodyChanges": "Your uterus has grown from the size of a lemon to a grapefruit. You may feel mild cramping as it expands.",
+  "tips": [
+    "Prepare a list of questions for your OB/GYN",
+    "Wear comfortable, loose clothing",
+    "Eat high-fiber to combat constipation"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Discuss genetic testing with your doctor",
+      "Eat prunes or bran",
+      "Exercise gently"
+    ],
+    "dont": [
+      "Use laxatives without a doctor",
+      "Ignore persistent headaches",
+      "Dye your hair just yet (wait until 2nd trimester)"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": true,
+    "level": "green",
+    "note": "Safe. Consider scheduling your first prenatal visit before flying."
+  },
+  "nutrition": [
+    "Dietary fiber (oats, fruit)",
+    "Nuts and seeds",
+    "Adequate water"
+  ],
+  "exercises": [
+    "Pelvic floor exercises",
+    "Walking",
+    "Light resistance bands"
+  ],
+  "warningSignsToWatch": [
+    "Heavy bleeding",
+    "Foul-smelling discharge",
+    "Severe vomiting"
+  ],
+  "milestoneTitle": "First Ultrasound",
+  "milestoneDescription": "Most moms get their first dating ultrasound around this time!"
+}

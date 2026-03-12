@@ -1,0 +1,49 @@
+{
+  "week": 15,
+  "fruitName": "Apple",
+  "fruitEmoji": "\ud83c\udf4e",
+  "babySize": "4.0 inches",
+  "babyWeight": "2.5 oz",
+  "illustration": null,
+  "babyDevelopment": "Skin is very thin and translucent. They are moving rapidly\u2014kicking, curling toes, moving arms\u2014though you likely can't feel it quite yet. The heart pumps 100 pints of blood daily.",
+  "bodyChanges": "You might experience 'pregnancy brain'\u2014forgetfulness or lack of focus. Nasal congestion and occasional nosebleeds are common due to swollen mucous membranes.",
+  "tips": [
+    "Use a saline nasal spray for congestion",
+    "Start a baby registry",
+    "Keep a to-do list to help with forgetfulness"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Use a humidifier at night",
+      "Continue dental checkups",
+      "Track weight gain (approx 1 lb per week now)"
+    ],
+    "dont": [
+      "Use harsh decongestants without checking with OB",
+      "Sit for long periods without moving",
+      "Ignore severe leg cramps"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": true,
+    "level": "green",
+    "note": "Travel safely! Drink extra water on planes to combat dry air."
+  },
+  "nutrition": [
+    "Vitamin C for blood vessels",
+    "Vitamin A (beta-carotene from sweet potatoes)",
+    "Iron"
+  ],
+  "exercises": [
+    "Stationary bike",
+    "Yoga",
+    "Swimming"
+  ],
+  "warningSignsToWatch": [
+    "Persistent headache",
+    "Vision spots",
+    "Heavy vaginal discharge"
+  ],
+  "milestoneTitle": "Rapid Movement",
+  "milestoneDescription": "Your baby is performing gymnastics in the uterus, building muscle strength."
+}

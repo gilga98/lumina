@@ -1,0 +1,49 @@
+{
+  "week": 37,
+  "fruitName": "Winter Melon",
+  "fruitEmoji": "\ud83c\udf49",
+  "babySize": "19.1 inches",
+  "babyWeight": "6.3 lbs",
+  "illustration": null,
+  "babyDevelopment": "Congratulations! Your baby is considered 'Early Term'. They are perfectly capable of surviving outside. They're practicing breathing and sucking reflex.",
+  "bodyChanges": "You might lose your 'mucus plug' (bloody show), a sign the cervix is softening and opening. Effacement and dilation might begin.",
+  "tips": [
+    "Consider perineal massage",
+    "Know exactly who to call when labor starts",
+    "Try labor-inducing techniques if cleared by your doctor"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Watch for the 'bloody show'",
+      "Expect more intense Braxton Hicks",
+      "Relax and rest"
+    ],
+    "dont": [
+      "Assume every contraction is real labor",
+      "Stress if nothing is happening yet",
+      "Ignore the kick counts"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": false,
+    "level": "red",
+    "note": "Stay home."
+  },
+  "nutrition": [
+    "Hydration",
+    "Vitamin C",
+    "Energy-dense snacks"
+  ],
+  "exercises": [
+    "Walking to encourage labor",
+    "Birthing ball",
+    "Light chores"
+  ],
+  "warningSignsToWatch": [
+    "True labor contractions (5 mins apart, lasting 1 min, for 1 hour)",
+    "Water breaking",
+    "Bleeding"
+  ],
+  "milestoneTitle": "Early Term",
+  "milestoneDescription": "Baby is officially early term and developmentally ready to be born!"
+}

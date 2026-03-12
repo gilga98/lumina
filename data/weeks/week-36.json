@@ -1,0 +1,49 @@
+{
+  "week": 36,
+  "fruitName": "Honeydew Melon",
+  "fruitEmoji": "\ud83c\udf48",
+  "babySize": "18.7 inches",
+  "babyWeight": "5.8 lbs",
+  "illustration": "assets/medical/week-36.png",
+  "babyDevelopment": "The baby may 'drop' (lightening) into your pelvis. The digestive system is ready for breast milk. From next week, your baby is considered 'early term.'",
+  "bodyChanges": "You may breathe easier if the baby has dropped, but walking might feel awkward (the 'pregnancy waddle'). Your appointments switch to weekly.",
+  "tips": [
+    "Review your birth preferences with your OB",
+    "Put the hospital bag in your car",
+    "Rest as much as you can"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "See your OB every week",
+      "Stock your freezer",
+      "Enjoy some quiet time"
+    ],
+    "dont": [
+      "Worry if baby hasn't dropped (especially for subsequent babies)",
+      "Let the car stay empty of gas",
+      "Ignore changes in discharge"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": false,
+    "level": "red",
+    "note": "Baby could come at any time."
+  },
+  "nutrition": [
+    "Protein",
+    "Dates",
+    "Light meals"
+  ],
+  "exercises": [
+    "Walking",
+    "Pelvic rocks",
+    "Resting (most importantly)"
+  ],
+  "warningSignsToWatch": [
+    "Preeclampsia (swelling, headache, vision spots)",
+    "Water breaking",
+    "Fewer kicks"
+  ],
+  "milestoneTitle": "Lightening (Baby Drops)",
+  "milestoneDescription": "Baby engages in the pelvis, making breathing easier but putting pressure on your bladder!"
+}

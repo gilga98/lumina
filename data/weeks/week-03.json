@@ -1,0 +1,49 @@
+{
+  "week": 3,
+  "fruitName": "Blastocyst",
+  "fruitEmoji": "\ud83e\udee7",
+  "babySize": "0.02 inches",
+  "babyWeight": "<1 gram",
+  "illustration": "assets/medical/week-03.png",
+  "babyDevelopment": "Fertilization happens! The sperm and egg unite to form a single cell (zygote) which divides rapidly into a ball of cells (blastocyst) as it travels down the fallopian tube.",
+  "bodyChanges": "You won't feel pregnant yet. Progesterone is rising to support the potential pregnancy. The blastocyst reaches the uterus.",
+  "tips": [
+    "Avoid alcohol completely",
+    "Continue prenatal vitamins",
+    "Rest well"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Treat your body as if you are pregnant",
+      "Get adequate sleep",
+      "Eat nutrient-dense meals"
+    ],
+    "dont": [
+      "X-rays or hazardous chemicals",
+      "Excessive caffeine",
+      "High-impact dangerous sports"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": true,
+    "level": "green",
+    "note": "Travel is safe. Avoid high-risk activities like scuba diving."
+  },
+  "nutrition": [
+    "Protein for cell division",
+    "Calcium",
+    "Hydration is key"
+  ],
+  "exercises": [
+    "Light jogging",
+    "Swimming",
+    "Stretching"
+  ],
+  "warningSignsToWatch": [
+    "Ectopic pregnancy signs (rare this early)",
+    "Severe cramping",
+    "Heavy bleeding"
+  ],
+  "milestoneTitle": "Fertilization",
+  "milestoneDescription": "Life begins as a single cell and rapidly starts dividing."
+}

@@ -1,0 +1,49 @@
+{
+  "week": 17,
+  "fruitName": "Pomegranate",
+  "fruitEmoji": "\ud83c\udf51",
+  "babySize": "5.1 inches",
+  "babyWeight": "5.0 oz",
+  "illustration": null,
+  "babyDevelopment": "The skeleton is transforming from rubbery cartilage to solid bone. The umbilical cord is growing stronger and thicker. The baby is practicing sucking and swallowing.",
+  "bodyChanges": "Your center of gravity is shifting. You may have increased appetite and cravings. Sweating may increase due to higher metabolism and blood volume.",
+  "tips": [
+    "Buy comfortable, flat shoes with good arch support",
+    "Drink tons of water to avoid constipation",
+    "Start planning your nursery"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Wear loose, breathable fabrics",
+      "Stretch your calves frequently",
+      "Get up slowly from sitting"
+    ],
+    "dont": [
+      "Wear high heels (fall risk)",
+      "Stand in one place for too long",
+      "Ignore sciatic pain"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": true,
+    "level": "green",
+    "note": "Still a great time to travel. Remember to stretch your legs on flights."
+  },
+  "nutrition": [
+    "Calcium (for baby's hardening bones)",
+    "Protein",
+    "Complex carbohydrates"
+  ],
+  "exercises": [
+    "Prenatal yoga for sciatica",
+    "Swimming",
+    "Stretching"
+  ],
+  "warningSignsToWatch": [
+    "Severe abdominal pain",
+    "Shortness of breath",
+    "Sudden swelling of face and hands"
+  ],
+  "milestoneTitle": "Bones Hardening",
+  "milestoneDescription": "The skeletal structure is fully forming into solid bone."
+}

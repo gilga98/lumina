@@ -1,0 +1,49 @@
+{
+  "week": 19,
+  "fruitName": "Mango",
+  "fruitEmoji": "\ud83e\udd6d",
+  "babySize": "6.0 inches",
+  "babyWeight": "8.5 oz",
+  "illustration": null,
+  "babyDevelopment": "A waxy white substance called vernix caseosa coats the baby's skin to protect it from the amniotic fluid. In female babies, the vagina, uterus, and fallopian tubes are in place.",
+  "bodyChanges": "You may experience round ligament pain\u2014a sharp, stabbing pain on one or both sides of your lower abdomen\u2014when you change positions suddenly.",
+  "tips": [
+    "Moisturize your belly with cocoa butter or oil",
+    "Look into pediatricians in your area",
+    "Support your belly when sneezing or coughing"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Sleep with a pillow between your knees",
+      "Change positions slowly",
+      "Keep track of kicks (mentally for now)"
+    ],
+    "dont": [
+      "Strain when lifting objects",
+      "Diet or restrict calories",
+      "Let indigestion ruin your meals (eat smaller portions)"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": true,
+    "level": "green",
+    "note": "Travel is safe."
+  },
+  "nutrition": [
+    "Vitamin K",
+    "Iron",
+    "Vitamin C"
+  ],
+  "exercises": [
+    "Light weight training",
+    "Walking",
+    "Prenatal yoga"
+  ],
+  "warningSignsToWatch": [
+    "Painful urination (UTI risk is high)",
+    "Fever above 100.4F",
+    "Severe cramping"
+  ],
+  "milestoneTitle": "Vernix Protective Coating",
+  "milestoneDescription": "Your baby is currently covered in a protective waxy layer so they don't get 'prune' skin."
+}

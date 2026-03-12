@@ -1,0 +1,49 @@
+{
+  "week": 39,
+  "fruitName": "Mini-Watermelon",
+  "fruitEmoji": "\ud83c\udf49",
+  "babySize": "19.9 inches",
+  "babyWeight": "7.3 lbs",
+  "illustration": null,
+  "babyDevelopment": "Your baby is 'Full Term'! Their physical development is complete, though their brain continues to rapidly develop (and will outside the womb).",
+  "bodyChanges": "Your water could break at any time. Contractions might start. You might feel a burst of energy (nesting) right before labor begins.",
+  "tips": [
+    "Double-check your support system for older kids/pets",
+    "Try relaxation techniques",
+    "Stay open-minded about your birth plan"
+  ],
+  "dosAndDonts": {
+    "do": [
+      "Rest actively",
+      "Snack on light foods",
+      "Call your provider when labor contractions hit the 5-1-1 rule"
+    ],
+    "dont": [
+      "Try dangerous induction methods",
+      "Worry if you pass your due date",
+      "Eat a huge heavy meal if in labor"
+    ]
+  },
+  "travelAdvisory": {
+    "safe": false,
+    "level": "red",
+    "note": "Do not travel."
+  },
+  "nutrition": [
+    "Electrolyte drinks",
+    "Popsicles",
+    "Broth"
+  ],
+  "exercises": [
+    "Walking",
+    "Standing/rocking",
+    "Resting"
+  ],
+  "warningSignsToWatch": [
+    "Water breaking or trickling",
+    "Contractions coming every 5-10 minutes",
+    "Diminished fetal movement"
+  ],
+  "milestoneTitle": "Full Term",
+  "milestoneDescription": "You've made it! Baby is full term and actively waiting for their perfect birthday."
+}
