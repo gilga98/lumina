@@ -712,6 +712,26 @@ p {
   color: var(--charcoal);
   outline: none;
   transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+input[type="date"].lumina-input {
+  min-height: 52px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* Custom styling for date input webkit calendar icon if needed */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity var(--transition-fast);
+}
+
+input[type="date"]:focus::-webkit-calendar-picker-indicator {
+  opacity: 1;
 }
 
 .lumina-input:focus {
@@ -848,34 +868,64 @@ a.lumina-btn.secondary, a.lumina-btn.secondary:visited, a.lumina-btn.secondary:h
 /* ---------- Toast ---------- */
 .toast-container {
   position: fixed;
-  top: max(20px, env(safe-area-inset-top));
+  bottom: calc(var(--nav-height) + var(--safe-bottom) + 24px);
   left: 50%;
   transform: translateX(-50%);
-  z-index: 8000;
+  z-index: 10000;
   width: calc(100% - 40px);
   max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  pointer-events: none;
 }
 
 .toast {
-  background: var(--charcoal);
+  pointer-events: auto;
+  background: rgba(61, 61, 61, 0.85); /* --charcoal with alpha */
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   color: white;
-  padding: 14px 20px;
-  border-radius: 14px;
-  font-size: 0.85rem;
+  padding: 12px 20px;
+  border-radius: 18px;
+  font-size: 0.9rem;
+  font-weight: 500;
   display: flex;
   align-items: center;
-  gap: 10px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
-  animation: slideDown var(--transition-base) ease, fadeOut 0.3s ease 2.7s forwards;
+  gap: 12px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  animation: slideUp var(--transition-base) cubic-bezier(0.16, 1, 0.3, 1), 
+             fadeOut 0.3s ease 3.7s forwards;
+}
+
+.toast-icon {
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
 }
 
 .toast.success {
-  background: var(--sage-green-dark);
+  background: rgba(143, 174, 139, 0.9); /* --sage-green-dark with alpha */
+  border-color: rgba(255, 255, 255, 0.15);
 }
 
 .toast.warning {
-  background: var(--warning);
+  background: rgba(232, 200, 114, 0.95); /* --warning with alpha */
   color: var(--charcoal);
+  border-color: rgba(0, 0, 0, 0.05);
+}
+
+.toast.error {
+  background: rgba(212, 165, 165, 0.9); /* --danger with alpha */
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.toast.info {
+  background: rgba(184, 169, 201, 0.9); /* --info with alpha */
+  border-color: rgba(255, 255, 255, 0.15);
 }
 
 /* ---------- Settings List ---------- */

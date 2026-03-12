@@ -282,8 +282,8 @@ export class VaultPage {
         <p>${this._profile.doctorClinic || 'Tap Settings to add details'}</p>
         ${this._profile.doctorPhone ? `
           <div style="display:flex;flex-direction:column;gap:10px;margin-top:12px;">
-            <a href="tel:${this._profile.doctorPhone}" class="lumina-btn primary full-width">📞 Call</a>
-            <a href="https://wa.me/${this._profile.doctorPhone.replace(/\D/g, '')}" target="_blank" class="lumina-btn secondary full-width">💬 WhatsApp</a>
+            <a href="tel:${this._profile.doctorPhone}" class="doctor-btn primary full-width">📞 Call</a>
+            <a href="https://wa.me/${this._profile.doctorPhone.replace(/\D/g, '')}" target="_blank" class="doctor-btn secondary full-width">💬 WhatsApp</a>
           </div>` : ''}
       </div>`;
   }
