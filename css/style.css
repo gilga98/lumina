@@ -8,24 +8,24 @@
 
 /* ---------- CSS Custom Properties (Design Tokens) ---------- */
 :root {
-  /* Primary palette — muted, soothing pastels */
-  --sage-green:       #8FAE8B;
-  --sage-green-light: #B5CEAF;
-  --sage-green-dark:  #6E8E6A;
-  --dusty-rose:       #D4A5A5;
-  --dusty-rose-light: #EAC8C8;
-  --soft-lavender:    #B8A9C9;
-  --warm-cream:       #FDF8F4;
-  --soft-peach:       #F5E0D3;
-  --charcoal:         #3D3D3D;
-  --charcoal-light:   #6B6B6B;
-  --off-white:        #FAFAF7;
+  /* Primary palette — muted, deeper tones */
+  --sage-green:       #799D75;
+  --sage-green-light: #A3BD9E;
+  --sage-green-dark:  #5A7B57;
+  --dusty-rose:       #BE8F8F;
+  --dusty-rose-light: #D4B4B4;
+  --soft-lavender:    #9D8EB0;
+  --warm-cream:       #F7F0E8; /* More earthy/stone background */
+  --soft-peach:       #EED8C9;
+  --charcoal:         #2D2D2D; /* Higher contrast text */
+  --charcoal-light:   #595959;
+  --off-white:        #F2F2ED;
 
-  /* Functional colors */
-  --success: #8FAE8B;
-  --warning: #E8C872;
-  --danger:  #D4A5A5;
-  --info:    #B8A9C9;
+  /* Functional colors - adjusted for darker theme */
+  --success: #799D75;
+  --warning: #D8B962;
+  --danger:  #BE8F8F;
+  --info:    #9D8EB0;
 
   /* Typography */
   --font-sans:  'Inter', system-ui, -apple-system, sans-serif;
@@ -106,10 +106,10 @@ p {
   right: 0;
   height: calc(var(--nav-height) + var(--safe-bottom));
   padding-bottom: var(--safe-bottom);
-  background: rgba(253, 248, 244, 0.92);
+  background: rgba(247, 240, 232, 0.95); /* Adjusted for --warm-cream */
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border-top: 1px solid rgba(143, 174, 139, 0.15);
+  border-top: 1px solid rgba(121, 157, 117, 0.2); /* Adjusted for --sage-green */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -284,12 +284,12 @@ p {
 
 /* ---------- Cards ---------- */
 .lumina-card {
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.7); /* Slightly more opaque against darker BG */
   backdrop-filter: blur(12px);
   border-radius: 20px;
   padding: 20px;
   margin-bottom: 16px;
-  border: 1px solid rgba(143, 174, 139, 0.08);
+  border: 1px solid rgba(121, 157, 117, 0.12);
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.04);
   transition: transform var(--transition-fast), box-shadow var(--transition-fast);
 }
