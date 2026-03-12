@@ -49,7 +49,7 @@ export class DashboardPage {
           <button class="date-nav-label" id="date-picker-btn">
             ${isToday ? 'Today' : CalendarService.formatLong(viewDate)}
           </button>
-          <button class="date-nav-btn" id="date-next" ${isToday ? 'disabled' : ''}>›</button>
+          <button class="date-nav-btn" id="date-next">›</button>
           ${!isToday ? '<button class="date-today-btn" id="date-today">Today</button>' : ''}
         </div>
 
@@ -97,44 +97,58 @@ export class DashboardPage {
         </div>` : ''}
 
         <!-- Medication Reminders -->
-        ${medications.length ? `
         <div class="lumina-card">
-          <div class="card-header"><span class="dot sage"></span>💊 MEDICATION REMINDERS</div>
+          <div class="card-header">
+            <span class="dot sage"></span>💊 MEDICATION REMINDERS
+            <button class="section-action float-right" id="add-med-dash-btn">+ Add</button>
+          </div>
           <div class="med-list" id="med-reminders">
+            ${medications.length === 0 ? '<p style="text-align:center;color:var(--charcoal-light);padding:10px;font-size:0.8rem;">No medications scheduled.</p>' : ''}
             ${medications.filter(m => m.active !== false).map(m => `
               <div class="med-item" data-id="${m.id}">
                 <div class="med-info">
                   <strong>${m.name}</strong>
-                  <small>${m.dosage} · ${m.frequency}</small>
+                  <small>${m.dosage || ''} · ${m.frequency || ''}</small>
                 </div>
-                <button class="med-check ${this._isMedTaken(habitsRecord, m.id) ? 'taken' : ''}" data-med="${m.id}">
-                  ${this._isMedTaken(habitsRecord, m.id) ? '✓' : '○'}
-                </button>
+                <div style="display:flex; gap:12px; align-items:center;">
+                  <button class="med-edit-dash-btn" data-id="${m.id}" style="background:none; border:none; padding:4px; cursor:pointer; opacity:0.6;">✏️</button>
+                  <button class="med-check ${this._isMedTaken(habitsRecord, m.id) ? 'taken' : ''}" data-med="${m.id}">
+                    ${this._isMedTaken(habitsRecord, m.id) ? '✓' : '○'}
+                  </button>
+                </div>
               </div>`).join('')}
           </div>
-        </div>` : ''}
+        </div>
 
         <!-- Daily Briefing -->
         <h2 class="section-title playfair">Today's Briefing</h2>
         <div class="lumina-card">
           <div class="card-header"><span class="dot sage"></span>BABY'S DEVELOPMENT</div>
-          <p>${weekData.babyDevelopment}</p>
+          <ul class="card-list">
+            ${ContentService.formatToPoints(weekData.babyDevelopment, 'baby')}
+          </ul>
         </div>
         <div class="lumina-card">
           <div class="card-header"><span class="dot rose"></span>YOUR BODY</div>
-          <p>${weekData.bodyChanges}</p>
+          <ul class="card-list">
+            ${ContentService.formatToPoints(weekData.bodyChanges, 'body')}
+          </ul>
         </div>
 
         ${weekData.nutrition?.length ? `
         <div class="lumina-card">
           <div class="card-header"><span class="dot green"></span>🥗 NUTRITION FOCUS</div>
-          <ul class="card-list">${weekData.nutrition.map(n => `<li>✦ ${n}</li>`).join('')}</ul>
+          <ul class="card-list">
+            ${weekData.nutrition.map(n => `<li><span class="point-emoji">🥑</span> ${n}</li>`).join('')}
+          </ul>
         </div>` : ''}
 
         ${weekData.warningSignsToWatch?.length ? `
         <div class="lumina-card warning-card">
           <div class="card-header"><span class="dot red"></span>⚠️ WARNING SIGNS TO WATCH</div>
-          <ul class="card-list">${weekData.warningSignsToWatch.map(w => `<li>• ${w}</li>`).join('')}</ul>
+          <ul class="card-list">
+            ${weekData.warningSignsToWatch.map(w => `<li><span class="point-emoji">🚨</span> ${w}</li>`).join('')}
+          </ul>
         </div>` : ''}
 
         <!-- Daily Habits -->
@@ -165,14 +179,14 @@ export class DashboardPage {
       </div>
     `;
 
-    this._attachListeners(dateISO, allHabits);
+    this._attachListeners(dateISO, allHabits, ge.dueDate);
   }
 
   _isMedTaken(habitsRecord, medId) {
     return (habitsRecord?.meds || []).includes(medId);
   }
 
-  _attachListeners(dateISO, allHabits) {
+  _attachListeners(dateISO, allHabits, dueDate) {
     // Date navigation
     document.getElementById('date-prev')?.addEventListener('click', () => {
       const d = CalendarService.fromISO(this._currentDate);
@@ -182,9 +196,10 @@ export class DashboardPage {
     document.getElementById('date-next')?.addEventListener('click', () => {
       const d = CalendarService.fromISO(this._currentDate);
       d.setDate(d.getDate() + 1);
-      const today = CalendarService.toISO(new Date());
+      
       const next = CalendarService.toISO(d);
-      if (next <= today) this._renderForDate(next);
+      const limit = CalendarService.toISO(dueDate);
+      if (next <= limit) this._renderForDate(next);
     });
     document.getElementById('date-today')?.addEventListener('click', () => {
       this._renderForDate(CalendarService.toISO(new Date()));
@@ -195,7 +210,7 @@ export class DashboardPage {
       const input = document.createElement('input');
       input.type = 'date';
       input.value = this._currentDate;
-      input.max = CalendarService.toISO(new Date());
+      input.max = CalendarService.toISO(dueDate);
       input.style.position = 'absolute';
       input.style.opacity = '0';
       document.body.appendChild(input);
@@ -270,6 +285,65 @@ export class DashboardPage {
 
     // Add custom habit
     document.getElementById('add-custom-habit')?.addEventListener('click', () => this._showAddHabitModal());
+
+    // Dashboard Medication Management
+    document.getElementById('add-med-dash-btn')?.addEventListener('click', () => this._showMedModal());
+    document.querySelectorAll('.med-edit-dash-btn').forEach(btn => {
+      btn.addEventListener('click', () => this._showMedModal(btn.dataset.id));
+    });
+  }
+
+  async _showMedModal(editId = null) {
+    const existing = editId ? await this._db.get('medications', editId) : null;
+    const overlay = document.createElement('div');
+    overlay.className = 'modal-overlay';
+    overlay.innerHTML = `
+      <div class="modal-card">
+        <h3>${existing ? 'Edit Medication' : 'Add Medication'}</h3>
+        <input type="text" class="lumina-input" id="med-name" placeholder="Medication name" value="${existing?.name || ''}">
+        <input type="text" class="lumina-input" id="med-dosage" placeholder="Dosage (e.g., 400mcg)" value="${existing?.dosage || ''}">
+        <select class="lumina-input" id="med-frequency">
+          <option value="Once daily" ${existing?.frequency === 'Once daily' ? 'selected' : ''}>Once daily</option>
+          <option value="Twice daily" ${existing?.frequency === 'Twice daily' ? 'selected' : ''}>Twice daily</option>
+          <option value="Three times daily" ${existing?.frequency === 'Three times daily' ? 'selected' : ''}>Three times daily</option>
+          <option value="Weekly" ${existing?.frequency === 'Weekly' ? 'selected' : ''}>Weekly</option>
+          <option value="As needed" ${existing?.frequency === 'As needed' ? 'selected' : ''}>As needed</option>
+        </select>
+        <input type="time" class="lumina-input" id="med-time" value="${existing?.time || '09:00'}">
+        <input type="text" class="lumina-input" id="med-notes" placeholder="Notes (optional)" value="${existing?.notes || ''}">
+        <div style="display:flex;gap:10px;margin-top:10px;">
+          <button class="lumina-btn primary full-width" id="med-save">Save</button>
+          ${existing ? '<button class="lumina-btn danger full-width" id="med-delete">Delete</button>' : ''}
+          <button class="lumina-btn secondary full-width" id="med-cancel">Cancel</button>
+        </div>
+      </div>`;
+    document.body.appendChild(overlay);
+
+    document.getElementById('med-cancel').addEventListener('click', () => overlay.remove());
+    if (document.getElementById('med-delete')) {
+      document.getElementById('med-delete').addEventListener('click', async () => {
+        if (!confirm('Delete this medication correctly?')) return;
+        await this._db.delete('medications', editId);
+        overlay.remove();
+        await this._renderForDate(this._currentDate);
+      });
+    }
+    document.getElementById('med-save').addEventListener('click', async () => {
+      const name = document.getElementById('med-name').value.trim();
+      if (!name) return;
+      const id = editId || `med-${Date.now()}`;
+      await this._db.put('medications', {
+        id,
+        name,
+        dosage: document.getElementById('med-dosage').value.trim(),
+        frequency: document.getElementById('med-frequency').value,
+        time: document.getElementById('med-time').value,
+        notes: document.getElementById('med-notes').value.trim(),
+        active: true,
+      });
+      overlay.remove();
+      await this._renderForDate(this._currentDate);
+    });
   }
 
   _showAddHabitModal() {

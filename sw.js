@@ -4,7 +4,7 @@
  * Cache-first strategy with network fallback.
  */
 
-const CACHE_NAME = 'lumina-v2';
+const CACHE_NAME = 'lumina-v3';
 
 // Every single asset that must be cached for offline use
 const ASSETS_TO_CACHE = [

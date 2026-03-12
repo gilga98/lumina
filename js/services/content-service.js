@@ -145,4 +145,31 @@ export class ContentService {
       { id: 'swollen', icon: '🦶', label: 'Swollen' },
     ];
   }
+
+  /**
+   * Formats a raw paragraph into list items with visual cues.
+   * @param {string} text 
+   * @param {'baby' | 'body' | 'tip' | 'exercise' | 'nutrition' | 'warning'} type 
+   * @returns {string} HTML string of <li> items
+   */
+  static formatToPoints(text, type = 'baby') {
+    if (!text) return '';
+    const emojiMap = {
+      baby: '👶',
+      body: '🤰',
+      tip: '💡',
+      exercise: '🧘‍♀️',
+      nutrition: '🍎',
+      warning: '⚠️'
+    };
+    const emoji = emojiMap[type] || '✦';
+    
+    // Split by sentences, but be careful with abbreviations like cm. or g.
+    // A simple regex approach: split by period followed by space.
+    return text.split(/(?<=\w\.)\s+/).map(sentence => {
+      const trimmed = sentence.trim();
+      if (!trimmed) return '';
+      return `<li><span class="point-emoji">${emoji}</span> ${trimmed}</li>`;
+    }).join('');
+  }
 }

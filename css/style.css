@@ -1462,10 +1462,20 @@ a.lumina-btn.secondary, a.lumina-btn.secondary:visited, a.lumina-btn.secondary:h
 }
 
 .card-list li {
-  padding: 6px 0;
-  font-size: 0.88rem;
+  padding: 8px 0;
+  font-size: 0.9rem;
   color: var(--charcoal-light);
-  line-height: 1.5;
+  line-height: 1.6;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.point-emoji {
+  font-size: 1.2rem;
+  flex-shrink: 0;
+  margin-top: -2px; /* Visual center alignment with line height */
+  display: inline-flex;
 }
 
 /* Progress bar */

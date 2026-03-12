@@ -64,26 +64,28 @@ export class LibraryPage {
       <div class="lumina-card">
         <div class="card-header"><span class="dot sage"></span>WEEK ${w.week}</div>
         <h3 class="playfair">${w.fruitEmoji} Baby is the size of a ${w.fruitName}</h3>
-        <p>${w.babyDevelopment}</p>
-        <p style="margin-top:10px;">${w.bodyChanges}</p>
+        <ul class="card-list">
+          ${ContentService.formatToPoints(w.babyDevelopment, 'baby')}
+          ${ContentService.formatToPoints(w.bodyChanges, 'body')}
+        </ul>
       </div>
 
       ${w.tips?.length ? `
       <div class="lumina-card">
         <div class="card-header"><span class="dot sage"></span>TIPS FOR WEEK ${w.week}</div>
-        <ul class="card-list">${w.tips.map(t => `<li>✦ ${t}</li>`).join('')}</ul>
+        <ul class="card-list">${w.tips.map(t => `<li><span class="point-emoji">💡</span> ${t}</li>`).join('')}</ul>
       </div>` : ''}
 
       ${w.exercises?.length ? `
       <div class="lumina-card">
         <div class="card-header"><span class="dot sage"></span>🏃‍♀️ RECOMMENDED EXERCISES</div>
-        <ul class="card-list">${w.exercises.map(e => `<li>✦ ${e}</li>`).join('')}</ul>
+        <ul class="card-list">${w.exercises.map(e => `<li><span class="point-emoji">🧘‍♀️</span> ${e}</li>`).join('')}</ul>
       </div>` : ''}
 
       ${w.nutrition?.length ? `
       <div class="lumina-card">
         <div class="card-header"><span class="dot green"></span>🥗 NUTRITION FOCUS</div>
-        <ul class="card-list">${w.nutrition.map(n => `<li>✦ ${n}</li>`).join('')}</ul>
+        <ul class="card-list">${w.nutrition.map(n => `<li><span class="point-emoji">🍎</span> ${n}</li>`).join('')}</ul>
       </div>` : ''}
 
       <h3 class="playfair" style="margin-top:20px;">Browse by Week</h3>
@@ -112,11 +114,11 @@ export class LibraryPage {
     content.innerHTML = `
       <div class="lumina-card">
         <div class="card-header"><span class="dot green"></span>✅ DO's FOR WEEK ${w.week}</div>
-        <ul class="card-list do-list">${(w.dosAndDonts?.do || []).map(d => `<li>✓ ${d}</li>`).join('')}</ul>
+        <ul class="card-list do-list">${(w.dosAndDonts?.do || []).map(d => `<li><span class="point-emoji">✅</span> ${d}</li>`).join('')}</ul>
       </div>
       <div class="lumina-card">
         <div class="card-header"><span class="dot red"></span>❌ DON'Ts FOR WEEK ${w.week}</div>
-        <ul class="card-list dont-list">${(w.dosAndDonts?.dont || []).map(d => `<li>✗ ${d}</li>`).join('')}</ul>
+        <ul class="card-list dont-list">${(w.dosAndDonts?.dont || []).map(d => `<li><span class="point-emoji">❌</span> ${d}</li>`).join('')}</ul>
       </div>
     `;
   }
