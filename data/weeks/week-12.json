@@ -1,49 +1,49 @@
 {
   "week": 12,
   "fruitName": "Lime",
-  "fruitEmoji": "\ud83c\udf48",
-  "babySize": "2.1 inches",
-  "babyWeight": "14 grams",
+  "fruitEmoji": "🍋",
+  "babySize": "5.4 cm",
+  "babyWeight": "14g",
   "illustration": "assets/medical/week-12.png",
-  "babyDevelopment": "Reflexes are developing. Fingers and toes separate and claws/nails start to grow. The digestive system is contracting.",
-  "bodyChanges": "Your uterus rises out of the pelvis, easing pressure on the bladder. Miscarriage risk drops significantly.",
+  "babyDevelopment": "The fetus is developing reflexes. If the abdomen is touched, the baby will squirm (though you still can't feel it). The kidneys are producing urine, which is released into the amniotic sac. The brain's nerve cells are multiplying rapidly.",
+  "bodyChanges": "The risk of miscarriage drops significantly after this week. Your uterus is moving out of your pelvis and into your abdomen, which might reduce bladder pressure slightly. You may start to feel more energetic.",
   "tips": [
-    "Celebrate the end of the first trimester!",
-    "Start looking for maternity clothes",
-    "Schedule your NT scan"
+    "Plan your 'babymoon' or travel during the second trimester",
+    "Share the news with friends and family if you haven't yet",
+    "Maintain a balanced diet with plenty of nutrients"
   ],
   "dosAndDonts": {
     "do": [
-      "Announce your pregnancy if you wish",
-      "Eat a varied diet",
-      "Maintain good posture"
+      "Keep taking prenatal vitamins",
+      "Eat small, frequent meals if nausea persists",
+      "Focus on good posture as your center of gravity shifts"
     ],
     "dont": [
-      "Begin new, intense workout routines",
-      "Skip meals",
-      "Expose yourself to sick people needlessly"
+      "Smoke or consume alcohol",
+      "Use unapproved medications",
+      "Ignore your body's signals for rest"
     ]
   },
   "travelAdvisory": {
     "safe": true,
     "level": "green",
-    "note": "Perfect time to plan a Babymoon for the second trimester!"
+    "note": "Most airlines allow travel up to week 36, but check specific rules."
   },
   "nutrition": [
-    "Iron",
-    "Vitamin B12",
-    "Folic acid"
+    "Iron-rich foods (spinach, red meat)",
+    "Folic acid (fortified grains)",
+    "Hydration"
   ],
   "exercises": [
-    "Swimming",
-    "Yoga",
-    "Light weights"
+    "Kegels",
+    "Walking",
+    "Stretching"
   ],
   "warningSignsToWatch": [
-    "Fluid leaking from vagina",
-    "Bleeding after 12 weeks",
-    "Severe cramps"
+    "Severe cramping",
+    "Heavy bleeding",
+    "Fever over 100.4°F (38°C)"
   ],
-  "milestoneTitle": "End of First Trimester",
-  "milestoneDescription": "Congratulations! You've made it through the most critical developmental stage."
+  "milestoneTitle": "Reflex Development",
+  "milestoneDescription": "Reflexes are beginning to form as the brain and muscles connect."
 }

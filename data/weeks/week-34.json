@@ -1,49 +1,49 @@
 {
   "week": 34,
-  "fruitName": "Butternut Squash",
-  "fruitEmoji": "\ud83c\udf83",
-  "babySize": "17.7 inches",
-  "babyWeight": "4.7 lbs",
+  "fruitName": "Cantaloupe",
+  "fruitEmoji": "🍈",
+  "babySize": "45 cm",
+  "babyWeight": "2.1kg",
   "illustration": null,
-  "babyDevelopment": "Most babies flip to a head-down (vertex) position by now in preparation for birth. Fat layers are regulating body temperature.",
-  "bodyChanges": "Fatigue is returning. Your vision might seem blurry due to fluid retention and hormones altering the shape of your eyes.",
+  "babyDevelopment": "The baby's lungs and central nervous system are almost fully mature. The fat layers are thickening, giving the baby the familiar 'chubby' appearance. The baby is likely staying in a head-down position now.",
+  "bodyChanges": "You might feel 'lightening' as the baby's head settles lower into your pelvis. This might make breathing easier but increase pressure on your bladder. You may experience occasional 'numbness' in your legs or groin.",
   "tips": [
-    "Familiarize yourself with the signs of labor",
-    "Get your baby's sleeping area ready",
-    "Go on a date night"
+    "Finalize your birth plan with your doctor",
+    "Keep monitoring kick counts carefully",
+    "Incorporate more Vitamin K-rich foods if safe"
   ],
   "dosAndDonts": {
     "do": [
-      "Discuss Group B Strep (GBS) testing",
-      "Take daytime naps",
-      "Elevate legs to reduce swelling"
+      "Focus on good pelvic alignment",
+      "Stay hydrated",
+      "Walk periodically to improve circulation"
     ],
     "dont": [
-      "Buy new prescription glasses now",
-      "Panic if baby is still breech (there is still time)",
-      "Ignore sudden visual changes"
+      "Panic if you feel increased pelvic pressure",
+      "Skip your weekly prenatal screenings",
+      "Overheat in hot water"
     ]
   },
   "travelAdvisory": {
-    "safe": false,
+    "safe": true,
     "level": "red",
-    "note": "Do not travel."
+    "note": "Highly recommended to stay close to your birthing facility."
   },
   "nutrition": [
-    "Iron",
-    "Protein",
-    "Fiber"
+    "Vitamin K (kale, spinach)",
+    "Calcium",
+    "Iron"
   ],
   "exercises": [
-    "Pelvic floor exercises",
+    "Walking",
     "Swimming",
-    "Yoga"
+    "Pelvic tilts"
   ],
   "warningSignsToWatch": [
-    "Regular painful contractions",
-    "Water breaking",
-    "Any vaginal bleeding"
+    "Significant Decrease in fetal movement",
+    "Regular, increasing contractions",
+    "Unusual discharge or bleeding"
   ],
-  "milestoneTitle": "Head Down",
-  "milestoneDescription": "Baby is likely turning head-down into the prime birthing position."
+  "milestoneTitle": "Lung Maturity",
+  "milestoneDescription": "Baby's lungs are reaching a high level of maturity, preparing for the first breath."
 }

@@ -1,49 +1,49 @@
 {
   "week": 31,
-  "fruitName": "Asparagus",
-  "fruitEmoji": "\ud83e\udd6c",
-  "babySize": "16.1 inches",
-  "babyWeight": "3.3 lbs",
+  "fruitName": "Coconut",
+  "fruitEmoji": "🥥",
+  "babySize": "41.1 cm",
+  "babyWeight": "1.5kg",
   "illustration": null,
-  "babyDevelopment": "The baby is going through a massive growth spurt. All five senses are in working order. They can perceive light and dark signals.",
-  "bodyChanges": "Your breasts might begin to leak colostrum (the nutrient-rich first milk). Braxton Hicks contractions might become stronger and more frequent.",
+  "babyDevelopment": "The baby is now able to turn its head from side to side. Nerve connections in the brain are becoming more complex. The baby is gaining weight quickly as its layers of fat continue to build. The lungs are continuing to mature.",
+  "bodyChanges": "You may experience 'shortness of breath' more easily as the baby takes up more space. Pelvic pressure and backaches may intensify. You might notice 'leaking' from your breasts becoming more frequent. Sleep may be more difficult due to discomfort.",
   "tips": [
-    "Buy nursing bras and breast pads",
-    "Read up on breastfeeding (if you plan to)",
-    "Finalize your birth plan"
+    "Practice your breathing techniques for labor",
+    "Monitor baby's movement several times a day",
+    "Sleep with adequate support for your back and bump"
   ],
   "dosAndDonts": {
     "do": [
-      "Drink plenty of water",
-      "Massage your perineum with a safe oil",
-      "Keep track of kicks"
+      "Maintain a consistent, light exercise routine",
+      "Stay hydrated",
+      "Eat small, nutrient-dense meals"
     ],
     "dont": [
-      "Express colostrum early unless advised by an OB",
-      "Lift heavy objects",
-      "Wear restrictive clothing"
+      "Lift heavy objects that strain your body",
+      "Ignore signs of severe, persistent back pain",
+      "Over-exert yourself in hot weather"
     ]
   },
   "travelAdvisory": {
-    "safe": false,
-    "level": "red",
-    "note": "Travel off-limits."
+    "safe": true,
+    "level": "yellow",
+    "note": "Keep travel local; consult your doctor for any trips."
   },
   "nutrition": [
-    "Vitamin K",
-    "Iron",
-    "Protein"
+    "DHA for brain health",
+    "Calcium-rich snacks",
+    "Lean protein"
   ],
   "exercises": [
-    "Perineal massage",
-    "Kegels",
-    "Light stretching"
+    "Walking",
+    "Gentle swimming",
+    "Prenatal pilates"
   ],
   "warningSignsToWatch": [
-    "Leaking amniotic fluid",
-    "Regular contractions",
-    "Signs of preeclampsia"
+    "Severe abdominal pain",
+    "Sudden swelling in face or hands",
+    "Persistent decrease in fetal movement"
   ],
-  "milestoneTitle": "Five Senses Active",
-  "milestoneDescription": "Baby's senses are fully active. They can taste, touch, hear, see, and smell!"
+  "milestoneTitle": "Head Mobility",
+  "milestoneDescription": "Baby can now turn its head from side to side as muscles and coordination improve."
 }

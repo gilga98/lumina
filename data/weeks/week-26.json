@@ -1,49 +1,49 @@
 {
   "week": 26,
-  "fruitName": "Scallion",
-  "fruitEmoji": "\ud83e\uddc5",
-  "babySize": "14.0 inches",
-  "babyWeight": "1.7 lbs",
+  "fruitName": "Zucchini",
+  "fruitEmoji": "🥒",
+  "babySize": "35.6 cm",
+  "babyWeight": "760g",
   "illustration": null,
-  "babyDevelopment": "The baby's eyes, which have been fused shut, finally open! They can see light and dark variations through the uterine wall. The brain is active and processing images and sounds.",
-  "bodyChanges": "Your blood pressure may be slightly elevated compared to the second-trimester low. You might feel rib pain as the baby stretches out.",
+  "babyDevelopment": "The baby is starting to inhale and exhale small amounts of amniotic fluid, essential for lung development. Eyes are beginning to open, and the iris is becoming pigmented. The baby's response to light becomes more pronounced.",
+  "bodyChanges": "You may experience Braxton Hicks contractions more frequently. Your back might feel more strain as the uterus continues to expand. Some women notice 'pregnancy-induced carpal tunnel' syndrome symptoms becoming more apparent.",
   "tips": [
-    "Pre-register at your hospital or birthing center",
-    "Talk to the baby\u2014they're listening closely",
-    "Practice relaxation techniques"
+    "Practice pelvic floor exercises (Kegels) to support your bladder and pelvic organs",
+    "Sleep with a pillow between your knees to align your hips and reduce back pain",
+    "Keep up with regular, light walking to improve circulation"
   ],
   "dosAndDonts": {
     "do": [
-      "Watch your salt intake if swelling",
-      "Do stretching exercises for rib pain",
-      "Prepare siblings or pets for the new arrival"
+      "Hydrate well to manage fluid retention",
+      "Focus on good spinal alignment",
+      "Discuss any unusual symptoms during your prenatal visits"
     ],
     "dont": [
-      "Overexert yourself",
-      "Lift heavy objects",
-      "Ignore sudden weight gain"
+      "Overheat in hot showers or baths",
+      "Lift heavy objects that put strain on your back",
+      "Ignore persistent, significant swelling"
     ]
   },
   "travelAdvisory": {
     "safe": true,
-    "level": "yellow",
-    "note": "Start restricting travel to areas with good medical care."
+    "level": "green",
+    "note": "Safe to travel; ensure you take frequent breaks to walk."
   },
   "nutrition": [
-    "Magnesium (nuts, seeds) for muscles",
-    "Vitamin E",
-    "Calcium"
+    "DHA for brain development",
+    "Vitamin D",
+    "Magnesium"
   ],
   "exercises": [
-    "Brisk walking",
-    "Stretches for rib/back pain",
-    "Meditation"
+    "Swimming",
+    "Walking",
+    "Prenatal pilates"
   ],
   "warningSignsToWatch": [
-    "Sudden severe swelling of hands/face",
-    "Headache that won't go away with Tylenol",
-    "Changes in vision"
+    "Intense, regular contractions",
+    "Sudden, severe back pain",
+    "Significant, pitting edema"
   ],
-  "milestoneTitle": "Eyes Wide Open",
-  "milestoneDescription": "Your baby can open their eyes and see the light filtering in!"
+  "milestoneTitle": "Eyes Opening",
+  "milestoneDescription": "Baby's eyes open for the first time, and pupil response to light begins."
 }

@@ -1,49 +1,49 @@
 {
   "week": 1,
-  "fruitName": "Cell",
-  "fruitEmoji": "\ud83c\udf11",
-  "babySize": "0.01 inches",
-  "babyWeight": "<1 gram",
+  "fruitName": "No Fruit Yet",
+  "fruitEmoji": "✨",
+  "babySize": "Microscopic",
+  "babyWeight": "0g",
   "illustration": "assets/medical/week-01.png",
-  "babyDevelopment": "Technically, you're not pregnant yet. This is the week of your period. Your body is shedding the uterine lining and preparing a new egg in an ovarian follicle for ovulation.",
-  "bodyChanges": "You are experiencing your normal menstrual cycle. Estrogen levels are rising to thicken the uterine lining again.",
+  "babyDevelopment": "Technically, you're not pregnant yet. This is the week of your period. Your body is shedding the old uterine lining while estrogen and progesterone stimulate your ovaries to start developing another egg for ovulation.",
+  "bodyChanges": "Menstruation is occurring. You may experience cramps, bloating, and fatigue. Your hormones are resetting to prepare for a successful ovulation and potential implantation in about 14 days.",
   "tips": [
-    "Start taking prenatal vitamins with folic acid",
-    "Track your basal body temperature",
-    "Maintain a balanced diet"
+    "Track your cycle length accurately",
+    "Start taking 400mcg of Folic Acid daily",
+    "Switch from ibuprofen to acetaminophen if trying to conceive"
   ],
   "dosAndDonts": {
     "do": [
-      "Take 400mcg of folic acid daily",
-      "Track your cycle",
-      "Stay hydrated"
+      "Keep a menstrual calendar",
+      "Hydrate well to manage bloating",
+      "Prioritize 8 hours of sleep"
     ],
     "dont": [
-      "Smoke or drink alcohol",
-      "Over-stress",
-      "Take unapproved medications"
+      "Use harsh chemical cleaners",
+      "Ignore persistent pelvic pain",
+      "Consuming excess caffeine"
     ]
   },
   "travelAdvisory": {
     "safe": true,
     "level": "green",
-    "note": "Travel is completely safe during this pre-conception phase."
+    "note": "Travel is perfectly safe as fertilization hasn't occurred yet."
   },
   "nutrition": [
-    "Folic acid (leafy greens, beans)",
-    "Iron-rich foods",
-    "Vitamin C"
+    "Iron-rich foods (spinach, lentils)",
+    "Folic Acid (leafy greens)",
+    "Vitamin C for iron absorption"
   ],
   "exercises": [
-    "Regular cardiovascular exercise",
-    "Strength training",
-    "Yoga stretches"
+    "Light cardio",
+    "Yoga for cramp relief",
+    "Pelvic floor awareness"
   ],
   "warningSignsToWatch": [
-    "Unusually heavy bleeding during period",
-    "Severe pelvic pain",
-    "Irregular cycles"
+    "Soaking more than one pad per hour",
+    "Severe localized pelvic pain",
+    "Fever during menstruation"
   ],
-  "milestoneTitle": "Preparation Phase",
-  "milestoneDescription": "Your body is clearing the slate and preparing for a potential pregnancy."
+  "milestoneTitle": "The Starting Line",
+  "milestoneDescription": "Your body is clearing the way for a brand new journey."
 }

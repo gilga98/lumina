@@ -1,49 +1,49 @@
 {
   "week": 30,
-  "fruitName": "Zucchini",
-  "fruitEmoji": "\ud83e\udd52",
-  "babySize": "15.7 inches",
-  "babyWeight": "2.9 lbs",
+  "fruitName": "Large Cabbage",
+  "fruitEmoji": "🥬",
+  "babySize": "39.9 cm",
+  "babyWeight": "1.3kg",
   "illustration": null,
-  "babyDevelopment": "Your baby is getting heavier. The lanugo (fine body hair) is starting to disappear. The brain has taken on a wrinkled appearance to increase surface area.",
-  "bodyChanges": "You may be feeling breathless as the uterus pushes up against your diaphragm. Night sweats and strange dreams are very common right now.",
+  "babyDevelopment": "The baby's brain is now taking on its familiar wrinkled appearance. The baby is starting to shed the lanugo (fine hair). The eyesight is continuing to improve, and the baby can distinguish between light and shadow. Red blood cell production is transitioning to the bone marrow.",
+  "bodyChanges": "You might experience more fatigue as the baby grows. Some women notice 'heartburn' and 'insomnia' intensifying. Your belly might feel tighter and more stretched. Mood swings may return as you approach the final weeks.",
   "tips": [
-    "Start washing baby clothes in gentle, unscented detergent",
-    "Take a hospital tour",
-    "Practice the route to the hospital"
+    "Monitor kick counts daily",
+    "Sleep with several pillows for maximum comfort",
+    "Discuss your birth preferences with your partner"
   ],
   "dosAndDonts": {
     "do": [
-      "Take breaks and rest frequently",
-      "Use supportive pillows at night",
-      "Discuss pain management options for labor"
+      "Focus on relaxation and stress reduction",
+      "Maintain a consistent, light exercise routine",
+      "Stay hydrated"
     ],
     "dont": [
-      "Push yourself to exhaustion",
-      "Ignore severe pubic bone pain (SPD)",
-      "Forget to count kicks"
+      "Consume excessive refined sugar or caffeine",
+      "Over-schedule yourself; prioritize rest",
+      "Ignore signs of persistent, painful contractions"
     ]
   },
   "travelAdvisory": {
-    "safe": false,
-    "level": "red",
-    "note": "Travel not recommended."
+    "safe": true,
+    "level": "yellow",
+    "note": "Keep travel local and consult your doctor."
   },
   "nutrition": [
-    "Calcium",
-    "Iron",
-    "Fiber-rich fruits and veg"
+    "Iron-rich foods",
+    "DHA and Omega-3",
+    "Magnesium"
   ],
   "exercises": [
+    "Walking",
     "Prenatal yoga",
-    "Birthing ball exercises",
-    "Gentle walking"
+    "Stretching"
   ],
   "warningSignsToWatch": [
-    "Spotting",
-    "Water breaking",
-    "Fewer kicks than normal"
+    "Sudden, extreme headaches",
+    "Drastic decrease in baby's movement",
+    "Persistent vomiting"
   ],
-  "milestoneTitle": "Brain Wrinkling",
-  "milestoneDescription": "The baby's brain is folding and wrinkling to prepare for advanced processing."
+  "milestoneTitle": "Brain Convolution",
+  "milestoneDescription": "Baby's brain is becoming more complex with deeper grooves and folds."
 }

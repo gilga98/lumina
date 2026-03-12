@@ -1,49 +1,49 @@
 {
   "week": 15,
   "fruitName": "Apple",
-  "fruitEmoji": "\ud83c\udf4e",
-  "babySize": "4.0 inches",
-  "babyWeight": "2.5 oz",
+  "fruitEmoji": "🍎",
+  "babySize": "10.1 cm",
+  "babyWeight": "70g",
   "illustration": null,
-  "babyDevelopment": "Skin is very thin and translucent. They are moving rapidly\u2014kicking, curling toes, moving arms\u2014though you likely can't feel it quite yet. The heart pumps 100 pints of blood daily.",
-  "bodyChanges": "You might experience 'pregnancy brain'\u2014forgetfulness or lack of focus. Nasal congestion and occasional nosebleeds are common due to swollen mucous membranes.",
+  "babyDevelopment": "The baby's skin is very thin and transparent. Fine blood vessels are visible. Sucking and swallowing motions are being practiced. The skeleton is continuing to harden (ossification) from cartilage to bone.",
+  "bodyChanges": "You might experience nasal congestion due to increased blood flow to mucous membranes. Some women notice 'round ligament pain'—sharp, short pains in the lower abdomen or groin as the uterus grows.",
   "tips": [
-    "Use a saline nasal spray for congestion",
-    "Start a baby registry",
-    "Keep a to-do list to help with forgetfulness"
+    "Use a saline spray for nasal congestion",
+    "Invest in a good supportive pillow for sleep",
+    "Eat small, frequent meals to avoid heartburn"
   ],
   "dosAndDonts": {
     "do": [
-      "Use a humidifier at night",
-      "Continue dental checkups",
-      "Track weight gain (approx 1 lb per week now)"
+      "Move slowly when changing positions to avoid round ligament pain",
+      "Stay hydrated",
+      "Incorporate calcium and Vitamin D into your diet"
     ],
     "dont": [
-      "Use harsh decongestants without checking with OB",
-      "Sit for long periods without moving",
-      "Ignore severe leg cramps"
+      "Overexert yourself with new, high-impact workouts",
+      "Ignore any signs of dental problems",
+      "Skip your monthly prenatal check-up"
     ]
   },
   "travelAdvisory": {
     "safe": true,
     "level": "green",
-    "note": "Travel safely! Drink extra water on planes to combat dry air."
+    "note": "Keep moving during long flights or car rides."
   },
   "nutrition": [
-    "Vitamin C for blood vessels",
-    "Vitamin A (beta-carotene from sweet potatoes)",
-    "Iron"
+    "Calcium (cheese, almonds)",
+    "Vitamin D",
+    "Complex carbohydrates"
   ],
   "exercises": [
-    "Stationary bike",
-    "Yoga",
-    "Swimming"
+    "Swimming",
+    "Walking",
+    "Stretching"
   ],
   "warningSignsToWatch": [
-    "Persistent headache",
-    "Vision spots",
-    "Heavy vaginal discharge"
+    "Severe round ligament pain that persists",
+    "Sudden, large amount of vaginal discharge",
+    "Signs of a bladder infection"
   ],
-  "milestoneTitle": "Rapid Movement",
-  "milestoneDescription": "Your baby is performing gymnastics in the uterus, building muscle strength."
+  "milestoneTitle": "Skeleton Hardening",
+  "milestoneDescription": "Soft cartilage is slowly turning into hard bone throughout the baby's body."
 }

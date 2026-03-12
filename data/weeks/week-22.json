@@ -1,49 +1,49 @@
 {
   "week": 22,
-  "fruitName": "Spaghetti Squash",
-  "fruitEmoji": "\ud83c\udf5d",
-  "babySize": "11 inches",
-  "babyWeight": "15.2 oz",
+  "fruitName": "Papaya",
+  "fruitEmoji": "🥭",
+  "babySize": "27.8 cm",
+  "babyWeight": "430g",
   "illustration": "assets/medical/week-22.png",
-  "babyDevelopment": "Rapid brain growth! To accommodate this, the skull is growing quickly. Tear ducts are developing, and eyebrows/eyelashes are well-defined.",
-  "bodyChanges": "Your body is producing more melanin, so you might notice a 'linea nigra' (dark line down your belly) or darker areolas. Stretch marks may begin to appear.",
+  "babyDevelopment": "The baby's senses are continuing to develop. Taste buds are forming on the tongue. The reproductive system is maturing—in boys, the testes are beginning to descend; in girls, the ovaries and uterus are in place. Eyes are formed but the lids are still fused.",
+  "bodyChanges": "Stretch marks might start appearing on your belly, breasts, or thighs. Your heart and lungs are working harder to support the growing baby. You may notice your belly button 'popping' out as the uterus expands.",
   "tips": [
-    "Use belly oils to help with stretching skin",
-    "Start thinking about circumcision preferences (if having a boy)",
-    "Tour hospitals/birthing centers"
+    "Moisturize your skin to manage itching and stretch marks",
+    "Keep moving to improve circulation and reduce swelling",
+    "Ensure you're getting enough magnesium for muscle health"
   ],
   "dosAndDonts": {
     "do": [
-      "Wear comfortable cotton underwear",
-      "Keep taking your prenatal vitamins",
-      "Do regular pelvic floor exercises"
+      "Wear comfortable, non-restrictive clothing",
+      "Maintain a consistent sleep routine",
+      "Walk periodically if sitting for long periods"
     ],
     "dont": [
-      "Worry about stretch marks, they are normal",
-      "Use hot tubs or saunas",
-      "Eat unpasteurized cheeses"
+      "Lift heavy objects that strain your core",
+      "Skip your prenatal screenings",
+      "Worry excessively about stretch marks (mostly genetic)"
     ]
   },
   "travelAdvisory": {
     "safe": true,
     "level": "green",
-    "note": "Travel is safe."
+    "note": "Safe to travel; pack compression socks for long trips."
   },
   "nutrition": [
-    "Vitamin D",
-    "Calcium",
-    "Zinc for immune system"
+    "Magnesium (almonds, spinach)",
+    "Omega-3 fatty acids",
+    "Lean protein"
   ],
   "exercises": [
-    "Pelvic tilts",
-    "Kegels",
-    "Light walking"
+    "Walking",
+    "Swimming",
+    "Gentle aqua-aerobics"
   ],
   "warningSignsToWatch": [
-    "More than 4-5 contractions in an hour",
-    "Sudden gush of fluid",
-    "Decreased fetal movement"
+    "Severe back pain that radiates",
+    "Sudden, large weight gain in leading to swelling",
+    "Unusual vaginal bleeding"
   ],
-  "milestoneTitle": "Brain Growth Spurt",
-  "milestoneDescription": "Baby's brain is rapidly developing, increasing their cognitive abilities."
+  "milestoneTitle": "Sensory Refinement",
+  "milestoneDescription": "Baby's taste buds and reproductive system are maturing rapidly."
 }

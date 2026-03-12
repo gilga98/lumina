@@ -1,49 +1,49 @@
 {
   "week": 8,
   "fruitName": "Raspberry",
-  "fruitEmoji": "\ud83e\uded0",
-  "babySize": "0.63 inches",
-  "babyWeight": "1 gram",
+  "fruitEmoji": "🍓",
+  "babySize": "1.6 cm",
+  "babyWeight": "1.5g",
   "illustration": "assets/medical/week-08.png",
-  "babyDevelopment": "Fingers and toes begin to form (webbed). The tail vanishes. Taste buds are forming, and nerve cells are connecting.",
-  "bodyChanges": "Your uterus has grown from the size of a lemon to a grapefruit. You may feel mild cramping as it expands.",
+  "babyDevelopment": "The baby is officially a fetus! All major organs and systems are now present in rudimentary form. Fingers and toes are beginning to lose their webbing. Tiny elbows can now flex. The unique tip of the nose is becoming visible.",
+  "bodyChanges": "Morning sickness often peaks around this time. Your blood volume is rising by 40-50% to support the pregnancy. You might experience vivid dreams due to hormones and disrupted sleep patterns.",
   "tips": [
-    "Prepare a list of questions for your OB/GYN",
-    "Wear comfortable, loose clothing",
-    "Eat high-fiber to combat constipation"
+    "Consider genetic screening options with your doctor",
+    "Invest in a well-fitting, wire-free bra",
+    "Maintain a regular sleep schedule"
   ],
   "dosAndDonts": {
     "do": [
-      "Discuss genetic testing with your doctor",
-      "Eat prunes or bran",
-      "Exercise gently"
+      "Keep a small snack like almonds in your bag",
+      "Listen to relaxing music to reduce stress",
+      "Stay hydrated to support blood volume increase"
     ],
     "dont": [
-      "Use laxatives without a doctor",
-      "Ignore persistent headaches",
-      "Dye your hair just yet (wait until 2nd trimester)"
+      "Worry about 'eating for two' (you only need ~100 extra kcal now)",
+      "Consuming unpasteurized soft cheeses (Brie, Camembert)",
+      "Perform high-impact sports with fall risks"
     ]
   },
   "travelAdvisory": {
     "safe": true,
     "level": "green",
-    "note": "Safe. Consider scheduling your first prenatal visit before flying."
+    "note": "Safe to travel; manage nausea proactively."
   },
   "nutrition": [
-    "Dietary fiber (oats, fruit)",
-    "Nuts and seeds",
-    "Adequate water"
+    "Calcium from yogurt or spinach",
+    "Vitamin D (sunlight and fortified foods)",
+    "Whole grain bread"
   ],
   "exercises": [
-    "Pelvic floor exercises",
+    "Low-impact cycling",
     "Walking",
-    "Light resistance bands"
+    "Gentle stretching"
   ],
   "warningSignsToWatch": [
-    "Heavy bleeding",
-    "Foul-smelling discharge",
-    "Severe vomiting"
+    "Localized abdominal redness or heat",
+    "Severe headache",
+    "Extreme swelling of hands and feet"
   ],
-  "milestoneTitle": "First Ultrasound",
-  "milestoneDescription": "Most moms get their first dating ultrasound around this time!"
+  "milestoneTitle": "Fetal Phase",
+  "milestoneDescription": "The embryonic stage is over. Your baby is now officially a fetus."
 }

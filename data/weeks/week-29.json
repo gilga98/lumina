@@ -1,49 +1,49 @@
 {
   "week": 29,
   "fruitName": "Acorn Squash",
-  "fruitEmoji": "\ud83e\udd54",
-  "babySize": "15.2 inches",
-  "babyWeight": "2.5 lbs",
+  "fruitEmoji": "🎃",
+  "babySize": "38.6 cm",
+  "babyWeight": "1.2kg",
   "illustration": null,
-  "babyDevelopment": "The baby's muscles and lungs are continuing to mature. Their bones are fully formed but still pliant to allow for an easier birth journey.",
-  "bodyChanges": "You may feel the baby 'hiccup'\u2014rhythmic little jumps in your belly! As your belly stretches, you might experience itchy skin or an outie belly button.",
+  "babyDevelopment": "The baby is becoming more sensitive to light and sound. The head is growing larger to accommodate the rapidly developing brain. Muscles and lungs are continuing to mature. The baby might start positioning itself head-down.",
+  "bodyChanges": "You may feel more uncomfortable as the uterus pushes into your ribs. Constipation and gas might be more frequent. Your breasts may start leaking colostrum (the first milk), which is normal preparation for nursing.",
   "tips": [
-    "Moisturize your stretching skin",
-    "Install the car seat and get it inspected",
-    "Discuss cord blood banking options"
+    "Incorporate more calcium for baby's bone development",
+    "Practice pelvic floor exercises regularly",
+    "Keep up with your kick counts"
   ],
   "dosAndDonts": {
     "do": [
-      "Eat frequent, small meals to avoid heartburn",
-      "Moisturize skin daily",
-      "Wear comfortable shoes"
+      "Drink at least 2.5L of water daily",
+      "Use absorbent pads in your bra if leaking colostrum",
+      "Focus on deep breathing during activities"
     ],
     "dont": [
-      "Panic over practice contractions",
-      "Rest on your back",
-      "Let constipation linger"
+      "Ignore persistent, significant swelling",
+      "Lift heavy objects that put strain on your back",
+      "Stop exercising unless advised otherwise"
     ]
   },
   "travelAdvisory": {
-    "safe": false,
-    "level": "red",
-    "note": "Travel not recommended."
+    "safe": true,
+    "level": "yellow",
+    "note": "Short trips are safer; carry medical records."
   },
   "nutrition": [
-    "Protein",
-    "Vitamin C",
-    "Folic Acid"
+    "Calcium",
+    "Fiber-rich fruits and veggies",
+    "Protein"
   ],
   "exercises": [
-    "Stationary cycling",
+    "Walking",
     "Swimming",
-    "Stretching"
+    "Gentle stretching"
   ],
   "warningSignsToWatch": [
-    "Preterm labor",
-    "Decreased kicks",
-    "Severe headache"
+    "Reduced fetal movement",
+    "Sudden, severe back pain",
+    "Bleeding or fluid leak"
   ],
-  "milestoneTitle": "Baby Hiccups",
-  "milestoneDescription": "Feeling rhythmic jumps? Your baby is probably hiccuping in the amniotic fluid."
+  "milestoneTitle": "Head Growth",
+  "milestoneDescription": "Baby's brain development causes the head to grow significantly this week."
 }

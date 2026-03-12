@@ -1,49 +1,49 @@
 {
   "week": 20,
   "fruitName": "Banana",
-  "fruitEmoji": "\ud83c\udf4c",
-  "babySize": "6.5 inches",
-  "babyWeight": "10.5 oz",
+  "fruitEmoji": "🍌",
+  "babySize": "25.6 cm",
+  "babyWeight": "300g",
   "illustration": "assets/medical/week-20.png",
-  "babyDevelopment": "You are halfway there! The baby is swallowing amniotic fluid and producing meconium (first poop). Taste buds are active and distinguishing sweet from bitter.",
-  "bodyChanges": "Your uterus is right at your belly button. Your hair and nails may be growing rapidly. You may notice an itchy belly as the skin stretches.",
+  "babyDevelopment": "You're at the halfway point! The baby is starting to swallow amniotic fluid, which helps the digestive system develop. The baby is also producing meconium (the first stool) in the intestines. All major organs are being screened during the anatomy ultrasound.",
+  "bodyChanges": "Your navel might become an 'outie' as your uterus reaches your belly button level. You may feel more energetic as you've crossed the halfway mark. Sleep positions should strictly be on your side now.",
   "tips": [
-    "Celebrate reaching the halfway mark!",
-    "Enjoy seeing your baby clearly during the anatomy scan",
-    "Discuss gender reveal plans if you wish"
+    "Schedule your anatomy scan if you haven't yet",
+    "Shop for maternity essentials if needed",
+    "Start thinking about your birth plan"
   ],
   "dosAndDonts": {
     "do": [
-      "Get the anatomy scan ultrasound",
-      "Take time for yourself",
-      "Make sure you have an anti-itch belly cream"
+      "Sleep on your left side to maximize blood flow",
+      "Stay active with moderate daily movement",
+      "Eat calcium-rich foods for baby's bone growth"
     ],
     "dont": [
-      "Scratch your itchy belly excessively",
-      "Skip prenatal appointments",
-      "Stand for prolonged hours"
+      "Sleep on your back for extended periods",
+      "Lift heavy objects habitually",
+      "Skip your prenatal screenings"
     ]
   },
   "travelAdvisory": {
     "safe": true,
     "level": "green",
-    "note": "Halftime! Travel is safe and encouraged for Babymoons."
+    "note": "Halfway there! A great time for a relaxing vacation."
   },
   "nutrition": [
-    "Protein for baby's high growth rate",
-    "Iron",
-    "Fluoride (from water) for baby's teeth"
+    "Calcium-rich foods (milk, yogurt)",
+    "Vitamin D",
+    "Lean protein"
   ],
   "exercises": [
+    "Walking",
     "Swimming",
-    "Yoga stretching",
-    "Walking"
+    "Gentle aqua-aerobics"
   ],
   "warningSignsToWatch": [
-    "Lack of movement (though patterns aren't fully set)",
-    "Bleeding",
-    "Signs of preeclampsia (sudden severe swelling)"
+    "Severe lower back pain",
+    "Unusual vaginal bleeding",
+    "Fever"
   ],
-  "milestoneTitle": "Halftime!",
-  "milestoneDescription": "You've made it to the 20-week mark. Time for the big anatomy scan!"
+  "milestoneTitle": "Halfway Mark",
+  "milestoneDescription": "You've reached 20 weeks—halfway through your pregnancy journey!"
 }

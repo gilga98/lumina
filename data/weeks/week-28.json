@@ -1,49 +1,49 @@
 {
   "week": 28,
   "fruitName": "Eggplant",
-  "fruitEmoji": "\ud83c\udf46",
-  "babySize": "14.8 inches",
-  "babyWeight": "2.2 lbs",
+  "fruitEmoji": "🍆",
+  "babySize": "37.6 cm",
+  "babyWeight": "1kg",
   "illustration": "assets/medical/week-28.png",
-  "babyDevelopment": "The baby is settling into the proper position for birth (usually head down). Eye brows and lashes are fully formed. The central nervous system can direct rhythmic breathing.",
-  "bodyChanges": "Your doctor will check you for gestational diabetes. You might receive a RhoGAM shot if you have Rh-negative blood. Fatigue may return.",
+  "babyDevelopment": "Welcome to the Third Trimester! The baby's eyelashes are forming. The brain is becoming deeply grooved and convoluted as nerve cells multiply. The baby's kicks and movements are now much stronger and more frequent.",
+  "bodyChanges": "You might feel more breathless as the uterus pushes against your diaphragm. Heartburn and indigestion may intensify. Your doctor will likely start seeing you every two weeks now. You may experience 'restless leg syndrome.'",
   "tips": [
-    "Prepare a hospital bag checklist",
-    "Attend childbirth classes",
-    "Start a daily kick count routine (10 kicks in 2 hours)"
+    "Start counting baby's kicks (aim for 10 movements in 2 hours)",
+    "Include more iron and Vitamin C to support blood volume",
+    "Schedule your third-trimester prenatal appointments"
   ],
   "dosAndDonts": {
     "do": [
-      "Take the RhoGAM shot if advised",
-      "Start seeing your OBD every 2 weeks",
-      "Keep up with kick counts"
+      "Sleep on your left side to maximize blood flow",
+      "Eat small snacks to manage heartburn",
+      "Focus on good posture"
     ],
     "dont": [
-      "Skip meals (blood sugar drops)",
-      "Sleep flat on your back",
-      "Stand for too long"
+      "Sleep on your back for extended periods",
+      "Ignore any signs of preterm labor (regular contractions)",
+      "Over-exert yourself in hot weather"
     ]
   },
   "travelAdvisory": {
-    "safe": false,
-    "level": "red",
-    "note": "Most airlines restrict travel after this week. Stay close to your medical facility."
+    "safe": true,
+    "level": "yellow",
+    "note": "Consult your doctor before long trips; focus on recovery time."
   },
   "nutrition": [
-    "Iron",
-    "Calcium",
-    "Omega-3 (DHA)"
+    "Iron-rich foods (red meat, lentils)",
+    "Vitamin C",
+    "Calcium"
   ],
   "exercises": [
-    "Pelvic floor (Kegels)",
-    "Ankle pumps",
-    "Stretching"
+    "Walking",
+    "Gentle aqua-aerobics",
+    "Prenatal pilates"
   ],
   "warningSignsToWatch": [
-    "Fewer than 10 kicks in 2 hours",
-    "Bleeding",
-    "Sudden swelling indicating preeclampsia"
+    "Intense, regular contractions (Preterm labor)",
+    "Significant decrease in baby's kicks",
+    "Vision changes or severe headaches"
   ],
-  "milestoneTitle": "Rhythmic Breathing",
-  "milestoneDescription": "Baby is practicing breathing to prepare for the outside world."
+  "milestoneTitle": "Third Trimester Begins",
+  "milestoneDescription": "The home stretch! Baby is now about 1kg and growing fast."
 }

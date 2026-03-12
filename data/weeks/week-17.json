@@ -1,49 +1,49 @@
 {
   "week": 17,
   "fruitName": "Pomegranate",
-  "fruitEmoji": "\ud83c\udf51",
-  "babySize": "5.1 inches",
-  "babyWeight": "5.0 oz",
+  "fruitEmoji": "🍎",
+  "babySize": "13 cm",
+  "babyWeight": "140g",
   "illustration": null,
-  "babyDevelopment": "The skeleton is transforming from rubbery cartilage to solid bone. The umbilical cord is growing stronger and thicker. The baby is practicing sucking and swallowing.",
-  "bodyChanges": "Your center of gravity is shifting. You may have increased appetite and cravings. Sweating may increase due to higher metabolism and blood volume.",
+  "babyDevelopment": "The baby's sweat glands are starting to develop. Fat (adipose tissue) is beginning to accumulate under the skin, helping with warmth and metabolism. The umbilical cord is growing thicker and more resilient.",
+  "bodyChanges": "Your center of gravity is shifting as your bump grows. You might experience occasional 'dizzy spells' if you stand up too quickly. Some women notice increased vaginal discharge (leukorrhea), which is normal as long as it's clear or white and odorless.",
   "tips": [
-    "Buy comfortable, flat shoes with good arch support",
-    "Drink tons of water to avoid constipation",
-    "Start planning your nursery"
+    "Incorporate more calcium for baby's bone development",
+    "Move slowly when standing up to avoid dizziness",
+    "Consider a prenatal massage for any back discomfort"
   ],
   "dosAndDonts": {
     "do": [
-      "Wear loose, breathable fabrics",
-      "Stretch your calves frequently",
-      "Get up slowly from sitting"
+      "Wear comfortable, low-heeled shoes",
+      "Eat plenty of fiber and stay hydrated",
+      "Practice deep breathing to help with relaxation"
     ],
     "dont": [
-      "Wear high heels (fall risk)",
-      "Stand in one place for too long",
-      "Ignore sciatic pain"
+      "Lift heavy objects that put strain on your back",
+      "Skip your regular blood pressure checks",
+      "Ignore any unusual or persistent headaches"
     ]
   },
   "travelAdvisory": {
     "safe": true,
     "level": "green",
-    "note": "Still a great time to travel. Remember to stretch your legs on flights."
+    "note": "Keep your travel plans active and stay hydrated."
   },
   "nutrition": [
-    "Calcium (for baby's hardening bones)",
-    "Protein",
-    "Complex carbohydrates"
+    "Calcium-rich dairy or plant-based alternatives",
+    "Fiber-rich fruits as snacks",
+    "Lean protein"
   ],
   "exercises": [
-    "Prenatal yoga for sciatica",
-    "Swimming",
-    "Stretching"
+    "Walking",
+    "Modified yoga",
+    "Swimming"
   ],
   "warningSignsToWatch": [
-    "Severe abdominal pain",
-    "Shortness of breath",
-    "Sudden swelling of face and hands"
+    "Severe, persistent headache",
+    "Sudden swelling in face or hands",
+    "Vision changes"
   ],
-  "milestoneTitle": "Bones Hardening",
-  "milestoneDescription": "The skeletal structure is fully forming into solid bone."
+  "milestoneTitle": "Fat Accumulation",
+  "milestoneDescription": "Baby is beginning to store fat for energy and warmth after birth."
 }

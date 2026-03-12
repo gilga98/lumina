@@ -1,49 +1,49 @@
 {
   "week": 16,
   "fruitName": "Avocado",
-  "fruitEmoji": "\ud83e\udd51",
-  "babySize": "4.6 inches",
-  "babyWeight": "3.5 oz",
-  "illustration": null,
-  "babyDevelopment": "The nervous system is functioning. The baby can make facial expressions like squinting or frowning. The scalp is patterning for hair.",
-  "bodyChanges": "You might feel the 'quickening'\u2014the first fluttery movements of your baby! It often feels like gas bubbles or butterfly wings. Your uterus is halfway between your pubic bone and navel.",
+  "fruitEmoji": "🥑",
+  "babySize": "11.6 cm",
+  "babyWeight": "100g",
+  "illustration": "assets/medical/week-16.png",
+  "babyDevelopment": "The baby's eyes are starting to make slow side-to-side movements. Ears are nearing their final position on the head. The baby can now perform more complex movements, like grasping and squinting. The circulatory system is becoming more advanced.",
+  "bodyChanges": "You may start to feel early fetal movements, often described as 'flutters' or 'quickening,' especially if this isn't your first pregnancy. Your uterus is about halfway between your pubic bone and your navel.",
   "tips": [
-    "Start a kick-counting journal (though kicks aren't regular yet)",
-    "Discuss the anatomy scan with your partner",
-    "Sleep on your side, preferably left"
+    "Schedule your mid-pregnancy anatomy scan (usually between weeks 18-22)",
+    "Include more iron-rich foods to prevent anemia",
+    "Practice sleeping on your side if you haven't yet"
   ],
   "dosAndDonts": {
     "do": [
-      "Listen to your body regarding exercise limits",
-      "Drink plenty of water",
-      "Massage your breasts/belly to prevent skin tearing"
+      "Keep up with your walking or swimming routine",
+      "Stay hydrated (about 10 cups of fluid a day)",
+      "Focus on good spinal alignment when sitting"
     ],
     "dont": [
-      "Worry if you don't feel kicks yet (especially if first pregnancy)",
-      "Lift heavy weights overhead",
-      "Skip calcium-rich foods"
+      "Ignore any sharp, persistent pelvic pain",
+      "Consume unpasteurized soft cheeses",
+      "Overheat during exercise"
     ]
   },
   "travelAdvisory": {
     "safe": true,
     "level": "green",
-    "note": "Safe and comfortable to travel."
+    "note": "A comfortable time for travel before later discomfort begins."
   },
   "nutrition": [
-    "Calcium (dairy, fortified soy, almonds)",
-    "Vitamin D",
-    "Phosphorus"
+    "Iron (lean red meat, lentils)",
+    "Vitamin C for iron absorption",
+    "Leafy greens"
   ],
   "exercises": [
-    "Water aerobics",
-    "Brisk walking",
-    "Pelvic tilts"
+    "Prenatal pilates",
+    "Walking",
+    "Stretching"
   ],
   "warningSignsToWatch": [
-    "Regular painful contractions",
-    "Bleeding",
-    "Pain during sex"
+    "Persistent sharp abdominal pains",
+    "Vaginal bleeding",
+    "Signs of a urinary tract infection"
   ],
-  "milestoneTitle": "The Quickening",
-  "milestoneDescription": "You might feel the magical first flutters of your baby moving!"
+  "milestoneTitle": "Quickening",
+  "milestoneDescription": "You might start feeling the baby's first fluttering movements."
 }

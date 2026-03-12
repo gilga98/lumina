@@ -1,49 +1,49 @@
 {
   "week": 4,
   "fruitName": "Poppy Seed",
-  "fruitEmoji": "\ud83c\udf11",
-  "babySize": "0.04 inches",
-  "babyWeight": "<1 gram",
+  "fruitEmoji": "🌱",
+  "babySize": "2 mm",
+  "babyWeight": "0.1g",
   "illustration": "assets/medical/week-04.png",
-  "babyDevelopment": "Implantation! The blastocyst burrows into the lush uterine lining. The placenta and amniotic sac begin to form.",
-  "bodyChanges": "You may experience light spotting (implantation bleeding) and mild cramping. Your period will be missed, and breast tenderness may begin.",
+  "babyDevelopment": "Implantation complete! The blastocyst attaches to the uterine wall. The inner cells will become the embryo, while the outer cells form the placenta. This week, the amniotic sac and yolk sac also begin to develop.",
+  "bodyChanges": "You may miss your period. Subtle signs like breast tenderness, fatigue, and a heightened sense of smell might begin. Hormonal shifts are now significant as hCG levels double every 48-72 hours.",
   "tips": [
-    "Take a home pregnancy test",
-    "Schedule your first OB/GYN appointment",
-    "Expect mood swings"
+    "Take a home pregnancy test if your period is late",
+    "Schedule your first prenatal appointment",
+    "Inform your partner and share the joy!"
   ],
   "dosAndDonts": {
     "do": [
-      "Confirm pregnancy with a test",
-      "Calculate your due date",
-      "Eat small, frequent meals if nauseous"
+      "Switch to a pregnancy-safe skincare routine",
+      "Eat smaller meals to manage early nausea",
+      "Listen to your body's need for rest"
     ],
     "dont": [
-      "Take NSAIDs (like ibuprofen)",
-      "Empty the cat litter box",
-      "Use saunas"
+      "Cleaning litter boxes (toxoplasmosis risk)",
+      "Using hot tubs or saunas",
+      "Consuming high-mercury fish"
     ]
   },
   "travelAdvisory": {
     "safe": true,
     "level": "green",
-    "note": "Travel is safe. Carry snacks in case early nausea starts."
+    "note": "Safe to travel, but expect some fatigue."
   },
   "nutrition": [
-    "Vitamin B6 for nausea",
-    "Complex carbs",
-    "Frequent small snacks"
+    "Folate-rich legumes",
+    "Vitamin B6 (helps with nausea)",
+    "Ginger tea for stomach settling"
   ],
   "exercises": [
-    "Brisk walking",
     "Prenatal yoga",
-    "Light weights"
+    "Stretching",
+    "Controlled breathing"
   ],
   "warningSignsToWatch": [
-    "Heavy bleeding like a period",
-    "Sharp, unilateral abdominal pain",
-    "Dizziness or fainting"
+    "Heavy vaginal bleeding",
+    "Severe one-sided pelvic pain (ectopic risk indicator)",
+    "Extreme dizziness"
   ],
-  "milestoneTitle": "Implantation",
-  "milestoneDescription": "The embryo attaches to your uterus, officially starting the pregnancy."
+  "milestoneTitle": "Official Beginnings",
+  "milestoneDescription": "Implantation is successful. You are officially pregnant!"
 }

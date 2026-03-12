@@ -1,49 +1,49 @@
 {
   "week": 5,
-  "fruitName": "Sesame Seed",
-  "fruitEmoji": "\ud83e\uded8",
-  "babySize": "0.13 inches",
-  "babyWeight": "<1 gram",
+  "fruitName": "Orange Seed",
+  "fruitEmoji": "🍊",
+  "babySize": "3 mm",
+  "babyWeight": "0.5g",
   "illustration": "assets/medical/week-05.png",
-  "babyDevelopment": "The embryo's neural tube (brain and spinal cord) is forming. The heart structure begins to develop and may start beating.",
-  "bodyChanges": "Morning sickness, fatigue, and frequent urination often begin. hCG levels are rising rapidly.",
+  "babyDevelopment": "The heart begins to form and starts beating! This is a major milestone. The neural tube, which will become the brain and spinal cord, is closing. Major organs like the liver and kidneys are starting their initial development.",
+  "bodyChanges": "Morning sickness often kicks in now. You might feel very tired and need to urinate more frequently. Your breasts may feel heavier and more sensitive as they prepare for future nursing.",
   "tips": [
-    "Keep ginger candies handy for nausea",
-    "Rest frequently",
-    "Wear a supportive bra"
+    "Keep crackers by your bedside for morning nausea",
+    "Avoid skipping meals; an empty stomach worsens nausea",
+    "Check all supplements for pregnancy safety"
   ],
   "dosAndDonts": {
     "do": [
-      "Increase fluid intake",
-      "Eat whatever you can tolerate",
-      "Nap when possible"
+      "Drink at least 2.5L of water daily",
+      "Wear a supportive bra",
+      "Practice good dental hygiene"
     ],
     "dont": [
-      "Consume undercooked meats",
-      "Drink unpasteurized milk",
-      "Exceed 200mg caffeine daily"
+      "Drink unpasteurized juices or 'raw' milk",
+      "Overheat during exercise",
+      "Self-medicate for headaches"
     ]
   },
   "travelAdvisory": {
     "safe": true,
     "level": "green",
-    "note": "Safe to travel. Nausea may make long flights or car rides uncomfortable."
+    "note": "Safe, but pack snacks for nausea management."
   },
   "nutrition": [
-    "Ginger and peppermint tea",
-    "Crackers",
-    "Water-rich fruits"
+    "Whole grains for B vitamins",
+    "Lean poultry or tofu",
+    "Berries for antioxidants"
   ],
   "exercises": [
-    "Gentle walking",
-    "Deep breathing exercises",
-    "Stretching"
+    "Walking",
+    "Swimming",
+    "Pelvic tilts"
   ],
   "warningSignsToWatch": [
-    "Inability to keep fluids down",
-    "Vaginal bleeding",
-    "Pelvic pain"
+    "Inability to keep any fluids down (Hyperemesis)",
+    "Bright red spotting",
+    "Sharp abdominal pains"
   ],
-  "milestoneTitle": "Neural Tube Forms",
-  "milestoneDescription": "The foundation of the brain and spinal cord is rapidly developing."
+  "milestoneTitle": "The Heartbeat",
+  "milestoneDescription": "Your baby's heart is beating for the first time."
 }

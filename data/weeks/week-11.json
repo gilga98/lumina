@@ -1,49 +1,49 @@
 {
   "week": 11,
   "fruitName": "Fig",
-  "fruitEmoji": "\ud83e\uded0",
-  "babySize": "1.6 inches",
-  "babyWeight": "7 grams",
+  "fruitEmoji": "🫐",
+  "babySize": "4.1 cm",
+  "babyWeight": "7g",
   "illustration": "assets/medical/week-11.png",
-  "babyDevelopment": "Facial features are distinct. Hair follicles form. The baby can hiccup, stretch, and yawn, though you can't feel it.",
-  "bodyChanges": "Nausea may finally start to ease up. Your hair and nails might grow faster due to pregnancy hormones.",
+  "babyDevelopment": "The fetus is officially moving! Although you can't feel it, the baby is stretching and kicking. External genitalia are forming, though it's usually too early to see on ultrasound. The diaphragm is developing, preparing the baby for future breathing.",
+  "bodyChanges": "Your metabolism is increasing, which may make you feel warmer. Hormonal changes might improve your skin and hair ('pregnancy glow'). Some women experience 'linea nigra'—a dark line appearing on the abdomen.",
   "tips": [
-    "Plan how to announce your pregnancy",
-    "Look into prenatal classes",
-    "Enjoy returning energy"
+    "Stay hydrated as your blood volume continues to rise",
+    "Moisturize your belly to manage skin tightness",
+    "Keep up with regular, moderate exercise"
   ],
   "dosAndDonts": {
     "do": [
-      "Eat complex carbs for energy",
-      "Begin moisturizing your belly",
-      "Start looking at baby names"
+      "Eat calcium-rich foods for baby's bone development",
+      "Get enough Vitamin C to support tissue repair",
+      "Rest when your body signals fatigue"
     ],
     "dont": [
-      "Exert yourself to exhaustion",
-      "Assume all medication is safe",
-      "Ignore bleeding gums (gingivitis)"
+      "Consume high-mercury fish like swordfish",
+      "Overheat in hot showers or baths",
+      "Skip meals, even if feeling better"
     ]
   },
   "travelAdvisory": {
     "safe": true,
     "level": "green",
-    "note": "Travel is safe. Nausea is likely subsiding!"
+    "note": "A great time for travel before the third trimester."
   },
   "nutrition": [
-    "Vitamin C for gums",
-    "Whole grains",
-    "Omega-3s (safe fish or algae)"
+    "Calcium (milk, yogurt, leafy greens)",
+    "Vitamin C (citrus, bell peppers)",
+    "Lean protein"
   ],
   "exercises": [
-    "Brisk walking",
-    "Dance workouts (low impact)",
+    "Swimming",
+    "Walking",
     "Prenatal yoga"
   ],
   "warningSignsToWatch": [
-    "Bleeding gums (needs a dentist check but usually normal)",
-    "Fever",
-    "Severe pain"
+    "Sudden, severe abdominal pain",
+    "Vaginal bleeding",
+    "Severe headache"
   ],
-  "milestoneTitle": "Facial Features Complete",
-  "milestoneDescription": "Your baby's unique face is fully shaped and defined."
+  "milestoneTitle": "Active Movement",
+  "milestoneDescription": "The baby is now stretching and kicking as muscles develop."
 }

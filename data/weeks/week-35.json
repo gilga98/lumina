@@ -1,49 +1,49 @@
 {
   "week": 35,
-  "fruitName": "Cantaloupe",
-  "fruitEmoji": "\ud83c\udf48",
-  "babySize": "18.2 inches",
-  "babyWeight": "5.3 lbs",
+  "fruitName": "Honeydew Melon",
+  "fruitEmoji": "🍈",
+  "babySize": "46.2 cm",
+  "babyWeight": "2.4kg",
   "illustration": null,
-  "babyDevelopment": "The baby's hearing is fully developed. They occupy the entire uterus now. Kidneys are fully developed, and the liver can process some waste products.",
-  "bodyChanges": "You will likely be tested for Group B Strep (GBS). Frequent urination is constant as the baby's head presses on your bladder.",
+  "babyDevelopment": "The baby's brain is continuing its final growth spurt. Most physical development is now complete, and the focus is on gaining weight. The kidneys and liver are fully functional. This is a common time for Group B Strep screening.",
+  "bodyChanges": "You likely have a prenatal check-up every week now. Many women experience 'leg cramps' and 'swelling' reaching a peak. You might feel more anxious about the upcoming birth. Braxton Hicks may feel more intense.",
   "tips": [
-    "Finalize childcare for siblings and pets",
-    "Wash the baby's clothes and sheets again",
-    "Familiarize yourself with newborn care basics"
+    "Schedule your Group B Strep (GBS) screening test",
+    "Practice pelvic floor exercises (Kegels) to prepare for birth",
+    "Elevate your legs at the end of each day to reduce swelling"
   ],
   "dosAndDonts": {
     "do": [
-      "Get the GBS swab",
-      "Eat dates (some studies suggest they help cervical ripening)",
-      "Keep tracking kicks"
+      "Maintain hydration",
+      "Eat smaller, frequent meals for better digestion",
+      "Focus on deep breathing during activities"
     ],
     "dont": [
-      "Miss weekly appointments after week 36",
-      "Ignore decreased movement",
-      "Stress over your exact due date"
+      "Eat heavy, fatty foods that trigger heartburn",
+      "Ignore signs of severe, persistent swelling",
+      "Over-exert yourself as you fatigue easily"
     ]
   },
   "travelAdvisory": {
-    "safe": false,
+    "safe": true,
     "level": "red",
-    "note": "Do not travel."
+    "note": "Avoid all non-essential travel; stay close to home."
   },
   "nutrition": [
-    "Dates",
-    "Red raspberry leaf tea (consult OB)",
-    "Hydration"
+    "Protein",
+    "Complex carbohydrates for steady energy",
+    "Calcium"
   ],
   "exercises": [
-    "Gentle walking",
-    "Birthing ball",
-    "Squatting"
+    "Walking",
+    "Swimming",
+    "Gentle floor stretches"
   ],
   "warningSignsToWatch": [
-    "Warning signs of preeclampsia",
-    "Bleeding",
-    "Contractions starting"
+    "Signs of Pre-eclampsia (Sudden severe swelling, headache, vision changes)",
+    "Positive Group B Strep results (consult doctor)",
+    "Significant, pitting edema"
   ],
-  "milestoneTitle": "Kidneys Ready",
-  "milestoneDescription": "Baby's internal organs are essentially fully functioning and mature."
+  "milestoneTitle": "Weight Gain Focus",
+  "milestoneDescription": "Baby's primary focus now is gaining weight for energy and warmth after birth."
 }

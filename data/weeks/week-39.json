@@ -1,49 +1,49 @@
 {
   "week": 39,
-  "fruitName": "Mini-Watermelon",
-  "fruitEmoji": "\ud83c\udf49",
-  "babySize": "19.9 inches",
-  "babyWeight": "7.3 lbs",
+  "fruitName": "Watermelon",
+  "fruitEmoji": "🍉",
+  "babySize": "50.7 cm",
+  "babyWeight": "3.3kg",
   "illustration": null,
-  "babyDevelopment": "Your baby is 'Full Term'! Their physical development is complete, though their brain continues to rapidly develop (and will outside the womb).",
-  "bodyChanges": "Your water could break at any time. Contractions might start. You might feel a burst of energy (nesting) right before labor begins.",
+  "babyDevelopment": "The baby is considered 'full term.' The brain and lungs are fully mature. The baby is continuing to accumulate fat to help regulate body temperature after birth. Movement might feel slower due to the cramped space, but should still be frequent.",
+  "bodyChanges": "You may experience 'bloody show'—a small amount of blood-tinged mucus as your cervix thins and opens. Contractions may become more frequent and intense. You might feel very restless and ready to meet your baby.",
   "tips": [
-    "Double-check your support system for older kids/pets",
-    "Try relaxation techniques",
-    "Stay open-minded about your birth plan"
+    "Finalize any remaining tasks for baby's arrival",
+    "Ensure you have plenty of rest",
+    "Monitor baby's movement several times a day without fail"
   ],
   "dosAndDonts": {
     "do": [
-      "Rest actively",
-      "Snack on light foods",
-      "Call your provider when labor contractions hit the 5-1-1 rule"
+      "Stay hydrated",
+      "Keep up with gentle daily movement",
+      "Follow your doctor's instructions for when to go to the hospital"
     ],
     "dont": [
-      "Try dangerous induction methods",
-      "Worry if you pass your due date",
-      "Eat a huge heavy meal if in labor"
+      "Travel more than 30 minutes from your birthing center",
+      "Ignore persistent, strong contractions",
+      "Panic if you're slightly past your due date"
     ]
   },
   "travelAdvisory": {
-    "safe": false,
+    "safe": true,
     "level": "red",
-    "note": "Do not travel."
+    "note": "Stay at home and prepare for labor."
   },
   "nutrition": [
-    "Electrolyte drinks",
-    "Popsicles",
-    "Broth"
+    "Lean protein",
+    "Complex carbs for energy",
+    "Hydration"
   ],
   "exercises": [
-    "Walking",
-    "Standing/rocking",
-    "Resting"
+    "Short, gentle walks",
+    "Controlled breathing",
+    "Pelvic floor exercises"
   ],
   "warningSignsToWatch": [
-    "Water breaking or trickling",
-    "Contractions coming every 5-10 minutes",
-    "Diminished fetal movement"
+    "Water breaking",
+    "Sudden severe pain in upper abdomen",
+    "Significant drop in fetal movement"
   ],
   "milestoneTitle": "Full Term",
-  "milestoneDescription": "You've made it! Baby is full term and actively waiting for their perfect birthday."
+  "milestoneDescription": "You've reached full term! Your baby is ready for the world."
 }

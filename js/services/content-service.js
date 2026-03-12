@@ -9,7 +9,7 @@ export class ContentService {
   static _allLoaded = false;
 
   /** Available week numbers (must match files in data/weeks/) */
-  static AVAILABLE_WEEKS = [4, 5, 6, 8, 10, 12, 14, 16, 18, 20, 24, 28, 32, 36, 38, 40];
+  static AVAILABLE_WEEKS = Array.from({length: 40}, (_, i) => i + 1);
 
   /**
    * Load a single week's data from JSON.

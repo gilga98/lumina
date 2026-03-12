@@ -1,49 +1,49 @@
 {
   "week": 18,
   "fruitName": "Sweet Potato",
-  "fruitEmoji": "\ud83c\udf60",
-  "babySize": "5.6 inches",
-  "babyWeight": "6.7 oz",
+  "fruitEmoji": "🍠",
+  "babySize": "14.2 cm",
+  "babyWeight": "190g",
   "illustration": null,
-  "babyDevelopment": "The ears are fully formed and in their final position. Your baby can now hear your heartbeat, stomach grumbling, and your voice! Myelin is forming around nerves.",
-  "bodyChanges": "You're likely feeling much more distinct kicks now. You may experience lower backaches as your uterus expands further and your joints loosen.",
+  "babyDevelopment": "The baby's ears have reached their final position and can now sense sounds from the outside world. This is a great time to start talking or singing to your baby. The fetus is incredibly active, flexing arms and legs.",
+  "bodyChanges": "You might start feeling more pronounced movements now. Your appetite may increase significantly. Some women experience 'pregnancy-induced carpal tunnel' syndrome due to fluid retention.",
   "tips": [
-    "Talk, read, and sing to your baby\u2014they can hear you!",
-    "Schedule your mid-pregnancy anatomy ultrasound",
-    "Consider childbirth classes"
+    "Ensure you're getting enough iron to support baby's blood supply",
+    "Talk and sing to your baby—they're starting to listen!",
+    "Continue with gentle stretching to manage back pain"
   ],
   "dosAndDonts": {
     "do": [
-      "Use a heating pad on lowest setting for backaches",
-      "Eat smaller, more frequent meals to prevent heartburn",
-      "Check your blood pressure"
+      "Use a supportive pillow for side-sleeping",
+      "Participate in moderate cardio exercise",
+      "Attend all scheduled prenatal appointments"
     ],
     "dont": [
-      "Lie flat on your back",
-      "Do exercises requiring balancing on one foot",
-      "Push through severe pain"
+      "Eat high-mercury or raw seafood",
+      "Over-exert yourself during workouts",
+      "Ignore signs of persistent leg swelling"
     ]
   },
   "travelAdvisory": {
     "safe": true,
     "level": "green",
-    "note": "Plan any long trips before the third trimester begins."
+    "note": "Enjoy your second-trimester travel window."
   },
   "nutrition": [
-    "DHA/Omega-3s for baby's brain/nerves",
-    "Fiber-rich fruits",
-    "Lean proteins"
+    "Iron-rich foods (red meat, spinach, lentils)",
+    "Folate-rich vegetables",
+    "Vitamin B12"
   ],
   "exercises": [
-    "Pelvic rocks",
-    "Stationary cycling",
-    "Swimming"
+    "Walking",
+    "Swimming",
+    "Prenatal pilates"
   ],
   "warningSignsToWatch": [
-    "Dull backache that comes and goes rhythmically",
-    "Sudden gush of fluid",
-    "Bleeding"
+    "Severe abdominal pain",
+    "High fever",
+    "Sudden, intense swelling in hands/feet"
   ],
-  "milestoneTitle": "Hearing Begins",
-  "milestoneDescription": "Your baby is listening! It's a great time to start talking and singing to the bump."
+  "milestoneTitle": "Active Listening",
+  "milestoneDescription": "Baby's ears are fully formed, and they can start to hear your heart and voice."
 }

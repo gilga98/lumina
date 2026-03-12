@@ -1,48 +1,49 @@
 {
   "week": 25,
-  "fruitName": "Rutabaga",
-  "fruitEmoji": "\ud83e\udd54",
-  "babySize": "13.6 inches",
-  "babyWeight": "1.5 lbs",
+  "fruitName": "Cauliflower",
+  "fruitEmoji": "🥦",
+  "babySize": "34.6 cm",
+  "babyWeight": "660g",
   "illustration": null,
-  "babyDevelopment": "Capillaries are forming beneath the skin, giving the baby a pinkish hue. The baby is plumping up, and their wrinkled skin is starting to smooth out step by step.",
-  "bodyChanges": "Your hair continues to look fantastic. You may suffer from hemorrhoids (swollen veins in the rectum) due to the pressure of the uterus.",
+  "babyDevelopment": "The baby's nostrils are starting to open. The capillaries are filling with blood, giving the skin a pinker hue. The baby can now respond to familiar voices and sounds. Hand coordination is improving, and the baby might grasp the umbilical cord.",
+  "bodyChanges": "You might experience 'nasal congestion' or 'snoring' due to increased blood flow to mucous membranes. Heartburn may intensify as the uterus pushes against the stomach. Leg cramps might become more frequent, especially at night.",
   "tips": [
-    "Use witch hazel pads for hemorrhoids",
-    "Eat a high-fiber diet to avoid straining",
-    "Discuss your birth plan with your partner"
+    "Increase your calcium and magnesium intake for leg cramps",
+    "Practice relaxation techniques to improve sleep quality",
+    "Keep up with your walking routine to boost circulation"
   ],
   "dosAndDonts": {
     "do": [
-      "Take sitz baths for pelvic comfort",
-      "Eat prunes/dates",
-      "Sleep on your left side"
+      "Drink plenty of water throughout the day",
+      "Eat smaller, more frequent meals",
+      "Perform gentle calf stretches before bed"
     ],
     "dont": [
-      "Strain on the toilet",
-      "Sit or stand for prolonged periods",
-      "Ignore severe discomfort"
+      "Eat large meals right before bedtime",
+      "Ignore any sharp, persistent abdominal pains",
+      "Use heavy medications for snoring without advice"
     ]
   },
   "travelAdvisory": {
     "safe": true,
-    "level": "yellow",
-    "note": "Travel is generally safe, but consult your doctor first."
+    "level": "green",
+    "note": "Comfortable travel is still possible; wear loose clothing."
   },
   "nutrition": [
-    "Fiber (whole grains, vegetables)",
-    "Plenty of water",
-    "Probiotics"
+    "Magnesium-rich foods (nuts, spinach)",
+    "Calcium",
+    "Fiber"
   ],
   "exercises": [
-    "Pelvic floor exercises",
-    "Prenatal yoga",
-    "Swimming"
+    "Walking",
+    "Swimming",
+    "Light floor stretches"
   ],
   "warningSignsToWatch": [
-    "Bleeding during bowel movements (check if hemorrhoid vs vaginal)",
-    "Preterm labor signs"
+    "Severe, persistent leg cramps",
+    "Signs of a urinary tract infection",
+    "Reduced fetal movement"
   ],
-  "milestoneTitle": "Plumping Up",
-  "milestoneDescription": "Baby is laying down fat, making their skin less translucent and wrinkled."
+  "milestoneTitle": "Nostril Opening",
+  "milestoneDescription": "Baby's nostrils open, and response to sound becomes more refined."
 }
