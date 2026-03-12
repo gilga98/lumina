@@ -9,6 +9,7 @@ export class LibraryPage {
   constructor(db) {
     this._db = db;
     this._activeTab = 'thisWeek';
+    this._browsingWeek = null;
   }
 
   async render(container) {
@@ -36,6 +37,9 @@ export class LibraryPage {
     this._weekData = weekData;
     this._allWeeks = allWeeks;
     this._ge = ge;
+    if (this._browsingWeek === null && ge) {
+      this._browsingWeek = ge.week;
+    }
     this._renderTab(this._activeTab);
 
     document.querySelectorAll('.tab-btn').forEach(btn => {
@@ -91,7 +95,7 @@ export class LibraryPage {
       <h3 class="playfair" style="margin-top:20px;">Browse by Week</h3>
       <div class="week-browser">
         ${this._allWeeks.map(wk => `
-          <button class="week-btn ${wk.week === this._ge?.week ? 'current' : ''}" data-week="${wk.week}">
+          <button class="week-btn ${wk.week === this._browsingWeek ? 'current' : ''}" data-week="${wk.week}">
             ${wk.fruitEmoji}<br><small>Wk ${wk.week}</small>
           </button>
         `).join('')}
@@ -101,6 +105,7 @@ export class LibraryPage {
     content.querySelectorAll('.week-btn').forEach(btn => {
       btn.addEventListener('click', async () => {
         const week = parseInt(btn.dataset.week);
+        this._browsingWeek = week;
         this._weekData = await ContentService.getWeekData(week);
         this._renderThisWeek(content);
       });
@@ -274,7 +279,7 @@ export class LibraryPage {
             </div>
           </div>
         `).join('')}
-        ${links.length === 0 ? '<p style="text-align:center;padding:20px;color:var(--charcoal-light);">Save helpful pregnancy videos here</p>' : ''}
+        ${links.length === 0 ? '<p class="links-empty" style="grid-column: 1 / -1; text-align:center; padding:40px; color:var(--charcoal-light);">Save helpful pregnancy videos here</p>' : ''}
       </div>
     `;
 

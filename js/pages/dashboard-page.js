@@ -43,18 +43,17 @@ export class DashboardPage {
 
     this._container.innerHTML = `
       <div class="page-container">
-        <!-- Date Navigator -->
-        <div class="date-navigator">
-          <button class="date-nav-btn" id="date-prev">‹</button>
-          <button class="date-nav-label" id="date-picker-btn">
-            ${isToday ? 'Today' : CalendarService.formatLong(viewDate)}
-          </button>
-          <button class="date-nav-btn" id="date-next">›</button>
-          ${!isToday ? '<button class="date-today-btn" id="date-today">Today</button>' : ''}
-        </div>
-
         <!-- Hero Section -->
         <div class="hero-section">
+          <!-- Date Navigator Integrated -->
+          <div class="date-navigator">
+            <button class="date-nav-btn" id="date-prev">‹</button>
+            <button class="date-nav-label" id="date-picker-btn">
+              ${isToday ? 'Today' : CalendarService.formatLong(viewDate)}
+            </button>
+            <button class="date-nav-btn" id="date-next">›</button>
+            ${!isToday ? '<button class="date-today-btn" id="date-today">Today</button>' : ''}
+          </div>
           <h1 class="playfair">${GestationalEngine.getGreeting()}, ${this._profile.name || 'Mama'}</h1>
           <p class="hero-week sage-text">${isToday ? `Week ${ge.week}, Day ${ge.day}` : `Week ${ge.week} · ${CalendarService.formatShort(viewDate)}`}</p>
           ${isToday ? `<p class="hero-countdown">${ge.daysRemaining} days to meet your little one</p>` : ''}

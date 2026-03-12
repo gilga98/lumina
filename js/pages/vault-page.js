@@ -98,40 +98,38 @@ export class VaultPage {
     images.sort((a, b) => (b.dateTaken || '').localeCompare(a.dateTaken || ''));
 
     content.innerHTML = `
-      <div class="gallery-categories">
-        ${categories.map(c => `<button class="cat-btn ${c === 'all' ? 'active' : ''}" data-cat="${c}">${c === 'all' ? 'All' : c.charAt(0).toUpperCase() + c.slice(1)}</button>`).join('')}
+      <div class="gallery-filters-wrapper">
+        <div class="gallery-categories">
+          ${categories.map(c => `<button class="cat-btn ${c === 'all' ? 'active' : ''}" data-cat="${c}">${c === 'all' ? 'All' : c.charAt(0).toUpperCase() + c.slice(1)}</button>`).join('')}
+        </div>
       </div>
-      <div class="vault-grid" id="vault-grid">
+      <div class="vault-container" id="vault-container">
         ${images.length === 0 ? '<p class="gallery-empty">No photos yet. Upload your first scan!</p>' : ''}
       </div>
       <div class="upload-section">
         <input type="file" accept="image/*" id="vault-file" class="hidden" multiple>
-        <label>Date taken: <input type="date" class="lumina-input" id="upload-date" value="${CalendarService.toISO(new Date())}"></label>
-        <label>Category: <select class="lumina-input" id="upload-category">
-          <option value="scans">Scans</option>
-          <option value="prescriptions">Prescriptions</option>
-          <option value="tests">Tests</option>
-          <option value="bump">Bump Progress</option>
-        </select></label>
+        <div class="upload-controls">
+          <label>Date: <input type="date" class="lumina-input" id="upload-date" value="${CalendarService.toISO(new Date())}"></label>
+          <label>Category: <select class="lumina-input" id="upload-category">
+            <option value="scans">Scans</option>
+            <option value="prescriptions">Prescriptions</option>
+            <option value="tests">Tests</option>
+            <option value="bump">Bump Progress</option>
+          </select></label>
+        </div>
         <button class="lumina-btn primary full-width" id="vault-upload-btn">📷 Upload Photo</button>
       </div>
     `;
 
-    // Display decrypted thumbnails
-    const grid = document.getElementById('vault-grid');
-    for (const img of images) {
-      await this._addImageThumb(grid, img);
-    }
+    this._images = images;
+    this._renderGalleryGrid('all');
 
     // Category filter
     document.querySelectorAll('.cat-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
-        const cat = btn.dataset.cat;
-        grid.querySelectorAll('.vault-thumb-container').forEach(thumb => {
-          thumb.style.display = (cat === 'all' || thumb.dataset.category === cat) ? '' : 'none';
-        });
+        this._renderGalleryGrid(btn.dataset.cat);
       });
     });
 
@@ -145,6 +143,40 @@ export class VaultPage {
       }
       this._handleUpload(e);
     });
+  }
+
+  async _renderGalleryGrid(filterCat) {
+    const container = document.getElementById('vault-container');
+    if (!container) return;
+    container.innerHTML = '';
+
+    const categories = ['scans', 'prescriptions', 'tests', 'bump'];
+    const filtered = filterCat === 'all' ? this._images : this._images.filter(img => (img.category || 'scans') === filterCat);
+
+    if (filterCat === 'all') {
+      for (const cat of categories) {
+        const catImages = filtered.filter(img => (img.category || 'scans') === cat);
+        if (catImages.length > 0) {
+          const section = document.createElement('div');
+          section.className = 'vault-section';
+          section.innerHTML = `<h3 class="vault-section-title">${cat.charAt(0).toUpperCase() + cat.slice(1)}</h3>`;
+          const grid = document.createElement('div');
+          grid.className = 'vault-grid';
+          section.appendChild(grid);
+          container.appendChild(section);
+          for (const img of catImages) {
+            await this._addImageThumb(grid, img);
+          }
+        }
+      }
+    } else {
+      const grid = document.createElement('div');
+      grid.className = 'vault-grid';
+      container.appendChild(grid);
+      for (const img of filtered) {
+        await this._addImageThumb(grid, img);
+      }
+    }
   }
 
   async _addImageThumb(grid, img) {
@@ -169,7 +201,7 @@ export class VaultPage {
         img.url = url; // Save for modal
         imgHtml = `
           <div class="vault-thumb unlocked">
-            <img src="${url}" alt="Photo" style="width:100%; height:100%; object-fit:cover; border-radius:16px;">
+            <img src="${url}" alt="Photo">
           </div>`;
       } catch (err) {
         console.error("Failed to decrypt image thumb", err);
@@ -178,7 +210,7 @@ export class VaultPage {
 
     div.innerHTML = `
       ${imgHtml}
-      <small style="display:block;margin-top:4px;">${img.dateTaken || '—'} · ${(img.category || 'scans')}</small>
+      <small class="thumb-date">${img.dateTaken || '—'}</small>
     `;
     div.addEventListener('click', () => this._showImageModal(img));
     grid.appendChild(div);
