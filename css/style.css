@@ -321,7 +321,11 @@ p {
 /* ---------- Hero Section ---------- */
 .hero-section {
   text-align: center;
-  padding: 32px 0 24px;
+  padding: 32px 20px 48px;
+  background: linear-gradient(180deg, var(--soft-peach) 0%, var(--warm-cream) 100%);
+  margin: -12px -20px 24px -20px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 
 .hero-greeting {

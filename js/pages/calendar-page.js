@@ -211,18 +211,37 @@ export class CalendarPage {
       const { ImageService } = await import('../services/image-service.js');
       const svc = new ImageService();
       
-      let imgHtml = '<div style="display:flex;gap:8px;overflow-x:auto;padding:8px 0;">';
+      container.innerHTML = '';
+      const flexDiv = document.createElement('div');
+      flexDiv.style = 'display:flex;gap:8px;overflow-x:auto;padding:8px 0;';
+      
       for (const img of images) {
         if (img.data && img.data.iv && img.data.ciphertext) {
           try {
             const decrypted = await CryptoService.decrypt(key, img.data.iv, img.data.ciphertext);
             const url = svc.createSecureURL(decrypted);
-            imgHtml += `<img src="${url}" style="width:80px;height:80px;object-fit:cover;border-radius:12px;cursor:pointer;" onclick="window.location.hash='#/vault'" alt="Photo">`;
+            
+            const imgEl = document.createElement('img');
+            imgEl.src = url;
+            imgEl.style = 'width:80px;height:80px;object-fit:cover;border-radius:12px;cursor:pointer;';
+            imgEl.alt = 'Photo';
+            imgEl.addEventListener('click', () => {
+              const overlay = document.createElement('div');
+              overlay.className = 'modal-overlay active';
+              overlay.innerHTML = `
+                <div class="modal-card" style="padding:16px;text-align:center;">
+                  <img src="${url}" style="width:100%;max-height:60vh;object-fit:contain;border-radius:12px;">
+                  <button class="lumina-btn secondary full-width" style="margin-top:16px;" id="close-preview-btn">Close</button>
+                </div>
+              `;
+              document.body.appendChild(overlay);
+              document.getElementById('close-preview-btn').addEventListener('click', () => overlay.remove());
+            });
+            flexDiv.appendChild(imgEl);
           } catch(e) { }
         }
       }
-      imgHtml += '</div>';
-      container.innerHTML = imgHtml;
+      container.appendChild(flexDiv);
     } catch(e) {
       console.error(e);
     }

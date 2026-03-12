@@ -74,7 +74,6 @@ export class SettingsPage {
         <div class="settings-section">
           <h3 class="settings-section-title">🎯 CUSTOM HABITS</h3>
           <div id="custom-habits-list"></div>
-          <button class="lumina-btn secondary full-width" id="manage-habits-btn">Manage Custom Habits</button>
         </div>
 
         <!-- Data & Security -->
@@ -246,9 +245,6 @@ export class SettingsPage {
       if (!confirm('This CANNOT be undone. Type "DELETE" to confirm.')) return;
       this._clearAll();
     });
-
-    // Manage habits
-    document.getElementById('manage-habits-btn')?.addEventListener('click', () => this._loadCustomHabits());
   }
 
   _findAppContainer() {
