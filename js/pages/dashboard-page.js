@@ -101,7 +101,7 @@ export class DashboardPage {
             </div>
             ${weekData.illustration ? `
               <div class="hero-medical hidden" id="hero-visual-medical">
-                <img src="${weekData.illustration}" alt="Week ${ge.week} development" class="medical-illustration" onerror="this.parentElement.classList.add('hidden'); document.getElementById('hero-visual-fruit').classList.remove('hidden'); document.getElementById('toggle-view').classList.add('hidden');">
+                <img src="${weekData.illustration}" alt="Week ${ge.week} development" class="medical-illustration" loading="lazy" onerror="this.parentElement.classList.add('hidden'); document.getElementById('hero-visual-fruit').classList.remove('hidden'); document.getElementById('toggle-view').classList.add('hidden');">
               </div>
             ` : ''}
           </div>

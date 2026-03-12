@@ -41,7 +41,7 @@ export class VaultPage {
       <!-- Image Detail Modal -->
       <div class="modal-overlay hidden" id="image-modal">
         <div class="modal-card image-modal">
-          <img id="modal-image" src="" alt="Photo">
+          <img id="modal-image" src="" alt="Photo" loading="lazy">
           <div class="image-modal-actions">
             <label>Category: <select class="lumina-input" id="modal-category">
               <option value="scans">Scans</option>
@@ -201,7 +201,7 @@ export class VaultPage {
         img.url = url; // Save for modal
         imgHtml = `
           <div class="vault-thumb unlocked">
-            <img src="${url}" alt="Photo">
+            <img src="${url}" alt="Photo" loading="lazy">
           </div>`;
       } catch (err) {
         console.error("Failed to decrypt image thumb", err);

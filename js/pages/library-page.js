@@ -271,7 +271,7 @@ export class LibraryPage {
         ${links.map(l => `
           <div class="link-card" data-id="${l.id}">
             <a href="${l.url}" target="_blank" rel="noopener">
-              <img src="${l.thumbnail}" alt="${l.title || 'Video'}" class="link-thumb">
+              <img src="${l.thumbnail}" alt="${l.title || 'Video'}" class="link-thumb" loading="lazy">
             </a>
             <div class="link-info">
               <input type="text" class="link-title-edit" value="${l.title || l.url}" data-id="${l.id}">
