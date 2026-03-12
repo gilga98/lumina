@@ -844,7 +844,7 @@ a.lumina-btn.secondary, a.lumina-btn.secondary:visited, a.lumina-btn.secondary:h
 /* ---------- Toast ---------- */
 .toast-container {
   position: fixed;
-  top: 20px;
+  top: max(20px, env(safe-area-inset-top));
   left: 50%;
   transform: translateX(-50%);
   z-index: 8000;
@@ -2282,4 +2282,35 @@ a.lumina-btn.secondary, a.lumina-btn.secondary:visited, a.lumina-btn.secondary:h
   #app { padding: 0 24px; }
   .gallery-grid { grid-template-columns: repeat(3, 1fr); }
   .links-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* ---------- Calendar Dots & Previews ---------- */
+.cal-dots {
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+}
+.cal-dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--charcoal-light);
+}
+.cal-dot.appt { background: var(--sage-green-dark); }
+.cal-dot.symptom { background: var(--warning); }
+.cal-dot.habit { background: #3498db; }
+.cal-dot.image { background: var(--dusty-rose); }
+
+.cal-image-preview {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 8px 0;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.cal-image-preview::-webkit-scrollbar {
+  display: none;
 }

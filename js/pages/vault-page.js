@@ -8,9 +8,10 @@ import { CalendarService } from '../services/calendar-service.js';
  * past-date uploads, CRUD on images/notes, 40-week timeline, and Care Connect.
  */
 export class VaultPage {
-  constructor(db, auth) {
+  constructor(db, auth, toastFn) {
     this._db = db;
     this._auth = auth;
+    this._toast = toastFn || (msg => alert(msg));
     this._imageService = new ImageService();
     this._activeTab = 'gallery';
   }
@@ -100,7 +101,7 @@ export class VaultPage {
       <div class="gallery-categories">
         ${categories.map(c => `<button class="cat-btn ${c === 'all' ? 'active' : ''}" data-cat="${c}">${c === 'all' ? 'All' : c.charAt(0).toUpperCase() + c.slice(1)}</button>`).join('')}
       </div>
-      <div class="gallery-grid" id="gallery-grid">
+      <div class="vault-grid" id="vault-grid">
         ${images.length === 0 ? '<p class="gallery-empty">No photos yet. Upload your first scan!</p>' : ''}
       </div>
       <div class="upload-section">
@@ -116,10 +117,10 @@ export class VaultPage {
       </div>
     `;
 
-    // Display thumbnails (initially blurred)
-    const grid = document.getElementById('gallery-grid');
+    // Display decrypted thumbnails
+    const grid = document.getElementById('vault-grid');
     for (const img of images) {
-      this._addImageThumb(grid, img);
+      await this._addImageThumb(grid, img);
     }
 
     // Category filter
@@ -128,29 +129,58 @@ export class VaultPage {
         document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         const cat = btn.dataset.cat;
-        grid.querySelectorAll('.gallery-thumb').forEach(thumb => {
+        grid.querySelectorAll('.vault-thumb-container').forEach(thumb => {
           thumb.style.display = (cat === 'all' || thumb.dataset.category === cat) ? '' : 'none';
         });
       });
     });
 
     // Upload
-    document.getElementById('vault-upload-btn')?.addEventListener('click', () => document.getElementById('vault-file')?.click());
-    document.getElementById('vault-file')?.addEventListener('change', (e) => this._handleUpload(e));
+    const uploadBtn = document.getElementById('vault-upload-btn');
+    uploadBtn?.addEventListener('click', () => document.getElementById('vault-file')?.click());
+    document.getElementById('vault-file')?.addEventListener('change', (e) => {
+      if (uploadBtn) {
+        uploadBtn.textContent = '⏳ Uploading...';
+        uploadBtn.disabled = true;
+      }
+      this._handleUpload(e);
+    });
   }
 
-  _addImageThumb(grid, img) {
+  async _addImageThumb(grid, img) {
     const div = document.createElement('div');
-    div.className = 'gallery-thumb blurred';
+    div.className = 'vault-thumb-container';
     div.dataset.id = img.id;
     div.dataset.category = img.category || 'scans';
+    
+    let imgHtml = `
+      <div class="vault-thumb">
+        <div class="thumb-inner" style="background-color:var(--bg-secondary);display:flex;align-items:center;justify-content:center;height:100%;">
+          <span>🔒</span>
+        </div>
+      </div>`;
+
+    const key = this._auth.key;
+    if (key && img.data && img.data.iv && img.data.ciphertext) {
+      try {
+        const { CryptoService } = await import('../services/crypto-service.js');
+        const decrypted = await CryptoService.decrypt(key, img.data.iv, img.data.ciphertext);
+        const url = this._imageService.createSecureURL(decrypted);
+        img.url = url; // Save for modal
+        imgHtml = `
+          <div class="vault-thumb unlocked">
+            <img src="${url}" alt="Photo" style="width:100%; height:100%; object-fit:cover; border-radius:16px;">
+          </div>`;
+      } catch (err) {
+        console.error("Failed to decrypt image thumb", err);
+      }
+    }
+
     div.innerHTML = `
-      <div class="thumb-inner" style="background-color:var(--bg-secondary);display:flex;align-items:center;justify-content:center;">
-        <span>🔒</span>
-      </div>
-      <small>${img.dateTaken || '—'} · ${img.category || 'scans'}</small>
+      ${imgHtml}
+      <small style="display:block;margin-top:4px;">${img.dateTaken || '—'} · ${(img.category || 'scans')}</small>
     `;
-    div.addEventListener('click', () => this._decryptAndShow(img));
+    div.addEventListener('click', () => this._showImageModal(img));
     grid.appendChild(div);
   }
 
@@ -178,18 +208,17 @@ export class VaultPage {
       });
     }
 
+    this._toast('Photo uploaded successfully ✓');
     this._renderTab('gallery');
   }
 
-  async _decryptAndShow(img) {
-    const key = this._auth.key;
-    if (!key) return;
+  _showImageModal(img) {
+    if (!img.url) {
+      this._toast('Image not properly decrypted', 'error');
+      return;
+    }
     try {
-      const { CryptoService } = await import('../services/crypto-service.js');
-      const decrypted = await CryptoService.decrypt(key, img.data);
-      const url = this._imageService.createSecureURL(decrypted);
-
-      document.getElementById('modal-image').src = url;
+      document.getElementById('modal-image').src = img.url;
       document.getElementById('modal-category').value = img.category || 'scans';
       document.getElementById('modal-date').value = img.dateTaken || '';
       document.getElementById('image-modal').classList.remove('hidden');
@@ -213,8 +242,8 @@ export class VaultPage {
       document.getElementById('modal-close').onclick = () => {
         document.getElementById('image-modal').classList.add('hidden');
       };
-    } catch {
-      alert('Failed to decrypt image.');
+    } catch (err) {
+      this._toast('Failed to open image.', 'error');
     }
   }
 
@@ -322,6 +351,7 @@ export class VaultPage {
       const id = existing?.id || `note-${Date.now()}`;
       await this._db.put('notes', { id, title, text, createdAt: existing?.createdAt || new Date().toISOString(), updatedAt: new Date().toISOString() });
       overlay.remove();
+      this._toast('Note saved ✓');
       this._renderTab('notes');
     });
   }

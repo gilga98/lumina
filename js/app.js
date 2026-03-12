@@ -97,8 +97,8 @@ class AppController {
     const toastFn = (msg, type) => this._showToast(msg, type);
     const dashboardPage = new DashboardPage(this._db, this._auth);
     const libraryPage = new LibraryPage(this._db);
-    this._vaultPage = new VaultPage(this._db, this._auth);
-    const calendarPage = new CalendarPage(this._db, toastFn);
+    this._vaultPage = new VaultPage(this._db, this._auth, toastFn);
+    const calendarPage = new CalendarPage(this._db, this._auth, toastFn);
     const settingsPage = new SettingsPage(
       this._db,
       this._auth,

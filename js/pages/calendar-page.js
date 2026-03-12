@@ -8,10 +8,12 @@ import { ContentService } from '../services/content-service.js';
 export class CalendarPage {
   /**
    * @param {import('../services/db-service.js').DBService} db
+   * @param {import('../services/auth-service.js').AuthService} auth
    * @param {Function} showToast
    */
-  constructor(db, showToast) {
+  constructor(db, auth, showToast) {
     this._db = db;
+    this._auth = auth;
     this._toast = showToast;
     this._year = new Date().getFullYear();
     this._month = new Date().getMonth();
@@ -23,6 +25,7 @@ export class CalendarPage {
     const appointments = await this._db.getAll('appointments');
     const symptoms = await this._db.getAll('symptoms');
     const habits = await this._db.getAll('habits');
+    const vaultImages = await this._db.getAll('vault_images');
 
     container.innerHTML = `
       <div class="page-container">
@@ -73,6 +76,7 @@ export class CalendarPage {
     this._appointments = appointments;
     this._symptoms = symptoms;
     this._habits = habits;
+    this._vaultImages = vaultImages || [];
     this._renderGrid();
     this._showDayDetail(this._selectedDate);
     this._attachListeners();
@@ -88,6 +92,7 @@ export class CalendarPage {
     const apptDates = new Set(this._appointments.map(a => a.date));
     const symptomDates = new Set(this._symptoms.map(s => s.id));
     const habitDates = new Set(this._habits.map(h => h.id));
+    const imageDates = new Set(this._vaultImages.map(img => img.dateTaken));
 
     let html = '<div class="cal-header-row">Su Mo Tu We Th Fr Sa</div>'.replace(/ /g, '</span><span class="cal-header-cell">');
     html = `<div class="cal-header-row"><span class="cal-header-cell">Su</span><span class="cal-header-cell">Mo</span><span class="cal-header-cell">Tu</span><span class="cal-header-cell">We</span><span class="cal-header-cell">Th</span><span class="cal-header-cell">Fr</span><span class="cal-header-cell">Sa</span></div>`;
@@ -106,6 +111,7 @@ export class CalendarPage {
         if (apptDates.has(cell.iso)) dots.push('appt');
         if (symptomDates.has(cell.iso)) dots.push('symptom');
         if (habitDates.has(cell.iso)) dots.push('habit');
+        if (imageDates.has(cell.iso)) dots.push('image');
 
         const dotHtml = dots.length
           ? `<div class="cal-dots">${dots.map(d => `<span class="cal-dot ${d}"></span>`).join('')}</div>`
@@ -136,6 +142,7 @@ export class CalendarPage {
     const dayAppts = this._appointments.filter(a => a.date === iso);
     const daySymptoms = this._symptoms.find(s => s.id === iso);
     const dayHabits = this._habits.find(h => h.id === iso);
+    const dayImages = this._vaultImages.filter(img => img.dateTaken === iso);
 
     let html = `<h4>${CalendarService.formatLong(date)}</h4>`;
 
@@ -162,12 +169,22 @@ export class CalendarPage {
         <div class="cal-chips">${dayHabits.completed.map(h => `<span class="cal-chip">${h}</span>`).join('')}</div></div>`;
     }
 
-    if (!dayAppts.length && !daySymptoms?.symptoms?.length && !dayHabits?.completed?.length) {
+    if (dayImages.length > 0) {
+      html += `<div class="cal-section"><span class="cal-section-label">📸 PHOTOS (${dayImages.length})</span>
+        <div class="cal-image-preview" id="cal-day-images"></div></div>`;
+    }
+
+    if (!dayAppts.length && !daySymptoms?.symptoms?.length && !dayHabits?.completed?.length && !dayImages.length) {
       html += '<p class="cal-empty">No entries for this day</p>';
     }
 
     html += `<button class="lumina-btn small secondary" id="cal-add-for-day" style="margin-top:8px;">+ Add entry for this day</button>`;
     panel.innerHTML = html;
+
+    // Load images async
+    if (dayImages.length > 0) {
+      this._loadDayImages(dayImages);
+    }
 
     // Attach edit buttons
     panel.querySelectorAll('.cal-edit-btn').forEach(btn => {
@@ -180,6 +197,35 @@ export class CalendarPage {
     document.getElementById('cal-add-for-day')?.addEventListener('click', () => {
       this._openApptModal(null, iso);
     });
+  }
+
+  async _loadDayImages(images) {
+    const container = document.getElementById('cal-day-images');
+    if (!container) return;
+    
+    const key = this._auth.key;
+    if (!key) return;
+
+    try {
+      const { CryptoService } = await import('../services/crypto-service.js');
+      const { ImageService } = await import('../services/image-service.js');
+      const svc = new ImageService();
+      
+      let imgHtml = '<div style="display:flex;gap:8px;overflow-x:auto;padding:8px 0;">';
+      for (const img of images) {
+        if (img.data && img.data.iv && img.data.ciphertext) {
+          try {
+            const decrypted = await CryptoService.decrypt(key, img.data.iv, img.data.ciphertext);
+            const url = svc.createSecureURL(decrypted);
+            imgHtml += `<img src="${url}" style="width:80px;height:80px;object-fit:cover;border-radius:12px;cursor:pointer;" onclick="window.location.hash='#/vault'" alt="Photo">`;
+          } catch(e) { }
+        }
+      }
+      imgHtml += '</div>';
+      container.innerHTML = imgHtml;
+    } catch(e) {
+      console.error(e);
+    }
   }
 
   _attachListeners() {
