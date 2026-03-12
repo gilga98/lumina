@@ -44,16 +44,19 @@ export class DashboardPage {
     const loggedSymptoms = symptomsRecord?.symptoms || [];
     const allHabits = [...ContentService.getDefaultHabits(), ...customHabits];
 
-    // Personalization & Weather (Only for Today)
+    // Personalization & Weather
     let weatherData = null;
     let locationData = null;
     let recommendations = null;
 
+    // Fetch weather for all days (Current Weather)
+    locationData = await LocationService.getLocation();
+    if (locationData) {
+      weatherData = await WeatherService.getCurrentWeather(locationData.lat, locationData.lon);
+    }
+
+    // Recommendations only for Today
     if (isToday) {
-      locationData = await LocationService.getLocation();
-      if (locationData) {
-        weatherData = await WeatherService.getCurrentWeather(locationData.lat, locationData.lon);
-      }
       recommendations = await PersonalizationService.getRecommendations({
         weather: weatherData,
         week: ge.week,

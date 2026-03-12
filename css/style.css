@@ -1513,8 +1513,8 @@ a.lumina-btn.secondary, a.lumina-btn.secondary:visited, a.lumina-btn.secondary:h
 /* ---------- Hero Visual + Medical Illustration ---------- */
 .hero-visual {
   position: relative;
-  width: 140px;
-  height: 140px;
+  width: 220px;
+  height: 220px;
   margin: 16px auto;
 }
 
@@ -1531,10 +1531,10 @@ a.lumina-btn.secondary, a.lumina-btn.secondary:visited, a.lumina-btn.secondary:h
 .fruit-label { font-style: italic; color: var(--charcoal-light); font-size: 0.85rem; text-align: center; margin-top: 8px; }
 
 .medical-illustration {
-  width: 140px;
-  height: 140px;
+  width: 220px;
+  height: 220px;
   object-fit: contain;
-  border-radius: 16px;
+  border-radius: 20px;
   animation: fadeSlideIn 0.5s ease;
 }
 
@@ -2480,8 +2480,8 @@ a.lumina-btn.secondary, a.lumina-btn.secondary:visited, a.lumina-btn.secondary:h
 /* ---------- Media Queries ---------- */
 @media (max-width: 360px) {
   h1 { font-size: 1.5rem; }
-  .hero-visual { width: 110px; height: 110px; }
-  .medical-illustration { width: 110px; height: 110px; }
+  .hero-visual { width: 180px; height: 180px; }
+  .medical-illustration { width: 180px; height: 180px; }
   .lumina-card { padding: 16px; }
   .cal-day { font-size: 0.7rem; }
   .nav-item { padding: 8px 10px; }

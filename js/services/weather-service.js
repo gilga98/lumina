@@ -10,14 +10,27 @@ export class WeatherService {
    * @returns {Promise<object>}
    */
   static async getCurrentWeather(lat, lon) {
+    const CACHE_KEY = `weather_${lat.toFixed(2)}_${lon.toFixed(2)}`;
+    const CACHE_TTL = 30 * 60 * 1000; // 30 minutes in milliseconds
+
     try {
+      // Check cache first
+      const cached = localStorage.getItem(CACHE_KEY);
+      if (cached) {
+        const { data, timestamp } = JSON.parse(cached);
+        if (Date.now() - timestamp < CACHE_TTL) {
+          console.log('Using cached weather data');
+          return data;
+        }
+      }
+
       const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true`;
       const resp = await fetch(url);
       if (!resp.ok) return null;
       const data = await resp.json();
       const current = data.current_weather;
       
-      return {
+      const weatherInfo = {
         temp: Math.round(current.temperature),
         code: current.weathercode,
         description: WeatherService.getConditionText(current.weathercode),
@@ -26,6 +39,14 @@ export class WeatherService {
         isCold: current.temperature < 15,
         isRainy: [51, 53, 55, 61, 63, 65, 80, 81, 82].includes(current.weathercode),
       };
+
+      // Save to cache
+      localStorage.setItem(CACHE_KEY, JSON.stringify({
+        data: weatherInfo,
+        timestamp: Date.now()
+      }));
+
+      return weatherInfo;
     } catch (err) {
       console.error('Weather fetch failed:', err);
       return null;
