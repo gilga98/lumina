@@ -1,6 +1,9 @@
 import { ContentService } from '../services/content-service.js';
 import { GestationalEngine } from '../services/gestational-engine.js';
 import { CalendarService } from '../services/calendar-service.js';
+import { LocationService } from '../services/location-service.js';
+import { WeatherService } from '../services/weather-service.js';
+import { PersonalizationService } from '../services/personalization-service.js';
 
 /**
  * DashboardPage — Morning Check-In with date navigation,
@@ -41,6 +44,24 @@ export class DashboardPage {
     const loggedSymptoms = symptomsRecord?.symptoms || [];
     const allHabits = [...ContentService.getDefaultHabits(), ...customHabits];
 
+    // Personalization & Weather (Only for Today)
+    let weatherData = null;
+    let locationData = null;
+    let recommendations = null;
+
+    if (isToday) {
+      locationData = await LocationService.getLocation();
+      if (locationData) {
+        weatherData = await WeatherService.getCurrentWeather(locationData.lat, locationData.lon);
+      }
+      recommendations = await PersonalizationService.getRecommendations({
+        weather: weatherData,
+        week: ge.week,
+        habits: this._profile, // Profile contains food habits
+        profile: this._profile
+      });
+    }
+
     this._container.innerHTML = `
       <div class="page-container">
         <!-- Hero Section -->
@@ -54,6 +75,18 @@ export class DashboardPage {
             <button class="date-nav-btn" id="date-next">›</button>
             ${!isToday ? '<button class="date-today-btn" id="date-today">Today</button>' : ''}
           </div>
+
+          <!-- Weather Widget (New) -->
+          ${weatherData ? `
+            <div class="weather-widget">
+              <span class="weather-emoji">${weatherData.emoji}</span>
+              <div class="weather-info">
+                <span class="weather-temp">${weatherData.temp}°C</span>
+                <span class="weather-loc">${locationData?.city || 'Nearby'} · ${weatherData.description}</span>
+              </div>
+            </div>
+          ` : ''}
+
           <h1 class="playfair">${GestationalEngine.getGreeting()}, ${this._profile.name || 'Mama'}</h1>
           <p class="hero-week sage-text">${isToday ? `Week ${ge.week}, Day ${ge.day}` : `Week ${ge.week} · ${CalendarService.formatShort(viewDate)}`}</p>
           ${isToday ? `<p class="hero-countdown">${ge.daysRemaining} days to meet your little one</p>` : ''}
@@ -133,6 +166,45 @@ export class DashboardPage {
             ${ContentService.formatToPoints(weekData.bodyChanges, 'body')}
           </ul>
         </div>
+
+        <!-- Personalized Guide (New) -->
+        ${recommendations ? `
+          <h2 class="section-title playfair">Personalized for You</h2>
+          <div class="lumina-card personalized-card">
+            <div class="card-header"><span class="dot gold"></span>✨ TAILORED GUIDE</div>
+            
+            <div class="rec-section">
+              <h4>🥗 Good to Eat</h4>
+              <div class="chip-container">
+                ${recommendations.food.good.map(f => `<span class="rec-chip positive">${f}</span>`).join('')}
+              </div>
+            </div>
+
+            <div class="rec-section">
+              <h4>🧘 Activities</h4>
+              <div class="chip-container">
+                ${recommendations.activity.outdoor.map(a => `<span class="rec-chip secondary">🌿 ${a}</span>`).join('')}
+                ${recommendations.activity.indoor.map(a => `<span class="rec-chip secondary">🏠 ${a}</span>`).join('')}
+              </div>
+            </div>
+
+            <div class="rec-section">
+              <h4>💊 Supplements & Care</h4>
+              <div class="chip-container">
+                ${recommendations.supplements.take.map(s => `<span class="rec-chip primary">✓ ${s}</span>`).join('')}
+              </div>
+              <p class="rec-note">Avoid: ${recommendations.supplements.avoid.join(', ')}</p>
+            </div>
+
+            <div class="rec-section warning">
+              <h4>🚫 What to Avoid</h4>
+              <div class="chip-container">
+                ${recommendations.food.avoid.map(f => `<span class="rec-chip danger">${f}</span>`).join('')}
+              </div>
+              ${this._profile.allergies ? `<p class="rec-note">Reminder: Based on your preference for <strong>${this._profile.allergies}</strong>.</p>` : ''}
+            </div>
+          </div>
+        ` : ''}
 
         ${weekData.nutrition?.length ? `
         <div class="lumina-card">

@@ -1,0 +1,51 @@
+{
+  "food": {
+    "default_avoid": ["Alcohol", "Unpasteurized cheese", "High-mercury fish", "Undercooked meat"],
+    "weather_rules": {
+      "hot": ["Hydrating watermelon", "Cucumber salad", "Cold coconut water"],
+      "cold": ["Warm lentil soup", "Roasted root vegetables", "Ginger tea"],
+      "rainy": ["Steamed dumplings", "Warm oatmeal", "Herbal infusions"],
+      "default": ["Fresh seasonal fruits", "Greek yogurt with berries"]
+    },
+    "diet_adjustments": {
+      "vegetarian": {
+        "exclude": ["meat", "fish"],
+        "include": ["Iron-rich spinach", "Protein-packed chickpeas"]
+      },
+      "vegan": {
+        "exclude": ["cheese", "yogurt", "meat"],
+        "include": ["Almond milk smoothie", "Tofu stir-fry"]
+      }
+    },
+    "gestational_rules": [
+      { "min_week": 0, "max_week": 12, "include": ["Ginger for nausea", "Bland crackers"] },
+      { "min_week": 29, "max_week": 40, "include": ["High-fiber foods for digestion", "Frequent small snacks"] }
+    ]
+  },
+  "activities": {
+    "weather_rules": {
+      "bad_weather": {
+        "indoor": ["Prenatal Yoga at home", "Light stretching", "Meditation session"],
+        "outdoor": ["Short walk if it clears up"]
+      },
+      "good_weather": {
+        "indoor": ["Restful reading"],
+        "outdoor": ["Brisk park walk", "Gentle swimming", "Prenatal Pilates outdoors"]
+      }
+    },
+    "gestational_adjustments": [
+      { "min_week": 33, "max_week": 40, "outdoor_prefix": "Gentle ", "indoor_add": ["Pelvic floor exercises"] }
+    ]
+  },
+  "supplements": {
+    "default_take": ["Folic Acid (400mcg)", "Prenatal Multivitamin"],
+    "default_avoid": ["Excess Vitamin A", "Unverified herbal supplements"],
+    "gestational_rules": [
+      { "min_week": 13, "max_week": 40, "take": ["Iron supplement (consult doctor)", "Calcium"] },
+      { "min_week": 21, "max_week": 40, "take": ["Omega-3 (DHA)"] }
+    ],
+    "diet_rules": {
+      "vegan": ["Vitamin B12", "Vitamin D"]
+    }
+  }
+}

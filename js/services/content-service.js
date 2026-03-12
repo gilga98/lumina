@@ -172,4 +172,17 @@ export class ContentService {
       return `<li><span class="point-emoji">${emoji}</span> ${trimmed}</li>`;
     }).join('');
   }
+
+  /**
+   * Get personalized recommendation rules from JSON.
+   */
+  static async getRecommendationsData() {
+    try {
+      const resp = await fetch(`./data/recommendations.json`);
+      if (!resp.ok) return null;
+      return await resp.json();
+    } catch {
+      return null;
+    }
+  }
 }

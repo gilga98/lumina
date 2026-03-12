@@ -44,6 +44,19 @@ export class SettingsPage {
               <label>Doctor's Phone</label>
               <input type="tel" class="lumina-input" id="set-doc-phone" value="${profile.doctorPhone || ''}" placeholder="+91...">
             </div>
+            <div class="form-group">
+              <label>Diet Type</label>
+              <select class="lumina-input" id="set-diet">
+                <option value="any" ${profile.diet === 'any' ? 'selected' : ''}>No preference</option>
+                <option value="vegetarian" ${profile.diet === 'vegetarian' ? 'selected' : ''}>Vegetarian</option>
+                <option value="vegan" ${profile.diet === 'vegan' ? 'selected' : ''}>Vegan</option>
+                <option value="pescatarian" ${profile.diet === 'pescatarian' ? 'selected' : ''}>Pescatarian</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Allergies / Food Preferences</label>
+              <input type="text" class="lumina-input" id="set-allergies" value="${profile.allergies || ''}" placeholder="e.g. Nuts, Dairy free">
+            </div>
             <button class="lumina-btn primary full-width" id="save-profile">Save Profile</button>
           </div>
         </div>
@@ -174,6 +187,8 @@ export class SettingsPage {
         doctorName: document.getElementById('set-doc-name').value.trim(),
         doctorClinic: document.getElementById('set-doc-clinic').value.trim(),
         doctorPhone: document.getElementById('set-doc-phone').value.trim(),
+        diet: document.getElementById('set-diet').value,
+        allergies: document.getElementById('set-allergies').value.trim(),
       };
       await this._db.put('settings', updated);
       this._toast('Profile saved ✓');
