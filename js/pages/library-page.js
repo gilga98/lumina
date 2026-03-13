@@ -98,7 +98,7 @@ export class LibraryPage {
         <div class="week-browser">
           ${this._allWeeks.map(wk => `
             <button class="week-btn ${wk.week === this._browsingWeek ? 'current' : ''}" data-week="${wk.week}">
-              <span style="font-size: 1.2rem;">${wk.fruitEmoji}</span>
+              <span class="week-browser-visual">${wk.fruitEmoji}</span>
               <small>Wk ${wk.week}</small>
             </button>
           `).join('')}

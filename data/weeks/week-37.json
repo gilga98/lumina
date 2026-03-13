@@ -1,12 +1,12 @@
 {
   "week": 37,
-  "fruitName": "Winter Melon",
-  "fruitEmoji": "🍈",
+  "fruitName": "Large Cabbage",
+  "fruitEmoji": "\ud83e\udd6c",
   "babySize": "48.6 cm",
   "babyWeight": "2.8kg",
   "illustration": "assets/medical/week-37.png",
   "babyDevelopment": "The baby is considered 'early term.' Most systems are ready for life outside the womb. The baby is practicing sucking and swallowing. The digestive system contains meconium, which will be the baby's first stool.",
-  "bodyChanges": "You may experience increased vaginal discharge as your body prepares for labor. Your cervix may begin to 'efface' (thin out) and 'dilate' (open). Some women experience 'nesting'—a sudden burst of energy to clean and organize.",
+  "bodyChanges": "You may experience increased vaginal discharge as your body prepares for labor. Your cervix may begin to 'efface' (thin out) and 'dilate' (open). Some women experience 'nesting'\u2014a sudden burst of energy to clean and organize.",
   "tips": [
     "Ensure you know the signs of early labor",
     "Rest whenever you feel tired",
@@ -45,5 +45,5 @@
     "Sudden, extreme swelling"
   ],
   "milestoneTitle": "Early Term",
-  "milestoneDescription": "You've reached 'early term'—most babies born now do very well."
+  "milestoneDescription": "You've reached 'early term'\u2014most babies born now do very well."
 }

@@ -1,12 +1,12 @@
 {
   "week": 9,
   "fruitName": "Olive",
-  "fruitEmoji": "🫒",
+  "fruitEmoji": "\ud83e\uded2",
   "babySize": "2.3 cm",
   "babyWeight": "2g",
   "illustration": "assets/medical/week-09.png",
   "babyDevelopment": "The'tail' at the base of the spinal cord has disappeared. Muscles are starting to form, allowing the fetus to make tiny, spontaneous movements (though you can't feel them yet). The digestive system is developing, and the liver is starting to produce red blood cells.",
-  "bodyChanges": "Mood swings might be intense—similar to PMS but amplified. You may experience 'stuffy nose' (pregnancy rhinitis) due to increased blood flow to mucous membranes. Progesterone may cause slower digestion and bloating.",
+  "bodyChanges": "Mood swings might be intense\u2014similar to PMS but amplified. You may experience 'stuffy nose' (pregnancy rhinitis) due to increased blood flow to mucous membranes. Progesterone may cause slower digestion and bloating.",
   "tips": [
     "Use a saline nasal spray for congestion",
     "Stay consistent with your light exercise routine",

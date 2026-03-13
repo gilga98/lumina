@@ -1,12 +1,12 @@
 {
   "week": 23,
   "fruitName": "Grapefruit",
-  "fruitEmoji": "🍊",
+  "fruitEmoji": "\ud83c\udf4a",
   "babySize": "28.9 cm",
   "babyWeight": "500g",
   "illustration": "assets/medical/week-23.png",
   "babyDevelopment": "The baby's skin is still somewhat wrinkled as fat continues to accumulate. The inner ear is fully developed, and the baby can sense its own position in space (equilibrium). Lungs are producing surfactant, which will help them inflate after birth.",
-  "bodyChanges": "You might experience Braxton Hicks contractions—mild, irregular abdominal tightening. Your feet and ankles may swell slightly, especially at the end of the day. Some women notice 'pregnancy brain' symptoms intensifying.",
+  "bodyChanges": "You might experience Braxton Hicks contractions\u2014mild, irregular abdominal tightening. Your feet and ankles may swell slightly, especially at the end of the day. Some women notice 'pregnancy brain' symptoms intensifying.",
   "tips": [
     "Stay hydrated and elevate your feet to manage swelling",
     "Incorporate more potassium to help with leg cramps",

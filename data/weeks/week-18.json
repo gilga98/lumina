@@ -1,7 +1,7 @@
 {
   "week": 18,
   "fruitName": "Sweet Potato",
-  "fruitEmoji": "🍠",
+  "fruitEmoji": "\ud83c\udf60",
   "babySize": "14.2 cm",
   "babyWeight": "190g",
   "illustration": "assets/medical/week-18.png",
@@ -9,7 +9,7 @@
   "bodyChanges": "You might start feeling more pronounced movements now. Your appetite may increase significantly. Some women experience 'pregnancy-induced carpal tunnel' syndrome due to fluid retention.",
   "tips": [
     "Ensure you're getting enough iron to support baby's blood supply",
-    "Talk and sing to your baby—they're starting to listen!",
+    "Talk and sing to your baby\u2014they're starting to listen!",
     "Continue with gentle stretching to manage back pain"
   ],
   "dosAndDonts": {

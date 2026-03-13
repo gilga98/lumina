@@ -79,17 +79,11 @@ export class DashboardPage {
       <div class="page-container">
         <!-- Hero Section -->
         <div class="hero-section">
-          <!-- Date Navigator Integrated -->
-          <div class="date-navigator">
-            <button class="date-nav-btn" id="date-prev">‹</button>
-            <button class="date-nav-label" id="date-picker-btn">
-              ${isToday ? 'Today' : CalendarService.formatLong(viewDate)}
-            </button>
-            <button class="date-nav-btn" id="date-next">›</button>
-            ${!isToday ? '<button class="date-today-btn" id="date-today">Today</button>' : ''}
-          </div>
+          <!-- Floating Date Navigation -->
+          <button class="floating-nav-btn prev" id="floating-prev" aria-label="Previous day">‹</button>
+          <button class="floating-nav-btn next" id="floating-next" aria-label="Next day">›</button>
 
-          <!-- Weather Widget (New) -->
+          <!-- Weather Widget -->
           ${weatherData ? `
             <div class="weather-widget">
               <span class="weather-emoji">${weatherData.emoji}</span>
@@ -104,19 +98,32 @@ export class DashboardPage {
           <p class="hero-week sage-text">${isToday ? `Week ${ge.week}, Day ${ge.day}` : `Week ${ge.week} · ${CalendarService.formatShort(viewDate)}`}</p>
           ${isToday ? `<p class="hero-countdown">${ge.daysRemaining} days to meet your little one</p>` : ''}
 
-          <!-- Fruit + Medical Illustration Toggle -->
           <div class="hero-visual">
-            <div class="hero-fruit" id="hero-visual-fruit">
-              <span class="fruit-emoji">${weekData.fruitEmoji}</span>
-            </div>
+            <!-- Medical Illustration (Priority) -->
             ${weekData.illustration ? `
-              <div class="hero-medical hidden" id="hero-visual-medical">
+              <div class="hero-medical" id="hero-visual-medical">
                 <img src="${weekData.illustration}" alt="Week ${ge.week} development" class="medical-illustration" loading="lazy" onerror="this.parentElement.classList.add('hidden'); document.getElementById('hero-visual-fruit').classList.remove('hidden'); document.getElementById('toggle-view').classList.add('hidden');">
               </div>
             ` : ''}
+            
+            <!-- Fruit Visual (Fallback or Toggled) -->
+            <div class="hero-fruit ${weekData.illustration ? 'hidden' : ''}" id="hero-visual-fruit">
+              <span class="fruit-emoji">${weekData.fruitEmoji}</span>
+            </div>
           </div>
-          ${weekData.illustration ? '<button class="view-toggle-btn" id="toggle-view">👁️ See baby\'s development</button>' : ''}
-          <p class="fruit-label"><em>Baby is the size of a ${weekData.fruitName}</em></p>
+
+          <!-- Interaction Bar -->
+          <div class="hero-date-picker">
+            ${weekData.illustration ? `
+              <button class="view-toggle-btn" id="toggle-view">🍋 See size comparison</button>
+            ` : ''}
+            <button class="date-picker-btn" id="date-picker-btn">
+              ${isToday ? 'Today' : CalendarService.formatLong(viewDate)}
+            </button>
+            ${!isToday ? '<button class="date-today-btn" id="date-today" style="margin-top: 8px;">Back to Today</button>' : ''}
+          </div>
+
+          <p class="fruit-label" style="margin-top: 16px;"><em>Baby is the size of a ${weekData.fruitName}</em></p>
 
           <!-- Stats -->
           <div class="hero-stats">
@@ -272,12 +279,12 @@ export class DashboardPage {
 
   _attachListeners(dateISO, allHabits, dueDate) {
     // Date navigation
-    document.getElementById('date-prev')?.addEventListener('click', () => {
+    document.getElementById('floating-prev')?.addEventListener('click', () => {
       const d = CalendarService.fromISO(this._currentDate);
       d.setDate(d.getDate() - 1);
       this._renderForDate(CalendarService.toISO(d));
     });
-    document.getElementById('date-next')?.addEventListener('click', () => {
+    document.getElementById('floating-next')?.addEventListener('click', () => {
       const d = CalendarService.fromISO(this._currentDate);
       d.setDate(d.getDate() + 1);
       
@@ -314,7 +321,7 @@ export class DashboardPage {
         const showingFruit = !fruit.classList.contains('hidden');
         fruit.classList.toggle('hidden', showingFruit);
         med.classList.toggle('hidden', !showingFruit);
-        btn.textContent = showingFruit ? '🍋 See size comparison' : '👁️ See baby\'s development';
+        btn.textContent = showingFruit ? '👁️ See baby\'s development' : '🍋 See size comparison';
       }
     });
 

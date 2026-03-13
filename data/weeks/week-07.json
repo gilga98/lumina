@@ -1,11 +1,11 @@
 {
   "week": 7,
   "fruitName": "Blueberry",
-  "fruitEmoji": "🫐",
+  "fruitEmoji": "\ud83e\uded0",
   "babySize": "1.3 cm",
   "babyWeight": "1g",
   "illustration": "assets/medical/week-07.png",
-  "babyDevelopment": "Your baby's brain is growing rapidly—about 100,000 new neurons every minute! Tiny hands and feet are developing, looking like little paddles. The nostrils are forming, and the mouth and tongue are beginning to take shape.",
+  "babyDevelopment": "Your baby's brain is growing rapidly\u2014about 100,000 new neurons every minute! Tiny hands and feet are developing, looking like little paddles. The nostrils are forming, and the mouth and tongue are beginning to take shape.",
   "bodyChanges": "Your uterus has doubled in size, though you likely still don't have a visible 'bump'. Frequent urination increases as the uterus presses on the bladder. Acne or 'pregnancy glow' may appear due to hormonal surges.",
   "tips": [
     "Increase your fiber intake to prevent constipation",

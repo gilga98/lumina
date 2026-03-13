@@ -1,11 +1,11 @@
 {
   "week": 22,
-  "fruitName": "Papaya",
-  "fruitEmoji": "🥭",
+  "fruitName": "Corn",
+  "fruitEmoji": "\ud83c\udf3d",
   "babySize": "27.8 cm",
   "babyWeight": "430g",
   "illustration": "assets/medical/week-22.png",
-  "babyDevelopment": "The baby's senses are continuing to develop. Taste buds are forming on the tongue. The reproductive system is maturing—in boys, the testes are beginning to descend; in girls, the ovaries and uterus are in place. Eyes are formed but the lids are still fused.",
+  "babyDevelopment": "The baby's senses are continuing to develop. Taste buds are forming on the tongue. The reproductive system is maturing\u2014in boys, the testes are beginning to descend; in girls, the ovaries and uterus are in place. Eyes are formed but the lids are still fused.",
   "bodyChanges": "Stretch marks might start appearing on your belly, breasts, or thighs. Your heart and lungs are working harder to support the growing baby. You may notice your belly button 'popping' out as the uterus expands.",
   "tips": [
     "Moisturize your skin to manage itching and stretch marks",

@@ -1,7 +1,7 @@
 {
   "week": 12,
   "fruitName": "Lime",
-  "fruitEmoji": "🍋",
+  "fruitEmoji": "\ud83c\udf4b",
   "babySize": "5.4 cm",
   "babyWeight": "14g",
   "illustration": "assets/medical/week-12.png",
@@ -42,7 +42,7 @@
   "warningSignsToWatch": [
     "Severe cramping",
     "Heavy bleeding",
-    "Fever over 100.4°F (38°C)"
+    "Fever over 100.4\u00b0F (38\u00b0C)"
   ],
   "milestoneTitle": "Reflex Development",
   "milestoneDescription": "Reflexes are beginning to form as the brain and muscles connect."

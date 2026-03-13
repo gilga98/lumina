@@ -1,7 +1,7 @@
 {
   "week": 20,
   "fruitName": "Banana",
-  "fruitEmoji": "🍌",
+  "fruitEmoji": "\ud83c\udf4c",
   "babySize": "25.6 cm",
   "babyWeight": "300g",
   "illustration": "assets/medical/week-20.png",
@@ -45,5 +45,5 @@
     "Fever"
   ],
   "milestoneTitle": "Halfway Mark",
-  "milestoneDescription": "You've reached 20 weeks—halfway through your pregnancy journey!"
+  "milestoneDescription": "You've reached 20 weeks\u2014halfway through your pregnancy journey!"
 }

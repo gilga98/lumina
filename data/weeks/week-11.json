@@ -1,12 +1,12 @@
 {
   "week": 11,
-  "fruitName": "Fig",
-  "fruitEmoji": "🫐",
+  "fruitName": "Brussels Sprout",
+  "fruitEmoji": "\ud83e\udd66",
   "babySize": "4.1 cm",
   "babyWeight": "7g",
   "illustration": "assets/medical/week-11.png",
   "babyDevelopment": "The fetus is officially moving! Although you can't feel it, the baby is stretching and kicking. External genitalia are forming, though it's usually too early to see on ultrasound. The diaphragm is developing, preparing the baby for future breathing.",
-  "bodyChanges": "Your metabolism is increasing, which may make you feel warmer. Hormonal changes might improve your skin and hair ('pregnancy glow'). Some women experience 'linea nigra'—a dark line appearing on the abdomen.",
+  "bodyChanges": "Your metabolism is increasing, which may make you feel warmer. Hormonal changes might improve your skin and hair ('pregnancy glow'). Some women experience 'linea nigra'\u2014a dark line appearing on the abdomen.",
   "tips": [
     "Stay hydrated as your blood volume continues to rise",
     "Moisturize your belly to manage skin tightness",
