@@ -2,7 +2,7 @@
   "name": "Lumina — Pregnancy Companion",
   "short_name": "Lumina",
   "description": "Your premium, privacy-first daily pregnancy companion.",
-  "start_url": "/",
+  "start_url": "/lumina",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#FDF8F4",
