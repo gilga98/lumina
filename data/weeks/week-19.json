@@ -1,49 +1,49 @@
 {
   "week": 19,
-  "fruitName": "Mango",
-  "fruitEmoji": "\ud83e\udd6d",
-  "babySize": "15.3 cm",
-  "babyWeight": "240g",
+  "fruitName": "Green Apple",
+  "fruitEmoji": "🍏",
+  "babySize": "6.0 inches",
+  "babyWeight": "8.5 oz",
   "illustration": "assets/medical/week-19.png",
-  "babyDevelopment": "A protective, waxy coating called vernix caseosa is forming over the baby's skin to protect it from the amniotic fluid. Sensory development is peaking\u2014brain areas for smell, taste, hearing, vision, and touch are being established.",
-  "bodyChanges": "You may experience 'round ligament pain'\u2014sharp, short pains in your lower abdomen as the uterus grows. Your skin might become more sensitive to sunlight, so wear sunscreen to prevent melasma.",
+  "babyDevelopment": "A waxy white substance called vernix caseosa coats the baby's skin to protect it from the amniotic fluid. In female babies, the vagina, uterus, and fallopian tubes are in place.",
+  "bodyChanges": "You may experience round ligament pain—a sharp, stabbing pain on one or both sides of your lower abdomen—when you change positions suddenly.",
   "tips": [
-    "Stay hydrated and maintain a high-fiber diet to prevent constipation",
-    "Practice relaxation techniques like deep breathing",
-    "Discuss your anatomy scan results with your doctor"
+    "Moisturize your belly with cocoa butter or oil",
+    "Look into pediatricians in your area",
+    "Support your belly when sneezing or coughing"
   ],
   "dosAndDonts": {
     "do": [
-      "Apply sunscreen regularly",
-      "Wear a supportive pregnancy bra",
-      "Focus on good posture"
+      "Sleep with a pillow between your knees",
+      "Change positions slowly",
+      "Keep track of kicks (mentally for now)"
     ],
     "dont": [
-      "Overheat in hot weather",
-      "Expose skin to harsh chemicals",
-      "Consume unpasteurized dairy"
+      "Strain when lifting objects",
+      "Diet or restrict calories",
+      "Let indigestion ruin your meals (eat smaller portions)"
     ]
   },
   "travelAdvisory": {
     "safe": true,
     "level": "green",
-    "note": "Stay active and comfortable during travels."
+    "note": "Travel is safe."
   },
   "nutrition": [
-    "Omega-3 fatty acids (walnuts, salmon if cooked)",
-    "DHA for brain development",
-    "Complex carbs"
+    "Vitamin K",
+    "Iron",
+    "Vitamin C"
   ],
   "exercises": [
+    "Light weight training",
     "Walking",
-    "Prenatal yoga",
-    "Light strength training"
+    "Prenatal yoga"
   ],
   "warningSignsToWatch": [
-    "Persistent vomiting",
-    "Cramping with bleeding",
-    "Signs of a bladder infection"
+    "Painful urination (UTI risk is high)",
+    "Fever above 100.4F",
+    "Severe cramping"
   ],
-  "milestoneTitle": "Protective Coating",
-  "milestoneDescription": "Vernix caseosa is forming to protect baby's delicate skin from amniotic fluid."
+  "milestoneTitle": "Vernix Protective Coating",
+  "milestoneDescription": "Your baby is currently covered in a protective waxy layer so they don't get 'prune' skin."
 }

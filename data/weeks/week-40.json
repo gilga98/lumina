@@ -1,49 +1,53 @@
 {
   "week": 40,
-  "fruitName": "Jackfruit",
-  "fruitEmoji": "\ud83c\udf48",
-  "babySize": "51.2 cm",
-  "babyWeight": "3.5kg",
+  "fruitName": "Watermelon",
+  "fruitEmoji": "🍉",
+  "babySize": "20.2 inches",
+  "babyWeight": "7.6 lbs",
   "illustration": "assets/medical/week-40.png",
-  "babyDevelopment": "Congratulations! You've reached your due date. The baby is fully developed and ready to meet you. Only about 5% of babies are born on their actual due date, so don't be discouraged if you're still waiting. The baby is mostly and head-down.",
-  "bodyChanges": "You might feel very heavy, tired, and ready for labor to begin. Your cervix is likely ready for birth. Braxton Hicks and real contractions may be difficult to distinguish now. Stay in close contact with your healthcare provider.",
+  "babyDevelopment": "Your baby is officially due! They have a firm grasp and are ready to greet the world. The amniotic fluid levels are starting to lower slightly.",
+  "bodyChanges": "The waiting game! Only 5% of babies arrive exactly on their due date. Your cervix is softening, thinning (effacement), and opening (dilation).",
   "tips": [
-    "Be patient and stay positive",
-    "Keep monitoring baby's movement daily",
-    "Rest as much as possible before the big event"
+    "Try to relax and keep your mind occupied",
+    "Time your contractions using an app",
+    "Remember: your body knows exactly what to do!"
   ],
   "dosAndDonts": {
     "do": [
-      "Follow all instructions from your doctor",
-      "Keep your hospital bag ready by the door",
-      "Focus on relaxation and bonding"
+      "Walk",
+      "try spicy food",
+      "or have sex if you want to encourage labor",
+      "Keep your provider updated",
+      "Pack a phone charger"
     ],
     "dont": [
-      "Worry if you go slightly past your due date",
-      "Travel far from your hospital",
-      "Ignore regular, increasing contractions"
+      "Get discouraged if nothing happens today",
+      "Forget to eat light foods",
+      "Let friends or family stress you out with \\\"is the baby here yet?\\\" texts"
     ]
   },
   "travelAdvisory": {
-    "safe": true,
+    "safe": false,
     "level": "red",
-    "note": "Be ready for delivery anytime!"
+    "note": "Baby is officially arriving!"
   },
   "nutrition": [
-    "Iron",
-    "Calcium",
-    "Hydration"
+    "Whatever sounds good to you right now",
+    "Hydration",
+    "Energy snacks"
   ],
   "exercises": [
-    "Short, gentle walks",
-    "Controlled breathing",
-    "Rest"
+    "Walking",
+    "Kerb walking",
+    "Labour squats"
   ],
   "warningSignsToWatch": [
-    "Persistent decrease in baby's movement",
-    "Regular, painful contractions that get stronger",
-    "Sudden severe headache or vision changes"
+    "Contractions that are 5 minutes apart",
+    "lasting 1 minute",
+    "for at least 1 hour (5-1-1 rule)",
+    "Water breaking",
+    "Any bleeding"
   ],
-  "milestoneTitle": "Arrival Ready",
-  "milestoneDescription": "Your journey is reaching its beautiful climax. Get ready to meet your baby!"
+  "milestoneTitle": "Happy Due Date!",
+  "milestoneDescription": "Baby is ready to meet the world! If they are late, don't worry—they are just enjoying their cozy home."
 }

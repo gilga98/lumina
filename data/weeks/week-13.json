@@ -1,49 +1,49 @@
 {
   "week": 13,
-  "fruitName": "Kiwi",
-  "fruitEmoji": "\ud83e\udd5d",
-  "babySize": "7.4 cm",
-  "babyWeight": "23g",
+  "fruitName": "Garlic (Small Bulb)",
+  "fruitEmoji": "🧄",
+  "babySize": "2.9 inches",
+  "babyWeight": "23 grams",
   "illustration": "assets/medical/week-13.png",
-  "babyDevelopment": "Vocal cords are forming. The fetus is developing unique fingerprints. Intestines have moved from the umbilical cord into the stomach. Fine hair called lanugo might begin appearing on the skin.",
-  "bodyChanges": "Welcome to the Second Trimester! Your energy levels should be returning. Your sex drive may increase as blood flow to the pelvic region grows. Heartburn may become more common as hormones relax the valve between the stomach and esophagus.",
+  "babyDevelopment": "Vocal cords are forming. The baby is developing unique fingerprints. Intestines have moved from the umbilical cord into the stomach.",
+  "bodyChanges": "Welcome to the Second Trimester! Your energy levels should be returning. Your sex drive may increase.",
   "tips": [
     "Enjoy the 'honeymoon phase' of pregnancy",
-    "Invest in comfortable underwear and bras",
-    "Start sleeping on your side to improve blood flow"
+    "Invest in comfortable underwear",
+    "Start sleeping on your side"
   ],
   "dosAndDonts": {
     "do": [
       "Start sleeping on your left side",
-      "Use a pregnancy pillow for comfort",
-      "Eat smaller, more frequent meals to manage heartburn"
+      "Use a pregnancy pillow",
+      "Resume intimacy if cleared by doc"
     ],
     "dont": [
-      "Sleep flat on your back for long periods",
-      "Ignore persistent leg cramps",
-      "Skip your dentist appointment"
+      "Sleep flat on your back",
+      "Forget sunscreen (melasma risk)",
+      "Let self-care slip"
     ]
   },
   "travelAdvisory": {
     "safe": true,
     "level": "green",
-    "note": "Safe to travel; walk and stretch frequently on long trips."
+    "note": "You're in the golden window for travel. Book your trip!"
   },
   "nutrition": [
     "Quality proteins",
     "Complex carbs",
-    "Calcium"
+    "Hydration"
   ],
   "exercises": [
-    "Swimming",
     "Side-lying leg lifts",
-    "Walking"
+    "Swimming",
+    "Stretching"
   ],
   "warningSignsToWatch": [
     "Painful urination",
-    "Sudden, extreme swelling of face or hands",
-    "Sharp pain on one side of abdomen"
+    "Sudden swelling of face",
+    "Sharp pain on one side"
   ],
-  "milestoneTitle": "Beginning the Second Trimester",
-  "milestoneDescription": "The risk of miscarriage is lower, and many early symptoms are fading."
+  "milestoneTitle": "Second Trimester Begins",
+  "milestoneDescription": "The golden trimester starts! Time for more energy and less nausea."
 }

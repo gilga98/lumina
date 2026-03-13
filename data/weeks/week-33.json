@@ -1,49 +1,50 @@
 {
   "week": 33,
-  "fruitName": "Butternut Squash",
-  "fruitEmoji": "\ud83c\udf83",
-  "babySize": "43.7 cm",
-  "babyWeight": "1.9kg",
+  "fruitName": "Eggplant",
+  "fruitEmoji": "🍆",
+  "babySize": "17.2 inches",
+  "babyWeight": "4.2 lbs",
   "illustration": "assets/medical/week-33.png",
-  "babyDevelopment": "The baby's brain is continuing to develop rapidly. The bones in the head are staying soft to allow for a safer birth through the birth canal. The immune system is maturing as antibodies from the mother are passed to the baby.",
-  "bodyChanges": "You might feel more pressure in your pelvic area as the baby moves lower. Some women experience 'insomnia' due to physical discomfort and anxiety. Heartburn may be more persistent as the uterus pushes into the stomach.",
+  "babyDevelopment": "The immune system is developing as you pass antibodies to your baby through the placenta. The baby's skull bones are not fused together, allowing them to overlap during birth.",
+  "bodyChanges": "You might be waddling due to loosened ligaments and a shifting center of gravity. Insomnia might strike due to discomfort and frequent urination.",
   "tips": [
-    "Practice relaxation and meditation to improve sleep quality",
-    "Consider a prenatal class if you haven't attended one",
-    "Discuss your labor and delivery preferences with your provider"
+    "Practice your labor breathing techniques",
+    "Install the baby's car seat",
+    "Take a hospital bag 'test run'"
   ],
   "dosAndDonts": {
     "do": [
-      "Keep hydrating",
-      "Eat small, frequent meals",
-      "Move slowly when changing positions"
+      "Rest when you feel tired",
+      "Eat smaller meals for indigestion",
+      "Watch out for 'nesting' fatigue"
     ],
     "dont": [
-      "Stay in one position for too long",
-      "Ignore severe, localized abdominal pain",
-      "Consume excessive refined sugar"
+      "Climb on ladders or chairs to 'nest'",
+      "Ignore sudden weight gain",
+      "Forget to hydrate"
     ]
   },
   "travelAdvisory": {
-    "safe": true,
+    "safe": false,
     "level": "red",
-    "note": "Avoid long-distance travel from now until delivery."
+    "note": "Stay close to your delivery location."
   },
   "nutrition": [
-    "Probiotics for gut health",
-    "Fiber",
-    "Healthy fats"
+    "Magnesium",
+    "Potassium",
+    "Vitamin C"
   ],
   "exercises": [
-    "Walking",
-    "Prenatal yoga",
+    "Birth ball exercises",
+    "Gentle walks",
     "Stretching"
   ],
   "warningSignsToWatch": [
-    "Fluid leaking or gushing (water breaking)",
-    "Severe upper abdominal pain",
-    "Redness or localized heat on breasts"
+    "Preeclampsia symptoms (headache",
+    "vision changes)",
+    "Decreased fetal movement",
+    "Preterm labor"
   ],
   "milestoneTitle": "Immune System Boost",
-  "milestoneDescription": "Your baby is receiving valuable antibodies from you to boost its immune system."
+  "milestoneDescription": "Your baby is receiving your antibodies to help them fight off infections after birth."
 }

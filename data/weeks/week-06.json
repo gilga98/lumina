@@ -1,49 +1,52 @@
 {
   "week": 6,
-  "fruitName": "Peppercorn",
-  "fruitEmoji": "\u26ab",
-  "babySize": "6 mm",
-  "babyWeight": "0.8g",
+  "fruitName": "Blueberry",
+  "fruitEmoji": "🫐",
+  "babySize": "0.25 inches",
+  "babyWeight": "<1 gram",
   "illustration": "assets/medical/week-06.png",
-  "babyDevelopment": "The'C' shape of the embryo is more pronounced. Tiny buds are emerging that will become arms and legs. The eyes are beginning to form, and the optic vesicles are visible. The jaw and chin are also starting to develop.",
-  "bodyChanges": "You might feel extremely tired as your body increases blood production. Breast soreness usually intensifies. Sensitivity to certain smells (parosmia) can trigger intense nausea. Some women experience mild bloating or gas.",
+  "babyDevelopment": "The baby's heart beats at 105-110 bpm. Facial features—jaw, cheeks, chin, ear canals, and eyes—are beginning to form.",
+  "bodyChanges": "Nausea and fatigue may hit their peak. Your breasts may feel heavy and tingly. Food aversions are common.",
   "tips": [
-    "Schedule your first ultrasound for between weeks 7-10",
-    "Switch to loose-fitting, breathable clothing",
-    "Keep up with dental hygiene as gums can become sensitive"
+    "Eat bland foods",
+    "Avoid triggers like strong smells",
+    "Acupressure wristbands can help"
   ],
   "dosAndDonts": {
     "do": [
-      "Graze on small, bland snacks to keep nausea at bay",
-      "Stay hydrated (aim for pale yellow urine)",
-      "Start a pregnancy journal to track your feelings"
+      "Eat before getting out of bed",
+      "Brush teeth later if toothpaste causes gagging",
+      "Stay hydrated"
     ],
     "dont": [
-      "Consume excessive refined sugar",
-      "Expose yourself to high-heat environments",
-      "Worry about a small amount of weight loss if nauseous"
+      "Skip meals entirely",
+      "Push yourself too hard",
+      "Worry too much if you can't eat perfectly"
     ]
   },
   "travelAdvisory": {
     "safe": true,
     "level": "green",
-    "note": "Travel is safe; carry ginger candies for motion sickness."
+    "note": "Safe, but expect severe nausea. Pack motion sickness bags and anti-nausea meds."
   },
   "nutrition": [
-    "Vitamin B6-rich bananas",
-    "Fortified cereals",
-    "Low-fat yogurt"
+    "Bland carbs (toast",
+    "crackers",
+    "rice)",
+    "Electrolytes",
+    "Vitamin C"
   ],
   "exercises": [
-    "Brisk walking",
-    "Light floor stretches",
-    "Yoga for energy"
+    "Prenatal yoga",
+    "Meditation",
+    "Short",
+    "slow walks"
   ],
   "warningSignsToWatch": [
-    "Severe abdominal pain",
-    "Fever or chills",
-    "Frequent, painful urination"
+    "Severe dehydration",
+    "Fever over 100.4F",
+    "Burning during urination"
   ],
-  "milestoneTitle": "Tiny Buds",
-  "milestoneDescription": "Your baby is starting to grow limbs and facial features."
+  "milestoneTitle": "First Heartbeat",
+  "milestoneDescription": "The tiny heart is beating rapidly, pumping blood through the embryo."
 }

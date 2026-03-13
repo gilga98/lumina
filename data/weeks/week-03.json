@@ -1,49 +1,49 @@
 {
   "week": 3,
-  "fruitName": "Poppy Seed",
-  "fruitEmoji": "\ud83c\udf31",
-  "babySize": "0.1 mm",
-  "babyWeight": "0.01g",
+  "fruitName": "Too microscopic for the produce section!",
+  "fruitEmoji": "🔬",
+  "babySize": "0.02 inches",
+  "babyWeight": "<1 gram",
   "illustration": "assets/medical/week-03.png",
-  "babyDevelopment": "Fertilization occurs! A sperm meets the egg in the fallopian tube to form a zygote. This single cell divides rapidly as it travels toward the uterus, becoming a blastocyst. Genetic material (sex, eye color, etc.) is already determined.",
-  "bodyChanges": "You likely won't feel pregnant yet, though some women experience light 'implantation spotting'. Your body begins producing hCG (human chorionic gonadotropin) once the blastocyst implants.",
+  "babyDevelopment": "Fertilization happens! The sperm and egg unite to form a single cell (zygote) which divides rapidly into a ball of cells (blastocyst) as it travels down the fallopian tube.",
+  "bodyChanges": "You won't feel pregnant yet. Progesterone is rising to support the potential pregnancy. The blastocyst reaches the uterus.",
   "tips": [
-    "Continue prenatal vitamins without fail",
-    "Adopt a 'pregnant until proven otherwise' mindset",
-    "Eat small, frequent meals"
+    "Avoid alcohol completely",
+    "Continue prenatal vitamins",
+    "Rest well"
   ],
   "dosAndDonts": {
     "do": [
-      "Keep hydrating",
-      "Rest when tired",
-      "Maintain moderate activity"
+      "Treat your body as if you are pregnant",
+      "Get adequate sleep",
+      "Eat nutrient-dense meals"
     ],
     "dont": [
-      "Take any new medications without consulting a doctor",
-      "Eat raw seafood or unpasteurized dairy",
-      "Push yourself to exhaustion"
+      "X-rays or hazardous chemicals",
+      "Excessive caffeine",
+      "High-impact dangerous sports"
     ]
   },
   "travelAdvisory": {
     "safe": true,
     "level": "green",
-    "note": "Safe to travel. Stay hydrated on flights."
+    "note": "Travel is safe. Avoid high-risk activities like scuba diving."
   },
   "nutrition": [
-    "Calcium-rich foods",
-    "High-fiber grains",
-    "Pasteurized dairy"
+    "Protein for cell division",
+    "Calcium",
+    "Hydration is key"
   ],
   "exercises": [
-    "Gentle pilates",
-    "Nature walks",
-    "Low-impact aerobics"
+    "Light jogging",
+    "Swimming",
+    "Stretching"
   ],
   "warningSignsToWatch": [
-    "Heavy bleeding (different from light spotting)",
-    "Faintness or dizziness",
-    "Severe abdominal cramping"
+    "Ectopic pregnancy signs (rare this early)",
+    "Severe cramping",
+    "Heavy bleeding"
   ],
-  "milestoneTitle": "Conception & Journey",
-  "milestoneDescription": "The blueprint of your child is now complete and traveling to its new home."
+  "milestoneTitle": "Fertilization",
+  "milestoneDescription": "Life begins as a single cell and rapidly starts dividing."
 }

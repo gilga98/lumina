@@ -1,49 +1,50 @@
 {
   "week": 10,
-  "fruitName": "Kumquat",
-  "fruitEmoji": "\ud83c\udf4a",
-  "babySize": "3.1 cm",
-  "babyWeight": "4g",
+  "fruitName": "Olive",
+  "fruitEmoji": "🫒",
+  "babySize": "1.2 inches",
+  "babyWeight": "4 grams",
   "illustration": "assets/medical/week-10.png",
-  "babyDevelopment": "Crucial organ development is mostly complete. The fetus is entering a period of rapid growth. Tiny ankles and wrists are formed. The kidneys are beginning to produce urine. Unique fingerprints are starting to take shape.",
-  "bodyChanges": "Your belly might begin to show a slight rounding. Your blood sugar may dip more easily, leading to dizziness if you haven't eaten. You might notice blue veins appearing on your breasts as blood flow increases.",
+  "babyDevelopment": "The embryonic stage ends and the fetal stage begins! Bones are hardening, the kidneys produce urine, and tooth buds form.",
+  "bodyChanges": "Veins may become more prominent as blood volume increases by 50%. You might start noticing round ligament pains.",
   "tips": [
-    "Shop for maternity or transitional clothing",
-    "Ensure you're getting enough calcium for baby's bone growth",
-    "Perform gentle abdominal exercises (safe ones)"
+    "Consider Non-Invasive Prenatal Testing (NIPT)",
+    "Drink plenty of water to support blood volume",
+    "Start a pregnancy journal"
   ],
   "dosAndDonts": {
     "do": [
-      "Moisturize your skin to help with stretching",
-      "Eat small snacks every 2-3 hours",
-      "Schedule your next routine check-up"
+      "Eat small high-calcium snacks",
+      "Change positions slowly if dizzy",
+      "Protect skin from the sun (melasma risk)"
     ],
     "dont": [
-      "Lift heavy objects habitually",
-      "Skip dental cleaning",
-      "Over-caffeinate"
+      "Stand for very long periods",
+      "Wear restrictive belts",
+      "Neglect dental hygiene"
     ]
   },
   "travelAdvisory": {
     "safe": true,
     "level": "green",
-    "note": "Safe to travel; walk around every 90 minutes."
+    "note": "A great time for travel. Bring your prenatal records just in case."
   },
   "nutrition": [
-    "Calcium-rich cheese or tofu",
-    "Magnesium (almonds, spinach)",
-    "Potassium (bananas)"
+    "Calcium (milk",
+    "fortified alternatives)",
+    "Vitamin D",
+    "Magnesium"
   ],
   "exercises": [
-    "Kegels",
-    "Walking",
-    "Modified yoga"
+    "Low-impact aerobics",
+    "Cycling on a stationary bike",
+    "Kegels"
   ],
   "warningSignsToWatch": [
-    "Chronic, severe dizziness",
-    "High fever",
-    "Persistent pelvic pressure"
+    "Swelling in one leg",
+    "Persistent headaches",
+    "Vision changes"
   ],
-  "milestoneTitle": "Rounding the Corner",
-  "milestoneDescription": "The critical period of development is largely complete. Growth speed is increasing."
+  "milestoneTitle": "Fetal Stage Begins",
+  "milestoneDescription": "Your baby graduates from an embryo to a fetus!"
 }

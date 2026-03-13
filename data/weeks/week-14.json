@@ -1,49 +1,51 @@
 {
   "week": 14,
-  "fruitName": "Lemon",
-  "fruitEmoji": "\ud83c\udf4b",
-  "babySize": "8.7 cm",
-  "babyWeight": "43g",
+  "fruitName": "Chestnut",
+  "fruitEmoji": "🌰",
+  "babySize": "3.4 inches",
+  "babyWeight": "1.5 oz",
   "illustration": "assets/medical/week-14.png",
-  "babyDevelopment": "The baby can now make facial expressions like squinting and frowning. The thyroid gland is starting to produce hormones. Lanugo is covering the body, providing warmth until enough body fat develops.",
-  "bodyChanges": "You may feel more like yourself again as nausea subsides. Your 'bump' might be more noticeable now. Some women experience 'pregnancy brain' or forgetfulness due to hormonal and lifestyle changes.",
+  "babyDevelopment": "The baby's sex becomes apparent (though ultrasound might not catch it yet). Fine hair called lanugo covers the body. They start making tiny swallowing and sucking motions.",
+  "bodyChanges": "Your energy is back! The 'glow' of pregnancy might appear due to increased blood volume and oil gland secretion. Your baby bump is starting to show.",
   "tips": [
-    "Incorporate more fiber if you're experiencing constipation",
-    "Take photos of your growing bump for memories",
-    "Stay consistent with your prenatal vitamins"
+    "Buy comfortable maternity pants or use a belly band",
+    "Start moisturizing your belly daily",
+    "Look into prenatal yoga classes"
   ],
   "dosAndDonts": {
     "do": [
-      "Eat high-fiber foods (beans, fruits, veggies)",
-      "Exercise moderately to boost energy",
-      "Moisturize to help with skin elasticity"
+      "Eat complex carbs for energy",
+      "Do Kegel exercises daily",
+      "Keep a water bottle handy"
     ],
     "dont": [
-      "Stop exercising unless advised by a doctor",
-      "Consume excessive amounts of caffeine",
-      "Ignore unusual vaginal discharge"
+      "Wait to pee",
+      "Consume large amounts of sugar",
+      "Sleep on your back"
     ]
   },
   "travelAdvisory": {
     "safe": true,
     "level": "green",
-    "note": "An ideal time for a comfortable vacation."
+    "note": "The perfect time to fly for a Babymoon!"
   },
   "nutrition": [
-    "Fiber-rich foods",
-    "Lean meats or plant-based proteins",
-    "Hydration"
+    "Vitamin B6 (bananas",
+    "poultry)",
+    "Magnesium",
+    "Protein"
   ],
   "exercises": [
-    "Walking",
-    "Prenatal yoga",
-    "Light strength training"
+    "Brisk walking",
+    "Prenatal pilates",
+    "Kegels"
   ],
   "warningSignsToWatch": [
-    "Severe back pain that doesn't go away",
-    "Vaginal bleeding",
-    "Persistent vomiting"
+    "Sharp abdominal pain (could be round ligament pain",
+    "but consult doctor)",
+    "Fever",
+    "Severe lower back pain"
   ],
-  "milestoneTitle": "Facial Expressions",
-  "milestoneDescription": "The baby's facial muscles are getting a workout as expressions form."
+  "milestoneTitle": "Lanugo Develops",
+  "milestoneDescription": "Fine downy hair covers the baby to keep them warm in the amniotic fluid."
 }

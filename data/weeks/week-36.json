@@ -1,49 +1,51 @@
 {
   "week": 36,
-  "fruitName": "Casaba Melon",
-  "fruitEmoji": "\ud83c\udf48",
-  "babySize": "47.4 cm",
-  "babyWeight": "2.6kg",
+  "fruitName": "Coconut",
+  "fruitEmoji": "🥥",
+  "babySize": "18.7 inches",
+  "babyWeight": "5.8 lbs",
   "illustration": "assets/medical/week-36.png",
-  "babyDevelopment": "The baby is now fully grown but continues to gain weight\u2014about an ounce a day. Most babies graduate from practicing breathing to having mature lungs. The skull bones remain soft and decoupled for a safer passage through the birth canal.",
-  "bodyChanges": "You might feel 'lightening' more clearly as the baby drops into the pelvic cavity. Pelvic pressure will increase, making walking more a 'waddle.' You likely have weekly appointments now. Braxton Hicks may become more intense.",
+  "babyDevelopment": "The baby may 'drop' (lightening) into your pelvis. The digestive system is ready for breast milk. From next week, your baby is considered 'early term.'",
+  "bodyChanges": "You may breathe easier if the baby has dropped, but walking might feel awkward (the 'pregnancy waddle'). Your appointments switch to weekly.",
   "tips": [
-    "Finalize your hospital bag and ensure your car seat is installed",
-    "Monitor baby's movement several times a day",
-    "Prepare some freezer meals for after the baby arrives"
+    "Review your birth preferences with your OB",
+    "Put the hospital bag in your car",
+    "Rest as much as you can"
   ],
   "dosAndDonts": {
     "do": [
-      "Keep hydrating",
-      "Stay active with short, gentle walks",
-      "Focus on good posture to manage pelvic pressure"
+      "See your OB every week",
+      "Stock your freezer",
+      "Enjoy some quiet time"
     ],
     "dont": [
-      "Travel far from your delivery facility",
-      "Lift anything heavy",
-      "Ignore signs of severe, persistent swelling"
+      "Worry if baby hasn't dropped (especially for subsequent babies)",
+      "Let the car stay empty of gas",
+      "Ignore changes in discharge"
     ]
   },
   "travelAdvisory": {
-    "safe": true,
+    "safe": false,
     "level": "red",
-    "note": "Avoid all non-essential travel; stay close to home."
+    "note": "Baby could come at any time."
   },
   "nutrition": [
-    "Iron-rich foods",
-    "Probiotics",
-    "Calcium"
+    "Protein",
+    "Dates",
+    "Light meals"
   ],
   "exercises": [
-    "Short, gentle walks",
-    "Pelvic floor exercises",
-    "Modified yoga for relaxation"
+    "Walking",
+    "Pelvic rocks",
+    "Resting (most importantly)"
   ],
   "warningSignsToWatch": [
-    "Fluid leaking (water breaking)",
-    "Significant Decrease in baby's movement",
-    "Regular, painful contractions"
+    "Preeclampsia (swelling",
+    "headache",
+    "vision spots)",
+    "Water breaking",
+    "Fewer kicks"
   ],
-  "milestoneTitle": "Mature Lungs",
-  "milestoneDescription": "Baby is reaching full term status as lungs and most systems are fully mature."
+  "milestoneTitle": "Lightening (Baby Drops)",
+  "milestoneDescription": "Baby engages in the pelvis, making breathing easier but putting pressure on your bladder!"
 }

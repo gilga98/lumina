@@ -1,49 +1,51 @@
 {
   "week": 24,
-  "fruitName": "Eggplant",
-  "fruitEmoji": "\ud83c\udf46",
-  "babySize": "30 cm",
-  "babyWeight": "600g",
+  "fruitName": "Bell Pepper",
+  "fruitEmoji": "🫑",
+  "babySize": "11.8 inches",
+  "babyWeight": "1.3 lbs",
   "illustration": "assets/medical/week-24.png",
-  "babyDevelopment": "The baby's lungs are developing rapidly. Branches of the 'respiratory tree' are forming. The baby is also developing regular sleep and wake cycles. This is often considered the age of viability (though still very high-risk for birth).",
-  "bodyChanges": "You'll likely have a glucose challenge test this week to screen for gestational diabetes. Your uterus is about two inches above your belly button. You might experience occasional dry or itchy eyes.",
+  "babyDevelopment": "The inner ear is fully developed, meaning the baby can control its balance in the womb. Viability milestone reached—babies born at 24 weeks can survive with NICU care.",
+  "bodyChanges": "Your uterus is the size of a soccer ball. You might feel 'practice' (Braxton Hicks) contractions—tightening of the uterus that is usually painless and irregular.",
   "tips": [
-    "Schedule your glucose screening test",
-    "Use saline eye drops for dry eyes if needed",
-    "Continue with moderate daily exercise for energy"
+    "Prepare for your glucose tolerance test for gestational diabetes",
+    "Start a Kick Counting routine",
+    "Finalize your childcare plans"
   ],
   "dosAndDonts": {
     "do": [
-      "Eat a balanced meal before your glucose test (follow doctor's instructions)",
-      "Keep moisturizing your bump",
-      "Stay hydrated"
+      "Test for Gestational Diabetes",
+      "Drink water when you feel Braxton Hicks",
+      "Change positions to stop practice contractions"
     ],
     "dont": [
-      "Ignore persistent itching on the abdomen",
-      "Skip your monthly prenatal check-up",
-      "Over-exert yourself in hot weather"
+      "Ignore painful",
+      "regular contractions",
+      "Eat heavily before your glucose test",
+      "Sleep flat on back"
     ]
   },
   "travelAdvisory": {
     "safe": true,
-    "level": "green",
-    "note": "Travel is safe; carry a copy of your prenatal records."
+    "level": "yellow",
+    "note": "Travel is safe, but be aware of the viability milestone. Know where the nearest hospital is."
   },
   "nutrition": [
-    "Complex carbohydrates for steady energy",
-    "Lean protein",
-    "DHA"
+    "Iron (blood volume is peaking)",
+    "Vitamin K (leafy greens)",
+    "Lean proteins"
   ],
   "exercises": [
-    "Walking",
-    "Prenatal aerobics",
-    "Stretching"
+    "Kegels",
+    "Breathing exercises",
+    "Walking"
   ],
   "warningSignsToWatch": [
-    "Sudden decrease in baby's movement",
-    "Persistent, severe itching (could indicate cholestasis)",
-    "Abnormal glucose test results"
+    "Regular",
+    "painful contractions before 37 weeks",
+    "Water breaking",
+    "Decreased movement"
   ],
   "milestoneTitle": "Viability Milestone",
-  "milestoneDescription": "Growth continues as lungs and sleep patterns become more established."
+  "milestoneDescription": "A huge milestone: your baby now has a chance of survival outside the womb."
 }

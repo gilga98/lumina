@@ -1,49 +1,49 @@
 {
   "week": 2,
-  "fruitName": "Apple Seed",
-  "fruitEmoji": "\ud83c\udf30",
-  "babySize": "Microscopic",
-  "babyWeight": "0g",
+  "fruitName": "Too microscopic for the produce section!",
+  "fruitEmoji": "🔬",
+  "babySize": "0.01 inches",
+  "babyWeight": "<1 gram",
   "illustration": "assets/medical/week-02.png",
-  "babyDevelopment": "Your body is preparing for ovulation. A follicle in your ovary is ripening, containing the egg that will become your baby. The uterine lining (endometrium) is thickening to provide a nutrient-rich home for the eventual embryo.",
-  "bodyChanges": "You may notice an increase in clear, stretchy cervical mucus (like egg whites). Basal body temperature might dip slightly before a post-ovulation spike. Libido often increases naturally.",
+  "babyDevelopment": "Ovulation occurs! The ovary releases an egg into the fallopian tube where it awaits fertilization by a sperm cell.",
+  "bodyChanges": "You may feel mild pelvic pain (mittelschmerz) on one side. Cervical mucus becomes clear and stretchy, resembling raw egg whites.",
   "tips": [
-    "Have intercourse every 1-2 days during your fertile window",
-    "Avoid vaginal lubricants that aren't sperm-friendly",
-    "Stop smoking and alcohol consumption immediately"
+    "Time intercourse for your fertile window",
+    "Use ovulation predictor kits",
+    "Lie down after intercourse"
   ],
   "dosAndDonts": {
     "do": [
-      "Monitor cervical mucus changes",
-      "Use ovulation predictor kits",
-      "Stay relaxed and positive"
+      "Have intercourse every 1-2 days",
+      "Maintain healthy lifestyle habits",
+      "Use pregnancy-safe lubricants"
     ],
     "dont": [
-      "Use vaginal douches",
-      "Take hot baths/saunas (if partner is present, as heat affects sperm)",
-      "Worry if conception takes time"
+      "Use harsh lubricants",
+      "Stress about timing",
+      "Use hot tubs excessively"
     ]
   },
   "travelAdvisory": {
     "safe": true,
     "level": "green",
-    "note": "Safe to travel; focus on stress reduction."
+    "note": "Travel is safe. Enjoy a relaxing trip to reduce stress."
   },
   "nutrition": [
-    "Lean proteins",
-    "Complex carbohydrates",
-    "Healthy fats (avocado, nuts)"
+    "Antioxidant-rich foods",
+    "Zinc (for partner's sperm health)",
+    "Healthy fats like avocado"
   ],
   "exercises": [
-    "Moderate swimming",
-    "Brisk walking",
-    "Stress-reducing meditation"
+    "Moderate exercise",
+    "Pilates",
+    "Walking"
   ],
   "warningSignsToWatch": [
-    "Mid-cycle spotting",
-    "Unusual vaginal discharge",
-    "Severe ovulation pain (Mittelschmerz)"
+    "Severe abdominal pain",
+    "Unusual spotting",
+    "Fever"
   ],
-  "milestoneTitle": "Preparation for Life",
-  "milestoneDescription": "Ovulation usually occurs late this week. The magic is about to happen."
+  "milestoneTitle": "Ovulation",
+  "milestoneDescription": "The egg is released, and your fertile window is at its peak."
 }

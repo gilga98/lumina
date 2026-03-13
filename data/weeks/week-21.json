@@ -1,49 +1,50 @@
 {
   "week": 21,
-  "fruitName": "Carrot",
-  "fruitEmoji": "\ud83e\udd55",
-  "babySize": "26.7 cm",
-  "babyWeight": "360g",
+  "fruitName": "Onion",
+  "fruitEmoji": "🧅",
+  "babySize": "10.5 inches (head to heel)",
+  "babyWeight": "12.7 oz",
   "illustration": "assets/medical/week-21.png",
-  "babyDevelopment": "The baby's digestive system is getting a workout. The fetus is starting to swallow more amniotic fluid, which provides some hydration and calories. The bone marrow is now taking over blood cell production from the liver and spleen.",
-  "bodyChanges": "You might experience increased appetite as baby grows faster. Some women notice 'spider veins' on their legs due to increased blood pressure. Your gums may become more prone to bleeding (pregnancy gingivitis), so be gentle when brushing.",
+  "babyDevelopment": "Measurements shift from crown-to-rump to crown-to-heel. The digestive system is maturing, forming meconium. The baby is developing a circadian rhythm.",
+  "bodyChanges": "You may be dealing with heartburn/indigestion, leg cramps at night, and perhaps a bit of clumsiness as your joints loosen further (relaxin hormone).",
   "tips": [
-    "Increase your iron intake to support baby's blood cell production",
-    "Floss regularly and use a soft-bristled toothbrush",
-    "Keep up with your moderate exercise routine"
+    "Eat dinner earlier to prevent nighttime heartburn",
+    "Flex your toes upward to relieve leg cramps",
+    "Consider an antenatal class"
   ],
   "dosAndDonts": {
     "do": [
-      "Graze on healthy snacks throughout the day",
-      "Stay hydrated",
-      "Focus on good dental hygiene"
+      "Stretch legs before bed",
+      "Drink plenty of water during the day",
+      "less at night",
+      "Wear supportive bras"
     ],
     "dont": [
-      "Ignore any signs of dizzy spells",
-      "Consume excessive amounts of refined sugar",
-      "Stop exercising unless advised otherwise"
+      "Eat spicy/greasy foods close to bedtime",
+      "Dwell on anxiety—talk to someone",
+      "Perform exercises that risk falling"
     ]
   },
   "travelAdvisory": {
     "safe": true,
     "level": "green",
-    "note": "A comfortable stage for travel; prioritize hydration."
+    "note": "Travel is safe."
   },
   "nutrition": [
-    "Iron-rich lentils and beans",
-    "Vitamin C (strawberries, peppers)",
+    "Potassium (bananas) for leg cramps",
+    "Magnesium",
     "Calcium"
   ],
   "exercises": [
-    "Walking",
-    "Prenatal pilates",
-    "Stretching"
+    "Ankle rotations",
+    "Calf stretches",
+    "Gentle swimming"
   ],
   "warningSignsToWatch": [
-    "Persistent bleeding gums (consult dentist)",
-    "Sudden, severe pain in lower abdomen",
-    "Vision changes"
+    "Blurred vision",
+    "Constant severe headache",
+    "Vaginal bleeding"
   ],
-  "milestoneTitle": "Blood Cell Production",
-  "milestoneDescription": "Bone marrow is now the primary site for baby's red blood cell production."
+  "milestoneTitle": "Digestive System Maturing",
+  "milestoneDescription": "Your baby's digestive tract is working hard to prepare for life outside."
 }

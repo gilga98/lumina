@@ -1,49 +1,50 @@
 {
   "week": 7,
-  "fruitName": "Blueberry",
-  "fruitEmoji": "\ud83e\uded0",
-  "babySize": "1.3 cm",
-  "babyWeight": "1g",
+  "fruitName": "Peanut",
+  "fruitEmoji": "🥜",
+  "babySize": "0.5 inches",
+  "babyWeight": "1 gram",
   "illustration": "assets/medical/week-07.png",
-  "babyDevelopment": "Your baby's brain is growing rapidly\u2014about 100,000 new neurons every minute! Tiny hands and feet are developing, looking like little paddles. The nostrils are forming, and the mouth and tongue are beginning to take shape.",
-  "bodyChanges": "Your uterus has doubled in size, though you likely still don't have a visible 'bump'. Frequent urination increases as the uterus presses on the bladder. Acne or 'pregnancy glow' may appear due to hormonal surges.",
+  "babyDevelopment": "Limb buds (future arms and legs) appear. The brain is growing complex, generating 100 new brain cells every minute.",
+  "bodyChanges": "Your blood volume is expanding. You might notice subtle skin changes or acne due to hormones. You still don't show.",
   "tips": [
-    "Increase your fiber intake to prevent constipation",
-    "Discuss any family history of genetic conditions with your provider",
-    "Try acupressure bands for persistent nausea"
+    "Moisturize skin",
+    "Consider pregnancy-safe skincare",
+    "Take photos of your tummy before it grows"
   ],
   "dosAndDonts": {
     "do": [
-      "Wash all fruits and vegetables thoroughly",
-      "Take time for mid-day naps if possible",
-      "Eat foods rich in DHA (omega-3)"
+      "Use mild cleansers on your face",
+      "Drink 8-10 glasses of water",
+      "Communicate your needs to your partner"
     ],
     "dont": [
-      "Ignore signs of UTI",
-      "Use retinol or salicylic acid products without approval",
-      "Skip your prenatal vitamins"
+      "Use retinoids or salicylic acid",
+      "Use harsh chemical peels",
+      "Forget to pee often to avoid UTIs"
     ]
   },
   "travelAdvisory": {
     "safe": true,
     "level": "green",
-    "note": "Travel is fine; prioritize rest and frequent stops for water/restroom."
+    "note": "Travel remains safe. Get aisle seats for frequent bathroom trips."
   },
   "nutrition": [
-    "DHA-rich walnuts",
-    "Prunes for digestion",
-    "Lean beef or lentils for iron"
+    "Iron (meat",
+    "beans) to support extra blood",
+    "Vitamin C to absorb iron",
+    "Greek yogurt for calcium"
   ],
   "exercises": [
-    "Moderate walking",
-    "Tai chi movements",
-    "Gentle swimming"
+    "Swimming",
+    "Stationary bike",
+    "Prenatal pilates"
   ],
   "warningSignsToWatch": [
-    "Heavy bleeding or large clots",
-    "Severe one-sided pelvic pain",
-    "Inability to tolerate even small sips of water"
+    "Cloudy or bloody urine",
+    "Distant lower back pain",
+    "Extreme mood swings"
   ],
-  "milestoneTitle": "Brain Bloom",
-  "milestoneDescription": "The foundations of thought and movement are expanding vastly this week."
+  "milestoneTitle": "Limb Buds Appear",
+  "milestoneDescription": "Tiny arms and legs are sprouting out, making the embryo look less like a tadpole."
 }

@@ -1,6 +1,6 @@
 module.exports = {
   27: {
-    fruitName: "Cauliflower", fruitEmoji: "🥦", babySize: "14.4 inches", babyWeight: "2.0 lbs",
+    fruitName: "Banana (Head-to-Heel Length)", fruitEmoji: "🍌", babySize: "14.4 inches", babyWeight: "2.0 lbs",
     illustration: "assets/medical/week-27.png",
     babyDevelopment: "Welcome to the Third Trimester! The baby's brain is very active now. Their lungs are still immature but are capable of functioning with medical help.",
     bodyChanges: "You might experience shortness of breath because the expanding uterus is putting pressure on your diaphragm. Sciatica (sharp leg/back pain) is common.",
@@ -13,7 +13,7 @@ module.exports = {
     milestoneTitle: "Third Trimester Begins", milestoneDescription: "You're in the final stretch! Baby's brain is rapidly wrinkling and maturing."
   },
   28: {
-    fruitName: "Eggplant", fruitEmoji: "🍆", babySize: "14.8 inches", babyWeight: "2.2 lbs",
+    fruitName: "Carrot", fruitEmoji: "🥕", babySize: "14.8 inches", babyWeight: "2.2 lbs",
     illustration: "assets/medical/week-28.png",
     babyDevelopment: "The baby is settling into the proper position for birth (usually head down). Eye brows and lashes are fully formed. The central nervous system can direct rhythmic breathing.",
     bodyChanges: "Your doctor will check you for gestational diabetes. You might receive a RhoGAM shot if you have Rh-negative blood. Fatigue may return.",
@@ -26,7 +26,7 @@ module.exports = {
     milestoneTitle: "Rhythmic Breathing", milestoneDescription: "Baby is practicing breathing to prepare for the outside world."
   },
   29: {
-    fruitName: "Acorn Squash", fruitEmoji: "🥔", babySize: "15.2 inches", babyWeight: "2.5 lbs",
+    fruitName: "Hot Pepper", fruitEmoji: "🌶️", babySize: "15.2 inches", babyWeight: "2.5 lbs",
     illustration: "assets/medical/week-29.png",
     babyDevelopment: "The baby's muscles and lungs are continuing to mature. Their bones are fully formed but still pliant to allow for an easier birth journey.",
     bodyChanges: "You may feel the baby 'hiccup'—rhythmic little jumps in your belly! As your belly stretches, you might experience itchy skin or an outie belly button.",
@@ -39,7 +39,7 @@ module.exports = {
     milestoneTitle: "Baby Hiccups", milestoneDescription: "Feeling rhythmic jumps? Your baby is probably hiccuping in the amniotic fluid."
   },
   30: {
-    fruitName: "Zucchini", fruitEmoji: "🥒", babySize: "15.7 inches", babyWeight: "2.9 lbs",
+    fruitName: "Cucumber", fruitEmoji: "🥒", babySize: "15.7 inches", babyWeight: "2.9 lbs",
     illustration: "assets/medical/week-30.png",
     babyDevelopment: "Your baby is getting heavier. The lanugo (fine body hair) is starting to disappear. The brain has taken on a wrinkled appearance to increase surface area.",
     bodyChanges: "You may be feeling breathless as the uterus pushes up against your diaphragm. Night sweats and strange dreams are very common right now.",
@@ -52,7 +52,7 @@ module.exports = {
     milestoneTitle: "Brain Wrinkling", milestoneDescription: "The baby's brain is folding and wrinkling to prepare for advanced processing."
   },
   31: {
-    fruitName: "Asparagus", fruitEmoji: "🥬", babySize: "16.1 inches", babyWeight: "3.3 lbs",
+    fruitName: "Ear of Corn", fruitEmoji: "🌽", babySize: "16.1 inches", babyWeight: "3.3 lbs",
     illustration: "assets/medical/week-31.png",
     babyDevelopment: "The baby is going through a massive growth spurt. All five senses are in working order. They can perceive light and dark signals.",
     bodyChanges: "Your breasts might begin to leak colostrum (the nutrient-rich first milk). Braxton Hicks contractions might become stronger and more frequent.",
@@ -65,7 +65,7 @@ module.exports = {
     milestoneTitle: "Five Senses Active", milestoneDescription: "Baby's senses are fully active. They can taste, touch, hear, see, and smell!"
   },
   32: {
-    fruitName: "Squash", fruitEmoji: "🎃", babySize: "16.7 inches", babyWeight: "3.7 lbs",
+    fruitName: "Sweet Potato", fruitEmoji: "🍠", babySize: "16.7 inches", babyWeight: "3.7 lbs",
     illustration: "assets/medical/week-32.png",
     babyDevelopment: "The baby occupies almost all the space in your uterus. They are gaining about a half-pound per week now.",
     bodyChanges: "You may notice a change in how kicks feel—less like punches, more like rolls, as space gets tight. You'll start seeing your doctor every 2 weeks.",
@@ -78,7 +78,7 @@ module.exports = {
     milestoneTitle: "Fat Storage Spurt", milestoneDescription: "Baby is rapidly gaining weight and plumping up!"
   },
   33: {
-    fruitName: "Celery", fruitEmoji: "🥬", babySize: "17.2 inches", babyWeight: "4.2 lbs",
+    fruitName: "Eggplant", fruitEmoji: "🍆", babySize: "17.2 inches", babyWeight: "4.2 lbs",
     illustration: "assets/medical/week-33.png",
     babyDevelopment: "The immune system is developing as you pass antibodies to your baby through the placenta. The baby's skull bones are not fused together, allowing them to overlap during birth.",
     bodyChanges: "You might be waddling due to loosened ligaments and a shifting center of gravity. Insomnia might strike due to discomfort and frequent urination.",
@@ -91,7 +91,7 @@ module.exports = {
     milestoneTitle: "Immune System Boost", milestoneDescription: "Your baby is receiving your antibodies to help them fight off infections after birth."
   },
   34: {
-    fruitName: "Butternut Squash", fruitEmoji: "🎃", babySize: "17.7 inches", babyWeight: "4.7 lbs",
+    fruitName: "Head of Lettuce", fruitEmoji: "🥬", babySize: "17.7 inches", babyWeight: "4.7 lbs",
     illustration: "assets/medical/week-34.png",
     babyDevelopment: "Most babies flip to a head-down (vertex) position by now in preparation for birth. Fat layers are regulating body temperature.",
     bodyChanges: "Fatigue is returning. Your vision might seem blurry due to fluid retention and hormones altering the shape of your eyes.",
@@ -104,7 +104,7 @@ module.exports = {
     milestoneTitle: "Head Down", milestoneDescription: "Baby is likely turning head-down into the prime birthing position."
   },
   35: {
-    fruitName: "Cantaloupe", fruitEmoji: "🍈", babySize: "18.2 inches", babyWeight: "5.3 lbs",
+    fruitName: "Broccoli (Large Crown)", fruitEmoji: "🥦", babySize: "18.2 inches", babyWeight: "5.3 lbs",
     illustration: "assets/medical/week-35.png",
     babyDevelopment: "The baby's hearing is fully developed. They occupy the entire uterus now. Kidneys are fully developed, and the liver can process some waste products.",
     bodyChanges: "You will likely be tested for Group B Strep (GBS). Frequent urination is constant as the baby's head presses on your bladder.",
@@ -117,7 +117,7 @@ module.exports = {
     milestoneTitle: "Kidneys Ready", milestoneDescription: "Baby's internal organs are essentially fully functioning and mature."
   },
   36: {
-    fruitName: "Honeydew Melon", fruitEmoji: "🍈", babySize: "18.7 inches", babyWeight: "5.8 lbs",
+    fruitName: "Coconut", fruitEmoji: "🥥", babySize: "18.7 inches", babyWeight: "5.8 lbs",
     illustration: "assets/medical/week-36.png",
     babyDevelopment: "The baby may 'drop' (lightening) into your pelvis. The digestive system is ready for breast milk. From next week, your baby is considered 'early term.'",
     bodyChanges: "You may breathe easier if the baby has dropped, but walking might feel awkward (the 'pregnancy waddle'). Your appointments switch to weekly.",
@@ -130,7 +130,7 @@ module.exports = {
     milestoneTitle: "Lightening (Baby Drops)", milestoneDescription: "Baby engages in the pelvis, making breathing easier but putting pressure on your bladder!"
   },
   37: {
-    fruitName: "Winter Melon", fruitEmoji: "🍉", babySize: "19.1 inches", babyWeight: "6.3 lbs",
+    fruitName: "Melon (Cantaloupe)", fruitEmoji: "🍈", babySize: "19.1 inches", babyWeight: "6.3 lbs",
     illustration: "assets/medical/week-37.png",
     babyDevelopment: "Congratulations! Your baby is considered 'Early Term'. They are perfectly capable of surviving outside. They're practicing breathing and sucking reflex.",
     bodyChanges: "You might lose your 'mucus plug' (bloody show), a sign the cervix is softening and opening. Effacement and dilation might begin.",
@@ -143,7 +143,7 @@ module.exports = {
     milestoneTitle: "Early Term", milestoneDescription: "Baby is officially early term and developmentally ready to be born!"
   },
   38: {
-    fruitName: "Pumpkin", fruitEmoji: "🎃", babySize: "19.6 inches", babyWeight: "6.8 lbs",
+    fruitName: "Pineapple", fruitEmoji: "🍍", babySize: "19.6 inches", babyWeight: "6.8 lbs",
     illustration: "assets/medical/week-38.png",
     babyDevelopment: "All organs are mature. The brain and lungs are still fine-tuning. The baby continues to shed the fine lanugo hair and protective vernix caseosa.",
     bodyChanges: "Cervix checks may show you are a few centimeters dilated. You might feel 'lightning crotch' (sharp pelvic pain) as the baby's head hits sensitive nerves.",
@@ -156,7 +156,7 @@ module.exports = {
     milestoneTitle: "Shedding Lanugo", milestoneDescription: "Baby is shedding their downy hair and waxy coating and getting nice and plump for delivery."
   },
   39: {
-    fruitName: "Mini-Watermelon", fruitEmoji: "🍉", babySize: "19.9 inches", babyWeight: "7.3 lbs",
+    fruitName: "Pumpkin", fruitEmoji: "🎃", babySize: "19.9 inches", babyWeight: "7.3 lbs",
     illustration: "assets/medical/week-39.png",
     babyDevelopment: "Your baby is 'Full Term'! Their physical development is complete, though their brain continues to rapidly develop (and will outside the womb).",
     bodyChanges: "Your water could break at any time. Contractions might start. You might feel a burst of energy (nesting) right before labor begins.",

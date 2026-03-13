@@ -1,49 +1,49 @@
 {
   "week": 32,
-  "fruitName": "Squash",
-  "fruitEmoji": "\ud83c\udf83",
-  "babySize": "42.4 cm",
-  "babyWeight": "1.7kg",
+  "fruitName": "Sweet Potato",
+  "fruitEmoji": "🍠",
+  "babySize": "16.7 inches",
+  "babyWeight": "3.7 lbs",
   "illustration": "assets/medical/week-32.png",
-  "babyDevelopment": "The baby is practicing 'breathing' using amniotic fluid. Toenails and fingernails are fully formed. The baby's skin is becoming smoother as fat fills out. The baby is likely spending most of its time in a head-down position (cephalic).",
-  "bodyChanges": "You may experience Braxton Hicks contractions more frequently as your body prepares for labor. Your center of gravity has shifted significantly. Some women notice 'numbness' or 'tingling' in their hands and fingers.",
+  "babyDevelopment": "The baby occupies almost all the space in your uterus. They are gaining about a half-pound per week now.",
+  "bodyChanges": "You may notice a change in how kicks feel—less like punches, more like rolls, as space gets tight. You'll start seeing your doctor every 2 weeks.",
   "tips": [
-    "Continue counting kicks daily",
-    "Prepare your hospital bag if you haven't yet",
-    "Incorporate more fiber and stay hydrated to manage constipation"
+    "Pack your hospital bag",
+    "Freeze some meals for postpartum",
+    "Secure a pediatrician"
   ],
   "dosAndDonts": {
     "do": [
-      "Sleep on your left side",
-      "Focus on good posture",
-      "Take time for mid-day rests"
+      "See your OB every 2 weeks",
+      "Stock up on household essentials",
+      "Talk to your partner about expectations"
     ],
     "dont": [
-      "Panic if you feel mild contractions (check with doc if regular)",
-      "Skip your prenatal screenings",
-      "Overheat during activities"
+      "Sleep on your back",
+      "Ignore fluid leaks",
+      "Overdo the nesting"
     ]
   },
   "travelAdvisory": {
-    "safe": true,
+    "safe": false,
     "level": "red",
-    "note": "Stay close to home as you approach the final weeks."
+    "note": "Stay within 1 hour of your hospital."
   },
   "nutrition": [
-    "Magnesium-rich foods",
     "Calcium",
-    "Protein"
+    "Protein",
+    "Complex Carbs"
   ],
   "exercises": [
     "Walking",
-    "Swimming",
-    "Gentle aqua-aerobics"
+    "Pelvic tilts",
+    "Breathing exercises"
   ],
   "warningSignsToWatch": [
-    "Regular, painful contractions",
-    "Sudden, extreme headaches",
-    "Vision changes"
+    "Fetal movement decreasing",
+    "Bleeding",
+    "Water breaks"
   ],
-  "milestoneTitle": "Cephalic Positioning",
-  "milestoneDescription": "Most babies have moved into a head-down position in preparation for birth."
+  "milestoneTitle": "Fat Storage Spurt",
+  "milestoneDescription": "Baby is rapidly gaining weight and plumping up!"
 }

@@ -1,6 +1,6 @@
 module.exports = {
   14: {
-    fruitName: "Lemon", fruitEmoji: "🍋", babySize: "3.4 inches", babyWeight: "1.5 oz",
+    fruitName: "Chestnut", fruitEmoji: "🌰", babySize: "3.4 inches", babyWeight: "1.5 oz",
     illustration: "assets/medical/week-14.png",
     babyDevelopment: "The baby's sex becomes apparent (though ultrasound might not catch it yet). Fine hair called lanugo covers the body. They start making tiny swallowing and sucking motions.",
     bodyChanges: "Your energy is back! The 'glow' of pregnancy might appear due to increased blood volume and oil gland secretion. Your baby bump is starting to show.",
@@ -13,7 +13,7 @@ module.exports = {
     milestoneTitle: "Lanugo Develops", milestoneDescription: "Fine downy hair covers the baby to keep them warm in the amniotic fluid."
   },
   15: {
-    fruitName: "Apple", fruitEmoji: "🍎", babySize: "4.0 inches", babyWeight: "2.5 oz",
+    fruitName: "Kiwi", fruitEmoji: "🥝", babySize: "4.0 inches", babyWeight: "2.5 oz",
     illustration: "assets/medical/week-15.png",
     babyDevelopment: "Skin is very thin and translucent. They are moving rapidly—kicking, curling toes, moving arms—though you likely can't feel it quite yet. The heart pumps 100 pints of blood daily.",
     bodyChanges: "You might experience 'pregnancy brain'—forgetfulness or lack of focus. Nasal congestion and occasional nosebleeds are common due to swollen mucous membranes.",
@@ -26,7 +26,7 @@ module.exports = {
     milestoneTitle: "Rapid Movement", milestoneDescription: "Your baby is performing gymnastics in the uterus, building muscle strength."
   },
   16: {
-    fruitName: "Avocado", fruitEmoji: "🥑", babySize: "4.6 inches", babyWeight: "3.5 oz",
+    fruitName: "Lemon", fruitEmoji: "🍋", babySize: "4.6 inches", babyWeight: "3.5 oz",
     illustration: "assets/medical/week-16.png",
     babyDevelopment: "The nervous system is functioning. The baby can make facial expressions like squinting or frowning. The scalp is patterning for hair.",
     bodyChanges: "You might feel the 'quickening'—the first fluttery movements of your baby! It often feels like gas bubbles or butterfly wings. Your uterus is halfway between your pubic bone and navel.",
@@ -39,7 +39,7 @@ module.exports = {
     milestoneTitle: "The Quickening", milestoneDescription: "You might feel the magical first flutters of your baby moving!"
   },
   17: {
-    fruitName: "Pomegranate", fruitEmoji: "🍑", babySize: "5.1 inches", babyWeight: "5.0 oz",
+    fruitName: "Tangerine", fruitEmoji: "🍊", babySize: "5.1 inches", babyWeight: "5.0 oz",
     illustration: "assets/medical/week-17.png",
     babyDevelopment: "The skeleton is transforming from rubbery cartilage to solid bone. The umbilical cord is growing stronger and thicker. The baby is practicing sucking and swallowing.",
     bodyChanges: "Your center of gravity is shifting. You may have increased appetite and cravings. Sweating may increase due to higher metabolism and blood volume.",
@@ -52,7 +52,7 @@ module.exports = {
     milestoneTitle: "Bones Hardening", milestoneDescription: "The skeletal structure is fully forming into solid bone."
   },
   18: {
-    fruitName: "Sweet Potato", fruitEmoji: "🍠", babySize: "5.6 inches", babyWeight: "6.7 oz",
+    fruitName: "Tomato", fruitEmoji: "🍅", babySize: "5.6 inches", babyWeight: "6.7 oz",
     illustration: "assets/medical/week-18.png",
     babyDevelopment: "The ears are fully formed and in their final position. Your baby can now hear your heartbeat, stomach grumbling, and your voice! Myelin is forming around nerves.",
     bodyChanges: "You're likely feeling much more distinct kicks now. You may experience lower backaches as your uterus expands further and your joints loosen.",
@@ -65,7 +65,7 @@ module.exports = {
     milestoneTitle: "Hearing Begins", milestoneDescription: "Your baby is listening! It's a great time to start talking and singing to the bump."
   },
   19: {
-    fruitName: "Mango", fruitEmoji: "🥭", babySize: "6.0 inches", babyWeight: "8.5 oz",
+    fruitName: "Green Apple", fruitEmoji: "🍏", babySize: "6.0 inches", babyWeight: "8.5 oz",
     illustration: "assets/medical/week-19.png",
     babyDevelopment: "A waxy white substance called vernix caseosa coats the baby's skin to protect it from the amniotic fluid. In female babies, the vagina, uterus, and fallopian tubes are in place.",
     bodyChanges: "You may experience round ligament pain—a sharp, stabbing pain on one or both sides of your lower abdomen—when you change positions suddenly.",
@@ -78,11 +78,11 @@ module.exports = {
     milestoneTitle: "Vernix Protective Coating", milestoneDescription: "Your baby is currently covered in a protective waxy layer so they don't get 'prune' skin."
   },
   20: {
-    fruitName: "Banana", fruitEmoji: "🍌", babySize: "6.5 inches", babyWeight: "10.5 oz",
+    fruitName: "Red Apple", fruitEmoji: "🍎", babySize: "6.5 inches", babyWeight: "10.5 oz",
     illustration: "assets/medical/week-20.png",
     babyDevelopment: "You are halfway there! The baby is swallowing amniotic fluid and producing meconium (first poop). Taste buds are active and distinguishing sweet from bitter.",
     bodyChanges: "Your uterus is right at your belly button. Your hair and nails may be growing rapidly. You may notice an itchy belly as the skin stretches.",
-    tips: ["Celebrate reaching the halfway mark!", "Enjoy seeing your baby clearly during the anatomy scan", "Discuss gender reveal plans if you wish"],
+    tips: ["Celebrate reaching the halfway mark!", "Enjoy seeing your baby clearly during the anatomy scan", "Fun fact: Around this time, doctors start measuring the baby from head to heel instead of head to bottom!"],
     dosAndDonts: { do: ["Get the anatomy scan ultrasound", "Take time for yourself", "Make sure you have an anti-itch belly cream"], dont: ["Scratch your itchy belly excessively", "Skip prenatal appointments", "Stand for prolonged hours"] },
     travelAdvisory: { safe: true, level: "green", note: "Halftime! Travel is safe and encouraged for Babymoons." },
     nutrition: ["Protein for baby's high growth rate", "Iron", "Fluoride (from water) for baby's teeth"],
@@ -91,7 +91,7 @@ module.exports = {
     milestoneTitle: "Halftime!", milestoneDescription: "You've made it to the 20-week mark. Time for the big anatomy scan!"
   },
   21: {
-    fruitName: "Carrot", fruitEmoji: "🥕", babySize: "10.5 inches (head to heel)", babyWeight: "12.7 oz",
+    fruitName: "Onion", fruitEmoji: "🧅", babySize: "10.5 inches (head to heel)", babyWeight: "12.7 oz",
     illustration: "assets/medical/week-21.png",
     babyDevelopment: "Measurements shift from crown-to-rump to crown-to-heel. The digestive system is maturing, forming meconium. The baby is developing a circadian rhythm.",
     bodyChanges: "You may be dealing with heartburn/indigestion, leg cramps at night, and perhaps a bit of clumsiness as your joints loosen further (relaxin hormone).",
@@ -104,7 +104,7 @@ module.exports = {
     milestoneTitle: "Digestive System Maturing", milestoneDescription: "Your baby's digestive tract is working hard to prepare for life outside."
   },
   22: {
-    fruitName: "Spaghetti Squash", fruitEmoji: "🍝", babySize: "11 inches", babyWeight: "15.2 oz",
+    fruitName: "Pear", fruitEmoji: "🍐", babySize: "11 inches", babyWeight: "15.2 oz",
     illustration: "assets/medical/week-22.png",
     babyDevelopment: "Rapid brain growth! To accommodate this, the skull is growing quickly. Tear ducts are developing, and eyebrows/eyelashes are well-defined.",
     bodyChanges: "Your body is producing more melanin, so you might notice a 'linea nigra' (dark line down your belly) or darker areolas. Stretch marks may begin to appear.",
@@ -117,7 +117,7 @@ module.exports = {
     milestoneTitle: "Brain Growth Spurt", milestoneDescription: "Baby's brain is rapidly developing, increasing their cognitive abilities."
   },
   23: {
-    fruitName: "Grapefruit", fruitEmoji: "🍊", babySize: "11.4 inches", babyWeight: "1.1 lbs",
+    fruitName: "Avocado", fruitEmoji: "🥑", babySize: "11.4 inches", babyWeight: "1.1 lbs",
     illustration: "assets/medical/week-23.png",
     babyDevelopment: "The lungs are starting to produce surfactant, a substance that will help them inflate and stay open after birth. The baby can now hear external noises clearly.",
     bodyChanges: "You've officially gained a noticeable amount of weight. You might notice 'pregnancy brain' causing forgetfulness, and swelling in your feet and ankles (edema).",
@@ -130,7 +130,7 @@ module.exports = {
     milestoneTitle: "Surfactant Production", milestoneDescription: "The lungs are getting ready to breathe on their own."
   },
   24: {
-    fruitName: "Ear of Corn", fruitEmoji: "🌽", babySize: "11.8 inches", babyWeight: "1.3 lbs",
+    fruitName: "Bell Pepper", fruitEmoji: "🫑", babySize: "11.8 inches", babyWeight: "1.3 lbs",
     illustration: "assets/medical/week-24.png",
     babyDevelopment: "The inner ear is fully developed, meaning the baby can control its balance in the womb. Viability milestone reached—babies born at 24 weeks can survive with NICU care.",
     bodyChanges: "Your uterus is the size of a soccer ball. You might feel 'practice' (Braxton Hicks) contractions—tightening of the uterus that is usually painless and irregular.",
@@ -143,7 +143,7 @@ module.exports = {
     milestoneTitle: "Viability Milestone", milestoneDescription: "A huge milestone: your baby now has a chance of survival outside the womb."
   },
   25: {
-    fruitName: "Rutabaga", fruitEmoji: "🥔", babySize: "13.6 inches", babyWeight: "1.5 lbs",
+    fruitName: "Potato", fruitEmoji: "🥔", babySize: "13.6 inches", babyWeight: "1.5 lbs",
     illustration: "assets/medical/week-25.png",
     babyDevelopment: "Capillaries are forming beneath the skin, giving the baby a pinkish hue. The baby is plumping up, and their wrinkled skin is starting to smooth out step by step.",
     bodyChanges: "Your hair continues to look fantastic. You may suffer from hemorrhoids (swollen veins in the rectum) due to the pressure of the uterus.",
@@ -156,9 +156,9 @@ module.exports = {
     milestoneTitle: "Plumping Up", milestoneDescription: "Baby is laying down fat, making their skin less translucent and wrinkled."
   },
   26: {
-    fruitName: "Scallion", fruitEmoji: "🧅", babySize: "14.0 inches", babyWeight: "1.7 lbs",
+    fruitName: "Mango", fruitEmoji: "🥭", babySize: "14.0 inches", babyWeight: "1.7 lbs",
     illustration: "assets/medical/week-26.png",
-    babyDevelopment: "The baby's eyes, which have been fused shut, finally open! They can see light and dark variations through the uterine wall. The brain is active and processing images and sounds.",
+    babyDevelopment: "The baby's eyes, which have been fused shut, finally open! They can see light and dark variations through the uterine wall. Your baby is now roughly the length of a Banana from head-to-heel!",
     bodyChanges: "Your blood pressure may be slightly elevated compared to the second-trimester low. You might feel rib pain as the baby stretches out.",
     tips: ["Pre-register at your hospital or birthing center", "Talk to the baby—they're listening closely", "Practice relaxation techniques"],
     dosAndDonts: { do: ["Watch your salt intake if swelling", "Do stretching exercises for rib pain", "Prepare siblings or pets for the new arrival"], dont: ["Overexert yourself", "Lift heavy objects", "Ignore sudden weight gain"] },

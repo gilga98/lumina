@@ -1,49 +1,49 @@
 {
   "week": 9,
-  "fruitName": "Olive",
-  "fruitEmoji": "\ud83e\uded2",
-  "babySize": "2.3 cm",
-  "babyWeight": "2g",
+  "fruitName": "Grape",
+  "fruitEmoji": "🍇",
+  "babySize": "0.9 inches",
+  "babyWeight": "2 grams",
   "illustration": "assets/medical/week-09.png",
-  "babyDevelopment": "The'tail' at the base of the spinal cord has disappeared. Muscles are starting to form, allowing the fetus to make tiny, spontaneous movements (though you can't feel them yet). The digestive system is developing, and the liver is starting to produce red blood cells.",
-  "bodyChanges": "Mood swings might be intense\u2014similar to PMS but amplified. You may experience 'stuffy nose' (pregnancy rhinitis) due to increased blood flow to mucous membranes. Progesterone may cause slower digestion and bloating.",
+  "babyDevelopment": "All essential physical organs have begun developing. The heart is divided into 4 chambers. The placenta takes over hormone production.",
+  "bodyChanges": "Hormones are peaking, causing extreme fatigue. Your waistline might thicken slightly, though it's mainly bloating.",
   "tips": [
-    "Use a saline nasal spray for congestion",
-    "Stay consistent with your light exercise routine",
-    "Talk to your partner about your changing moods"
+    "Invest in a good supportive bra",
+    "Take naps when possible",
+    "Start looking into maternity benefits"
   ],
   "dosAndDonts": {
     "do": [
-      "Eat fiber-rich foods to help with digestion",
-      "Take 5-minute walks every hour if sitting long",
-      "Practice deep breathing exercises"
+      "Sleep on your side",
+      "Snack on proteins",
+      "Talk to other moms for support"
     ],
     "dont": [
-      "Use decongestant nasal sprays without asking doc",
-      "Consume raw or undercooked sprouts",
-      "Over-schedule yourself; prioritize rest"
+      "Do heavy lifting",
+      "Hold in urine",
+      "Stop taking prenatals"
     ]
   },
   "travelAdvisory": {
     "safe": true,
     "level": "green",
-    "note": "Travel is safe; stay hydrated to combat rhinitis."
+    "note": "Travel is safe. Wear compression socks on long flights."
   },
   "nutrition": [
-    "Vitamin C (oranges, peppers)",
-    "Fiber (oats, beans)",
-    "Lean protein (eggs, chicken)"
+    "Lean proteins (chicken",
+    "tofu)",
+    "Hard cheeses (pasteurized)",
+    "Dark leafy greens"
   ],
   "exercises": [
+    "Prenatal yoga",
     "Swimming",
-    "Stair climbing (moderate)",
-    "Prenatal aerobics"
+    "Stretching"
   ],
   "warningSignsToWatch": [
-    "Severe diarrhea or vomiting",
-    "Sudden blurry vision",
-    "Intense cramping with spotting"
+    "Sudden disappearance of pregnancy symptoms (though they naturally fade later)",
+    "Severe lower abdominal cramps"
   ],
-  "milestoneTitle": "Moving & Shaking",
-  "milestoneDescription": "Your baby is starting to make its first tiny, involuntary moves."
+  "milestoneTitle": "Organs Established",
+  "milestoneDescription": "A huge milestone! The basic structure of all major organs is in place."
 }

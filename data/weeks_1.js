@@ -1,6 +1,6 @@
 module.exports = {
   1: {
-    fruitName: "Cell", fruitEmoji: "🌑", babySize: "0.01 inches", babyWeight: "<1 gram",
+    fruitName: "Too microscopic for the produce section!", fruitEmoji: "🔬", babySize: "0.01 inches", babyWeight: "<1 gram",
     illustration: "assets/medical/week-01.png",
     babyDevelopment: "Technically, you're not pregnant yet. This is the week of your period. Your body is shedding the uterine lining and preparing a new egg in an ovarian follicle for ovulation.",
     bodyChanges: "You are experiencing your normal menstrual cycle. Estrogen levels are rising to thicken the uterine lining again.",
@@ -13,7 +13,7 @@ module.exports = {
     milestoneTitle: "Preparation Phase", milestoneDescription: "Your body is clearing the slate and preparing for a potential pregnancy."
   },
   2: {
-    fruitName: "Oocyte", fruitEmoji: "🥚", babySize: "0.01 inches", babyWeight: "<1 gram",
+    fruitName: "Too microscopic for the produce section!", fruitEmoji: "🔬", babySize: "0.01 inches", babyWeight: "<1 gram",
     illustration: "assets/medical/week-02.png",
     babyDevelopment: "Ovulation occurs! The ovary releases an egg into the fallopian tube where it awaits fertilization by a sperm cell.",
     bodyChanges: "You may feel mild pelvic pain (mittelschmerz) on one side. Cervical mucus becomes clear and stretchy, resembling raw egg whites.",
@@ -26,7 +26,7 @@ module.exports = {
     milestoneTitle: "Ovulation", milestoneDescription: "The egg is released, and your fertile window is at its peak."
   },
   3: {
-    fruitName: "Blastocyst", fruitEmoji: "🫧", babySize: "0.02 inches", babyWeight: "<1 gram",
+    fruitName: "Too microscopic for the produce section!", fruitEmoji: "🔬", babySize: "0.02 inches", babyWeight: "<1 gram",
     illustration: "assets/medical/week-03.png",
     babyDevelopment: "Fertilization happens! The sperm and egg unite to form a single cell (zygote) which divides rapidly into a ball of cells (blastocyst) as it travels down the fallopian tube.",
     bodyChanges: "You won't feel pregnant yet. Progesterone is rising to support the potential pregnancy. The blastocyst reaches the uterus.",
@@ -39,7 +39,7 @@ module.exports = {
     milestoneTitle: "Fertilization", milestoneDescription: "Life begins as a single cell and rapidly starts dividing."
   },
   4: {
-    fruitName: "Poppy Seed", fruitEmoji: "🌑", babySize: "0.04 inches", babyWeight: "<1 gram",
+    fruitName: "Seed (Poppy or Sesame)", fruitEmoji: "🫘", babySize: "0.04 inches", babyWeight: "<1 gram",
     illustration: "assets/medical/week-04.png",
     babyDevelopment: "Implantation! The blastocyst burrows into the lush uterine lining. The placenta and amniotic sac begin to form.",
     bodyChanges: "You may experience light spotting (implantation bleeding) and mild cramping. Your period will be missed, and breast tenderness may begin.",
@@ -52,7 +52,7 @@ module.exports = {
     milestoneTitle: "Implantation", milestoneDescription: "The embryo attaches to your uterus, officially starting the pregnancy."
   },
   5: {
-    fruitName: "Sesame Seed", fruitEmoji: "🫘", babySize: "0.13 inches", babyWeight: "<1 gram",
+    fruitName: "Pea Pod", fruitEmoji: "🫛", babySize: "0.13 inches", babyWeight: "<1 gram",
     illustration: "assets/medical/week-05.png",
     babyDevelopment: "The embryo's neural tube (brain and spinal cord) is forming. The heart structure begins to develop and may start beating.",
     bodyChanges: "Morning sickness, fatigue, and frequent urination often begin. hCG levels are rising rapidly.",
@@ -65,7 +65,7 @@ module.exports = {
     milestoneTitle: "Neural Tube Forms", milestoneDescription: "The foundation of the brain and spinal cord is rapidly developing."
   },
   6: {
-    fruitName: "Lentil", fruitEmoji: "🫘", babySize: "0.25 inches", babyWeight: "<1 gram",
+    fruitName: "Blueberry", fruitEmoji: "🫐", babySize: "0.25 inches", babyWeight: "<1 gram",
     illustration: "assets/medical/week-06.png",
     babyDevelopment: "The baby's heart beats at 105-110 bpm. Facial features—jaw, cheeks, chin, ear canals, and eyes—are beginning to form.",
     bodyChanges: "Nausea and fatigue may hit their peak. Your breasts may feel heavy and tingly. Food aversions are common.",
@@ -78,7 +78,7 @@ module.exports = {
     milestoneTitle: "First Heartbeat", milestoneDescription: "The tiny heart is beating rapidly, pumping blood through the embryo."
   },
   7: {
-    fruitName: "Blueberry", fruitEmoji: "🫐", babySize: "0.5 inches", babyWeight: "1 gram",
+    fruitName: "Peanut", fruitEmoji: "🥜", babySize: "0.5 inches", babyWeight: "1 gram",
     illustration: "assets/medical/week-07.png",
     babyDevelopment: "Limb buds (future arms and legs) appear. The brain is growing complex, generating 100 new brain cells every minute.",
     bodyChanges: "Your blood volume is expanding. You might notice subtle skin changes or acne due to hormones. You still don't show.",
@@ -91,7 +91,7 @@ module.exports = {
     milestoneTitle: "Limb Buds Appear", milestoneDescription: "Tiny arms and legs are sprouting out, making the embryo look less like a tadpole."
   },
   8: {
-    fruitName: "Raspberry", fruitEmoji: "🫐", babySize: "0.63 inches", babyWeight: "1 gram",
+    fruitName: "Cherry", fruitEmoji: "🍒", babySize: "0.63 inches", babyWeight: "1 gram",
     illustration: "assets/medical/week-08.png",
     babyDevelopment: "Fingers and toes begin to form (webbed). The tail vanishes. Taste buds are forming, and nerve cells are connecting.",
     bodyChanges: "Your uterus has grown from the size of a lemon to a grapefruit. You may feel mild cramping as it expands.",
@@ -104,7 +104,7 @@ module.exports = {
     milestoneTitle: "First Ultrasound", milestoneDescription: "Most moms get their first dating ultrasound around this time!"
   },
   9: {
-    fruitName: "Green Olive", fruitEmoji: "🫒", babySize: "0.9 inches", babyWeight: "2 grams",
+    fruitName: "Grape", fruitEmoji: "🍇", babySize: "0.9 inches", babyWeight: "2 grams",
     illustration: "assets/medical/week-09.png",
     babyDevelopment: "All essential physical organs have begun developing. The heart is divided into 4 chambers. The placenta takes over hormone production.",
     bodyChanges: "Hormones are peaking, causing extreme fatigue. Your waistline might thicken slightly, though it's mainly bloating.",
@@ -117,7 +117,7 @@ module.exports = {
     milestoneTitle: "Organs Established", milestoneDescription: "A huge milestone! The basic structure of all major organs is in place."
   },
   10: {
-    fruitName: "Prune", fruitEmoji: "🫐", babySize: "1.2 inches", babyWeight: "4 grams",
+    fruitName: "Olive", fruitEmoji: "🫒", babySize: "1.2 inches", babyWeight: "4 grams",
     illustration: "assets/medical/week-10.png",
     babyDevelopment: "The embryonic stage ends and the fetal stage begins! Bones are hardening, the kidneys produce urine, and tooth buds form.",
     bodyChanges: "Veins may become more prominent as blood volume increases by 50%. You might start noticing round ligament pains.",
@@ -130,7 +130,7 @@ module.exports = {
     milestoneTitle: "Fetal Stage Begins", milestoneDescription: "Your baby graduates from an embryo to a fetus!"
   },
   11: {
-    fruitName: "Fig", fruitEmoji: "🫐", babySize: "1.6 inches", babyWeight: "7 grams",
+    fruitName: "Strawberry", fruitEmoji: "🍓", babySize: "1.6 inches", babyWeight: "7 grams",
     illustration: "assets/medical/week-11.png",
     babyDevelopment: "Facial features are distinct. Hair follicles form. The baby can hiccup, stretch, and yawn, though you can't feel it.",
     bodyChanges: "Nausea may finally start to ease up. Your hair and nails might grow faster due to pregnancy hormones.",
@@ -143,7 +143,7 @@ module.exports = {
     milestoneTitle: "Facial Features Complete", milestoneDescription: "Your baby's unique face is fully shaped and defined."
   },
   12: {
-    fruitName: "Lime", fruitEmoji: "🍈", babySize: "2.1 inches", babyWeight: "14 grams",
+    fruitName: "Mushroom", fruitEmoji: "🍄", babySize: "2.1 inches", babyWeight: "14 grams",
     illustration: "assets/medical/week-12.png",
     babyDevelopment: "Reflexes are developing. Fingers and toes separate and claws/nails start to grow. The digestive system is contracting.",
     bodyChanges: "Your uterus rises out of the pelvis, easing pressure on the bladder. Miscarriage risk drops significantly.",
@@ -156,7 +156,7 @@ module.exports = {
     milestoneTitle: "End of First Trimester", milestoneDescription: "Congratulations! You've made it through the most critical developmental stage."
   },
   13: {
-    fruitName: "Pea Pod", fruitEmoji: "🫛", babySize: "2.9 inches", babyWeight: "23 grams",
+    fruitName: "Garlic (Small Bulb)", fruitEmoji: "🧄", babySize: "2.9 inches", babyWeight: "23 grams",
     illustration: "assets/medical/week-13.png",
     babyDevelopment: "Vocal cords are forming. The baby is developing unique fingerprints. Intestines have moved from the umbilical cord into the stomach.",
     bodyChanges: "Welcome to the Second Trimester! Your energy levels should be returning. Your sex drive may increase.",

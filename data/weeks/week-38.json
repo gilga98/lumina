@@ -1,49 +1,51 @@
 {
   "week": 38,
-  "fruitName": "Pumpkin",
-  "fruitEmoji": "\ud83c\udf83",
-  "babySize": "49.8 cm",
-  "babyWeight": "3kg",
+  "fruitName": "Pineapple",
+  "fruitEmoji": "🍍",
+  "babySize": "19.6 inches",
+  "babyWeight": "6.8 lbs",
   "illustration": "assets/medical/week-38.png",
-  "babyDevelopment": "The baby is continuing to build fat and refine brain and lung functions. The baby's grasp is becoming stronger. The lanugo (fine hair) is mostly gone. The eyes are developed, though the true eye color may not show until several months after birth.",
-  "bodyChanges": "You might feel 'lightning' pains in your pelvis or groin as the baby's head moves against nerves. Sleep may be incredibly difficult. You may feel more pressure and discomfort in your lower back and hips.",
+  "babyDevelopment": "All organs are mature. The brain and lungs are still fine-tuning. The baby continues to shed the fine lanugo hair and protective vernix caseosa.",
+  "bodyChanges": "Cervix checks may show you are a few centimeters dilated. You might feel 'lightning crotch' (sharp pelvic pain) as the baby's head hits sensitive nerves.",
   "tips": [
-    "Ensure your hospital bag is in the car",
-    "Practice your labor positions",
-    "Stay as relaxed as possible as you approach your due date"
+    "Rest",
+    "rest",
+    "rest",
+    "Watch a movie or read a book",
+    "Spend quality time with your partner"
   ],
   "dosAndDonts": {
     "do": [
+      "Time your contractions if they feel real",
       "Stay hydrated",
-      "Focus on slow, deep breathing",
-      "Take short, gentle walks to improve circulation"
+      "Trust your instincts"
     ],
     "dont": [
-      "Lift heavy objects",
-      "Panic about every minor contraction",
-      "Skip your final prenatal visits"
+      "Wait too long at home if you're uncomfortable",
+      "Panic",
+      "Ignore your baby's movement patterns"
     ]
   },
   "travelAdvisory": {
-    "safe": true,
+    "safe": false,
     "level": "red",
-    "note": "Avoid all travel; delivery could happen anytime."
+    "note": "Stay within minutes of the hospital."
   },
   "nutrition": [
-    "Iron",
-    "Calcium",
-    "Complex carbohydrates"
+    "Carbs for energy",
+    "Light snacks",
+    "Water"
   ],
   "exercises": [
-    "Gentle pelvic tilts",
     "Walking",
+    "Bouncing gently on a birthing ball",
     "Stretching"
   ],
   "warningSignsToWatch": [
-    "Fewer than 10 kicks in 2 hours",
-    "Sudden extreme headache with vision changes",
-    "Regular, increasing contractions"
+    "Signs of active labor",
+    "Decreased fetal movement",
+    "Bright red bleeding"
   ],
-  "milestoneTitle": "Full Term Approaching",
-  "milestoneDescription": "Almost there! Baby is refining final functions for life outside."
+  "milestoneTitle": "Shedding Lanugo",
+  "milestoneDescription": "Baby is shedding their downy hair and waxy coating and getting nice and plump for delivery."
 }
